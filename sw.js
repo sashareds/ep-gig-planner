@@ -1,4 +1,4 @@
-const CACHE = "ep26-v2";
+const CACHE = "ep26-v3";
 const SHELL = [
   "./",
   "./index.html",
@@ -38,5 +38,17 @@ self.addEventListener("fetch", (event) => {
         return resp;
       })
       .catch(() => caches.match(event.request).then((cached) => cached || caches.match("./index.html")))
+  );
+});
+
+self.addEventListener("notificationclick", (event) => {
+  event.notification.close();
+  const target = event.notification.data?.url || "./";
+  event.waitUntil(
+    self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((windows) => {
+      if (windows[0]) return windows[0].focus();
+      if (self.clients.openWindow) return self.clients.openWindow(target);
+      return undefined;
+    })
   );
 });

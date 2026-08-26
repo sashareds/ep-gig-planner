@@ -22,7 +22,9 @@ Credentials live in gitignored `.env-clashfinder`. Do not commit them.
 
 Open https://sashareds.github.io/ep-gig-planner/ in Safari, then Share → Add to Home Screen. The app stays usable on site with the last downloaded line-up if the signal drops.
 
-**Add to calendar** writes an `.ics` of the starred route. On iPhone, share it into Calendar. In Google Calendar, import the same file. Live OAuth sync is not in this static Pages app.
+**Add to calendar** writes an `.ics` of the starred route, with a 15-minute reminder on each set. Import once — re-adding the file duplicates events on Apple Calendar.
+
+**Notify 15 min before** is the in-app alternative. On iPhone it needs the Home Screen PWA; iOS will not wake a killed web app, so lock-screen alerts still want the one calendar import.
 
 Genre tags prefer Discogs (token in `.env-discogs`, cache in `data/discogs-cache.json`):
 

@@ -278,6 +278,7 @@ button {
 }
 
 .want-btn[data-state="on"],
+.route__notify[data-state="on"],
 .icon[data-state="on"] {
   background: var(--color-accent-strong);
   color: var(--ep-cream);

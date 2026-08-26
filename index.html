@@ -70,8 +70,10 @@
       <div class="route__actions">
         <button type="button" class="route__export" id="export">Copy timetable</button>
         <button type="button" class="route__cal" id="cal-export">Add to calendar</button>
+        <button type="button" class="route__notify" id="notify-toggle" data-state="off">Notify 15 min before</button>
       </div>
-      <p class="route__cal-hint">Add to calendar writes an .ics of the starred sets for Apple Calendar and Google Calendar.</p>
+      <p class="route__cal-hint">Calendar: import once. Re-adding the file duplicates events on Apple. Each event already has a 15-minute reminder.</p>
+      <p class="route__cal-hint" id="notify-hint">Or use Notify — 15 minutes before each starred set. On iPhone, add this app to the Home Screen first.</p>
       <div id="plan"></div>
     </aside>
   </div>

@@ -1,6 +1,9 @@
 const PLAN_KEY = "ep26-plan-v1";
 const TASTE_KEY = "ep26-taste-v1";
 const THEME_KEY = "ep26-theme-v1";
+const NOTIFY_KEY = "ep26-notify-v1";
+const NOTIFIED_KEY = "ep26-notified-v1";
+const ALERT_LEAD_MS = 15 * 60 * 1000;
 const data = window.EP26;
 const $ = (sel) => document.querySelector(sel);
 const WALK_MIN = data.walkMins?.min ?? 15;
@@ -56,6 +59,7 @@ function loadPlan() {
 
 function savePlan() {
   localStorage.setItem(PLAN_KEY, JSON.stringify(state.plan));
+  scheduleAlerts();
 }
 
 function esc(value) {
@@ -152,8 +156,11 @@ function stagesForFilters() {
 }
 
 function toggle(id) {
-  if (state.plan.includes(id)) state.plan = state.plan.filter((x) => x !== id);
-  else state.plan = [...state.plan, id];
+  if (state.plan.includes(id)) {
+    state.plan = state.plan.filter((x) => x !== id);
+    const notified = loadNotified();
+    if (notified.delete(id)) saveNotified(notified);
+  } else state.plan = [...state.plan, id];
   savePlan();
   render();
 }
@@ -487,11 +494,137 @@ function buildIcs(acts) {
       `SUMMARY:${icsEscape(act.name)}`,
       `LOCATION:${icsEscape(`${act.stage}, Stradbally Hall`)}`,
       `DESCRIPTION:${icsEscape(`${act.dayLabel} · ${act.stage}`)}`,
+      "BEGIN:VALARM",
+      "ACTION:DISPLAY",
+      "DESCRIPTION:EP26 in 15 minutes",
+      "TRIGGER:-PT15M",
+      "END:VALARM",
       "END:VEVENT"
     );
   }
   lines.push("END:VCALENDAR");
   return `${lines.map(icsFold).join("\r\n")}\r\n`;
+}
+
+function actStartMs(act) {
+  const d = new Date(`${act.start.replace(" ", "T")}:00+01:00`);
+  return d.getTime();
+}
+
+function loadNotified() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(NOTIFIED_KEY) || "[]"));
+  } catch {
+    return new Set();
+  }
+}
+
+function saveNotified(set) {
+  localStorage.setItem(NOTIFIED_KEY, JSON.stringify([...set]));
+}
+
+let alertTimers = [];
+
+function clearAlertTimers() {
+  for (const id of alertTimers) clearTimeout(id);
+  alertTimers = [];
+}
+
+function notificationsOn() {
+  return (
+    "Notification" in window &&
+    localStorage.getItem(NOTIFY_KEY) === "1" &&
+    Notification.permission === "granted"
+  );
+}
+
+async function fireAlert(act) {
+  if (!notificationsOn()) return;
+  const notified = loadNotified();
+  if (notified.has(act.id)) return;
+  notified.add(act.id);
+  saveNotified(notified);
+  const title = act.name;
+  const options = {
+    body: `${act.stage} · starts ${fmtTime(act.start)}`,
+    tag: `ep26-${act.id}`,
+    icon: "./img/icon-192.png",
+    badge: "./img/icon-192.png",
+    data: { url: `./#/act/${encodeURIComponent(act.id)}` },
+  };
+  try {
+    const reg = await navigator.serviceWorker?.ready;
+    if (reg?.showNotification) {
+      await reg.showNotification(title, options);
+      return;
+    }
+  } catch {
+    /* fall through */
+  }
+  new Notification(title, options);
+}
+
+function scheduleAlerts() {
+  clearAlertTimers();
+  if (!notificationsOn()) return;
+  const now = Date.now();
+  for (const act of plannedActs()) {
+    const start = actStartMs(act);
+    if (!Number.isFinite(start) || start <= now) continue;
+    const delay = start - ALERT_LEAD_MS - now;
+    if (delay <= 0) {
+      fireAlert(act);
+      continue;
+    }
+    if (delay > 2147483647) continue;
+    alertTimers.push(setTimeout(() => fireAlert(act), delay));
+  }
+}
+
+function syncNotifyUi() {
+  const btn = $("#notify-toggle");
+  const hint = $("#notify-hint");
+  if (!btn) return;
+  const supported = "Notification" in window;
+  const on = notificationsOn();
+  btn.disabled = !supported;
+  btn.setAttribute("data-state", on ? "on" : "off");
+  btn.textContent = on ? "Alerts on · 15 min before" : "Notify 15 min before";
+  if (!hint) return;
+  if (!supported) {
+    hint.textContent = "This browser cannot show notifications. Add to calendar once instead.";
+    return;
+  }
+  if (Notification.permission === "denied") {
+    hint.textContent = "Notifications are blocked. Enable them in Settings, or Add to calendar once.";
+    return;
+  }
+  hint.textContent = on
+    ? "15 minutes before each starred set. On iPhone this needs the Home Screen app; iOS will not wake a killed PWA. For lock-screen alerts, Add to calendar once."
+    : "PWA alerts 15 minutes before starred sets. On iPhone, add this page to the Home Screen first.";
+}
+
+async function toggleNotify() {
+  if (!("Notification" in window)) {
+    alert("This browser cannot show notifications.");
+    return;
+  }
+  if (localStorage.getItem(NOTIFY_KEY) === "1") {
+    localStorage.setItem(NOTIFY_KEY, "0");
+    clearAlertTimers();
+    syncNotifyUi();
+    return;
+  }
+  let perm = Notification.permission;
+  if (perm === "default") perm = await Notification.requestPermission();
+  if (perm !== "granted") {
+    alert("Allow notifications for this app in Settings. On iPhone, add it to the Home Screen first.");
+    syncNotifyUi();
+    return;
+  }
+  localStorage.setItem(NOTIFY_KEY, "1");
+  scheduleAlerts();
+  syncNotifyUi();
 }
 
 async function exportIcs() {
@@ -601,6 +734,10 @@ $("#taste").addEventListener("input", (e) => {
 });
 $("#export").addEventListener("click", exportPlan);
 $("#cal-export").addEventListener("click", exportIcs);
+$("#notify-toggle").addEventListener("click", toggleNotify);
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") scheduleAlerts();
+});
 $("#back").addEventListener("click", closeAct);
 window.addEventListener("hashchange", render);
 document.querySelectorAll(".theme-switch__btn").forEach((btn) => {
@@ -609,7 +746,10 @@ document.querySelectorAll(".theme-switch__btn").forEach((btn) => {
 applyTheme(localStorage.getItem(THEME_KEY) || "system");
 
 if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
-  navigator.serviceWorker.register("./sw.js");
+  navigator.serviceWorker.register("./sw.js").then(() => scheduleAlerts());
+} else {
+  scheduleAlerts();
 }
+syncNotifyUi();
 
 render();
