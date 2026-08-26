@@ -431,9 +431,13 @@ function renderAct() {
       <span class="chip">${esc(act.kind)}</span></div>
     <p>${wantButton(act)}</p>
     ${clash ? `<p class="act-page__note" data-status="${esc(clash.kind)}">${esc(clash.note)}</p>` : ""}
-    ${photo ? `<img class="act-page__media" src="${esc(photo)}" alt="${esc(act.name)}" referrerpolicy="no-referrer">` : ""}
-    ${act.bio ? `<div class="prose"><div class="prose__label">From Discogs</div>${esc(act.bio)}</div>` : ""}
-    ${act.blurb ? `<div class="prose">${esc(act.blurb)}</div>` : (!act.bio ? "<p class='empty'>No notes for this set.</p>" : "")}
+    <div class="act-page__body">
+      <div class="act-page__copy">
+        ${act.bio ? `<div class="prose"><div class="prose__label">From Discogs</div>${esc(act.bio)}</div>` : ""}
+        ${act.blurb ? `<div class="prose">${esc(act.blurb)}</div>` : (!act.bio ? "<p class='empty'>No notes for this set.</p>" : "")}
+      </div>
+      ${photo ? `<img class="act-page__media" src="${esc(photo)}" alt="${esc(act.name)}" referrerpolicy="no-referrer">` : ""}
+    </div>
     ${others.length ? `<h2 class="lineup__heading">Also playing</h2>${others.map((a) => actCard(a)).join("")}` : ""}
   `;
   bindCardClicks(page);
