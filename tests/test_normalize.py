@@ -86,3 +86,15 @@ def test_map_discogs_styles():
     assert map_discogs(["Electronic"], ["UK Garage"]) == ["electronic"]
     assert map_discogs(["Folk, World, & Country"], ["Celtic"]) == ["folk"]
     assert map_discogs(["Rock"], ["Post-Punk"]) == ["rock"]
+
+
+def test_usable_image_rejects_spacer():
+    from discogs_lookup import usable_image
+
+    assert usable_image("") == ""
+    assert usable_image(None) == ""
+    assert usable_image("https://st.discogs.com/images/spacer.gif") == ""
+    assert (
+        usable_image("https://i.discogs.com/abc.jpeg")
+        == "https://i.discogs.com/abc.jpeg"
+    )

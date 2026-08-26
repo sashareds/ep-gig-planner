@@ -1,5 +1,6 @@
 const PLAN_KEY = "ep26-plan-v1";
 const TASTE_KEY = "ep26-taste-v1";
+const THEME_KEY = "ep26-theme-v1";
 const data = window.EP26;
 const $ = (sel) => document.querySelector(sel);
 const WALK_MIN = data.walkMins?.min ?? 15;
@@ -246,11 +247,17 @@ function wantButton(act) {
 }
 
 function actCard(act, extra = "") {
-  const clash = state.plan.includes(act.id) ? clashFor(act) : null;
-  const genres = (act.genres || []).map((g) => `<span class="chip">${esc(g)}</span>`).join("");
+  const picked = state.plan.includes(act.id);
+  const clash = picked ? clashFor(act) : null;
+  const genres = (act.genres || [])
+    .map((g) => `<span class="chip" data-genre="${esc(g)}">${esc(g)}</span>`)
+    .join("");
+  const status = clash ? ` data-status="${esc(clash.kind)}"` : "";
+  const thumb = act.thumb || act.image;
   return `
-    <article class="act-card">
-      <div>
+    <article class="act-card"${status}>
+      ${thumb ? `<img class="act-card__thumb" src="${esc(thumb)}" alt="" width="72" height="72" loading="lazy" referrerpolicy="no-referrer">` : ""}
+      <div class="act-card__body">
         <div class="act-card__when">${fmtTime(act.start)}–${fmtTime(act.end)}</div>
         <button type="button" class="act-card__name" data-open="${esc(act.id)}">${esc(act.name)}</button>
         <div class="act-card__stage">${esc(act.stage)}</div>
@@ -258,7 +265,7 @@ function actCard(act, extra = "") {
         ${clash ? `<div class="${clash.kind === "clash" ? "clash" : "tight"}">${esc(clash.note)}</div>` : ""}
         ${extra}
       </div>
-      <button type="button" class="icon" title="I’d like to see" data-id="${esc(act.id)}">${state.plan.includes(act.id) ? "★" : "☆"}</button>
+      <button type="button" class="icon" data-state="${picked ? "on" : "off"}" title="I’d like to see" data-id="${esc(act.id)}">${picked ? "★" : "☆"}</button>
     </article>`;
 }
 
@@ -386,11 +393,11 @@ function renderPlan() {
         html += `<div class="walk">↓ ${esc(walkNote)}</div>`;
       }
       html += `
-        <article class="plan-act">
+        <article class="plan-act"${clash ? ` data-status="${esc(clash.kind)}"` : ""}>
           <div class="row">
             <div>
               <div class="act-card__when">${fmtTime(act.start)}–${fmtTime(act.end)}</div>
-              <strong>${esc(act.name)}</strong>
+              <strong class="plan-act__name">${esc(act.name)}</strong>
               <div class="act-card__stage">${esc(act.stage)}</div>
               ${clash ? `<div class="${clash.kind === "clash" ? "clash" : "tight"}">${esc(clash.note)}</div>` : ""}
             </div>
@@ -413,15 +420,18 @@ function renderAct() {
   }
   const others = data.acts.filter((a) => a.name === act.name && a.id !== act.id);
   const clash = state.plan.includes(act.id) ? clashFor(act) : null;
+  const photo = act.image || act.thumb;
   page.innerHTML = `
     <p class="act-card__when">${esc(act.dayLabel)} ${fmtTime(act.start)}–${fmtTime(act.end)}</p>
     <h2>${esc(act.name)}</h2>
     <p class="act-card__stage">${esc(act.stage)}</p>
-    <div class="chips">${(act.genres || []).map((g) => `<span class="chip">${esc(g)}</span>`).join("")}
+    <div class="chips">${(act.genres || []).map((g) => `<span class="chip" data-genre="${esc(g)}">${esc(g)}</span>`).join("")}
       <span class="chip">${esc(act.kind)}</span></div>
     <p>${wantButton(act)}</p>
     ${clash ? `<p class="${clash.kind === "clash" ? "clash" : "tight"}">${esc(clash.note)}</p>` : ""}
-    ${act.blurb ? `<div class="blurb">${esc(act.blurb)}</div>` : "<p class='empty'>No notes for this set.</p>"}
+    ${photo ? `<img class="promo" src="${esc(photo)}" alt="${esc(act.name)}" referrerpolicy="no-referrer">` : ""}
+    ${act.bio ? `<div class="bio"><div class="bio__label">From Discogs</div>${esc(act.bio)}</div>` : ""}
+    ${act.blurb ? `<div class="blurb">${esc(act.blurb)}</div>` : (!act.bio ? "<p class='empty'>No notes for this set.</p>" : "")}
     ${others.length ? `<h2>Also playing</h2>${others.map((a) => actCard(a)).join("")}` : ""}
   `;
   bindCardClicks(page);
@@ -452,6 +462,15 @@ function exportPlan() {
     },
     () => alert(text)
   );
+}
+
+function applyTheme(mode) {
+  localStorage.setItem(THEME_KEY, mode);
+  if (mode === "system") document.documentElement.removeAttribute("data-theme");
+  else document.documentElement.dataset.theme = mode;
+  document.querySelectorAll(".theme-switch__btn").forEach((btn) => {
+    btn.setAttribute("aria-pressed", btn.dataset.theme === mode ? "true" : "false");
+  });
 }
 
 function render() {
@@ -498,5 +517,9 @@ $("#taste").addEventListener("input", (e) => {
 $("#export").addEventListener("click", exportPlan);
 $("#back").addEventListener("click", closeAct);
 window.addEventListener("hashchange", render);
+document.querySelectorAll(".theme-switch__btn").forEach((btn) => {
+  btn.addEventListener("click", () => applyTheme(btn.dataset.theme));
+});
+applyTheme(localStorage.getItem(THEME_KEY) || "system");
 
 render();

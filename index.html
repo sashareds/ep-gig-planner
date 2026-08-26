@@ -4,12 +4,29 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Electric Picnic 2026 planner</title>
+  <script>
+    (function () {
+      var t = localStorage.getItem("ep26-theme-v1") || "system";
+      if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+    })();
+  </script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="hero" role="banner">
+    <div class="hero__inner">
+      <p class="hero__kicker">Music and arts festival · Stradbally Hall</p>
+      <h1 class="hero__title">Electric Picnic 2026</h1>
+      <p class="hero__meta" id="updated"></p>
+    </div>
+    <div class="theme-switch" role="group" aria-label="Colour theme">
+      <button type="button" class="theme-switch__btn" data-theme="system">System</button>
+      <button type="button" class="theme-switch__btn" data-theme="dark">Dark</button>
+      <button type="button" class="theme-switch__btn" data-theme="light">Light</button>
+    </div>
+  </div>
+
   <header class="site-header">
-    <h1 class="site-header__title">Electric Picnic 2026</h1>
-    <p class="site-header__meta" id="updated"></p>
     <div class="filter-bar">
       <label class="filter-bar__field">Search
         <input id="search" type="search" placeholder="Act or stage" autocomplete="off">

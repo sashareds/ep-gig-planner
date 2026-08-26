@@ -178,6 +178,9 @@ def main() -> None:
                     "dayLabel": DAY_LABELS.get(day, day),
                     "mins": int((end - start).total_seconds() // 60),
                     "blurb": blurb,
+                    "bio": (discogs or {}).get("bio") or "",
+                    "image": (discogs or {}).get("image") or "",
+                    "thumb": (discogs or {}).get("thumb") or "",
                     "tags": tags_from(f"{event['name']} {blurb}")[:16],
                 }
             )

@@ -12,12 +12,17 @@ export CLASHFINDER_PUBLIC_KEY=...
 
 `scripts/normalize.py` writes `data/ep26.js`. Do not hand-edit that file.
 
-Genre tags prefer Discogs (token in `.env-discogs`, cache in `data/discogs-cache.json`):
+Genre tags prefer Discogs. The planner page does **not** call Discogs; only `scripts/discogs_lookup.py` does, once, then writes `data/discogs-cache.json`.
+
+Discogs caps authenticated apps at **60 requests per minute** (consumer key does not raise that). A full first crawl of ~600 artists is therefore ~10 minutes. Re-runs skip names already in the cache.
 
 ```bash
 python3 scripts/discogs_lookup.py
+python3 scripts/discogs_lookup.py --media
 python3 scripts/normalize.py
 ```
+
+`--media` backfills Discogs artist photos and short bios for names already matched. The planner then shows those on cards and artist pages.
 
 ## Open
 
