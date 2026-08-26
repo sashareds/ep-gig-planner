@@ -269,7 +269,7 @@ function mediaMarkup(act, className, src) {
   if (!src) {
     return `<div class="${className}" data-placeholder="true" aria-hidden="true">${esc(label)}</div>`;
   }
-  return `<img class="${className}" src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback="${esc(label)}">`;
+  return `<img class="${className}" src="${esc(src)}" alt="" loading="lazy" data-fallback="${esc(label)}">`;
 }
 
 function bindMediaFallbacks(root) {

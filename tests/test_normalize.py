@@ -110,3 +110,17 @@ def test_usable_image_rejects_spacer():
         usable_image("https://i.discogs.com/abc.jpeg")
         == "https://i.discogs.com/abc.jpeg"
     )
+
+
+def test_public_image_drops_discogs_cdn():
+    assert normalize._public_image("https://is1-ssl.mzstatic.com/image/thumb/x.jpg")
+    assert normalize._public_image("https://i.discogs.com/abc.jpeg") == ""
+
+
+def test_itunes_sizes_upgrade_artwork_url():
+    from discogs_lookup import itunes_sizes
+
+    src = "https://is1-ssl.mzstatic.com/image/thumb/Music/cover/100x100bb.jpg"
+    image, thumb = itunes_sizes(src)
+    assert "600x600bb" in image
+    assert "200x200bb" in thumb

@@ -24,7 +24,12 @@ python3 scripts/discogs_lookup.py --media
 python3 scripts/normalize.py
 ```
 
-`--media` backfills Discogs artist photos and short bios for names already matched. The planner then shows those on cards and artist pages.
+`--media` backfills Discogs bios. Artwork prefers iTunes (`mzstatic` URLs, no Cloudflare signing):
+
+```bash
+python3 scripts/discogs_lookup.py --itunes
+python3 scripts/normalize.py
+```
 
 ## CSS
 

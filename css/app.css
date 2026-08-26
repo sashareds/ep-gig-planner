@@ -134,6 +134,10 @@
   }
 
   .lineup__list { gap: var(--space-sm); }
+
+  @media (max-width: 54rem) {
+    order: 2;
+  }
 }
 
 .route {
@@ -162,8 +166,10 @@
   }
 
   @media (max-width: 54rem) {
+    order: 1;
     border-left: 0;
-    border-top: var(--border-width-sm) solid var(--color-border-subtle);
+    border-top: 0;
+    border-bottom: var(--border-width-sm) solid var(--color-border-subtle);
   }
 }
 

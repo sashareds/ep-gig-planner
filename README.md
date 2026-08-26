@@ -31,6 +31,7 @@ Genre tags prefer Discogs (token in `.env-discogs`, cache in `data/discogs-cache
 ```bash
 python3 scripts/discogs_lookup.py
 python3 scripts/discogs_lookup.py --media
+python3 scripts/discogs_lookup.py --itunes
 python3 scripts/normalize.py
 ```
 

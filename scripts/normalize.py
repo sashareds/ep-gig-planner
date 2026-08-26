@@ -142,6 +142,13 @@ def tags_from(text: str) -> list[str]:
     return keep
 
 
+def _public_image(url: str) -> str:
+    """Drop Discogs CDN URLs: they 403 in the browser under Cloudflare."""
+    if "i.discogs.com" in url or "st.discogs.com" in url:
+        return ""
+    return url
+
+
 def validate_dump(raw: dict) -> None:
     """Refuse to publish an empty, wrong, or unauthenticated Clashfinder dump."""
     if raw.get("id") != "ep26":
@@ -192,8 +199,8 @@ def main() -> None:
                     "mins": int((end - start).total_seconds() // 60),
                     "blurb": blurb,
                     "bio": (discogs or {}).get("bio") or "",
-                    "image": (discogs or {}).get("image") or "",
-                    "thumb": (discogs or {}).get("thumb") or "",
+                    "image": _public_image((discogs or {}).get("image") or ""),
+                    "thumb": _public_image((discogs or {}).get("thumb") or ""),
                     "tags": tags_from(f"{event['name']} {blurb}")[:16],
                 }
             )

@@ -153,6 +153,82 @@ def usable_image(url: str | None) -> str:
     return url
 
 
+def itunes_sizes(url: str) -> tuple[str, str]:
+    """Return (image, thumb) from an iTunes artworkUrl100."""
+    image, thumb = url, url
+    for src in ("100x100bb", "60x60bb"):
+        if src in url:
+            image = url.replace(src, "600x600bb")
+            thumb = url.replace(src, "200x200bb")
+            break
+    return image, thumb
+
+
+def lookup_itunes(name: str) -> dict:
+    """Album artwork from the keyless iTunes Search API. mzstatic URLs hotlink."""
+    q = query_name(name)
+    wanted = _norm(q)
+    url = "https://itunes.apple.com/search?" + urllib.parse.urlencode(
+        {"term": q, "media": "music", "entity": "album", "limit": 12}
+    )
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            payload = json.load(resp)
+    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, json.JSONDecodeError):
+        return {}
+    for row in payload.get("results") or []:
+        artist = _norm(row.get("artistName") or "")
+        compact_a, compact_w = artist.replace(" ", ""), wanted.replace(" ", "")
+        if not (
+            artist == wanted
+            or artist.startswith(wanted + " ")
+            or wanted.startswith(artist + " ")
+            or (len(compact_w) >= 4 and compact_a == compact_w)
+        ):
+            continue
+        art = row.get("artworkUrl100") or ""
+        if not art:
+            continue
+        image, thumb = itunes_sizes(art)
+        return {"image": image, "thumb": thumb, "media_source": "itunes"}
+    return {}
+
+
+def enrich_itunes(names: list[str]) -> dict:
+    """Fill image/thumb from iTunes. Keeps Discogs genres and bios."""
+    cache = load_cache()
+    pending = []
+    for name in names:
+        key = query_name(name)
+        row = cache.get(key) or {}
+        if row.get("media_source") == "itunes" and usable_image(row.get("thumb") or ""):
+            continue
+        pending.append(key)
+    pending = list(dict.fromkeys(pending))
+    print(f"itunes artwork pending={len(pending)} cache={len(cache)}", flush=True)
+    hits = 0
+    for i, key in enumerate(pending, start=1):
+        art = lookup_itunes(key)
+        row = cache.get(key) or {"query": key, "genres": [], "styles": [], "mapped": [], "source": "miss"}
+        if art:
+            row["image"] = art["image"]
+            row["thumb"] = art["thumb"]
+            row["media_source"] = "itunes"
+            hits += 1
+        cache[key] = row
+        if i % 25 == 0 or i == len(pending):
+            save_cache(cache)
+            print(f"  {i}/{len(pending)} itunes_hits={hits}", flush=True)
+        time.sleep(8 if i % 40 == 0 else 0.45)
+    save_cache(cache)
+    print(f"itunes done hits={hits}/{len(pending)}", flush=True)
+    return cache
+
+
 def _request(
     creds: dict[str, str],
     params: dict[str, str | int] | None = None,
@@ -410,8 +486,11 @@ if __name__ == "__main__":
     names = json.loads(acts_path.read_text(encoding="utf-8"))["acts"]
     music_names = [row["name"] for row in names if row.get("kind") == "music"]
     args = __import__("sys").argv
-    enrich_names(
-        music_names,
-        retry_misses="--retry-misses" in args,
-        media="--media" in args,
-    )
+    if "--itunes" in args:
+        enrich_itunes(music_names)
+    else:
+        enrich_names(
+            music_names,
+            retry_misses="--retry-misses" in args,
+            media="--media" in args,
+        )
