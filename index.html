@@ -69,8 +69,10 @@
         </label>
       </section>
       <section id="suggest-block">
-        <h2 class="lineup__heading">Suggested <span class="lineup__count" id="suggest-count"></span></h2>
-        <div id="suggest" class="stack lineup__list"></div>
+        <details class="suggest-fold" id="suggest-fold" open>
+          <summary class="suggest-fold__summary">Suggested <span class="lineup__count" id="suggest-count"></span></summary>
+          <div id="suggest" class="stack lineup__list"></div>
+        </details>
       </section>
       <h2 class="lineup__heading">Line-up <span class="lineup__count" id="count"></span></h2>
       <div id="list" class="stack lineup__list"></div>

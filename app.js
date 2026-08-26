@@ -3,6 +3,8 @@ const TASTE_KEY = "ep26-taste-v1";
 const THEME_KEY = "ep26-theme-v1";
 const NOTIFY_KEY = "ep26-notify-v1";
 const NOTIFIED_KEY = "ep26-notified-v1";
+const ART_KEY = "ep26-art-v1";
+const SUGGEST_FOLD_KEY = "ep26-suggest-open-v1";
 const ALERT_LEAD_MS = 15 * 60 * 1000;
 const data = window.EP26;
 const $ = (sel) => document.querySelector(sel);
@@ -44,6 +46,7 @@ const state = {
   taste: loadTaste(),
   view: "list",
   actId: "",
+  focusRegion: "",
 };
 
 function loadPlan() {
@@ -153,12 +156,13 @@ function stagesForFilters() {
   return data.stages.filter((s) => seen.has(s));
 }
 
-function toggle(id) {
+function toggle(id, region) {
   if (state.plan.includes(id)) {
     state.plan = state.plan.filter((x) => x !== id);
     const notified = loadNotified();
     if (notified.delete(id)) saveNotified(notified);
   } else state.plan = [...state.plan, id];
+  state.focusRegion = region || "";
   savePlan();
   render();
 }
@@ -206,7 +210,6 @@ function tasteProfile() {
 
 function scoreAct(act, profile) {
   if (act.kind !== "music") return 0;
-  if (state.plan.includes(act.id)) return 0;
   let score = 0;
   const reasons = [];
   const names = parseTaste().map(canonicalTaste);
@@ -260,12 +263,166 @@ function initials(name) {
   return `${parts[0][0]}${parts[parts.length - 1][0]}`.toUpperCase();
 }
 
+function loadArtCache() {
+  try {
+    return JSON.parse(localStorage.getItem(ART_KEY) || "{}");
+  } catch {
+    return {};
+  }
+}
+
+function saveArtCache(map) {
+  localStorage.setItem(ART_KEY, JSON.stringify(map));
+}
+
+function liveArt(act) {
+  const rec = loadArtCache()[act.name];
+  if (!rec || rec.miss) return "";
+  return rec.thumb || rec.image || "";
+}
+
+function applyArtToActs(name, art) {
+  for (const a of data.acts) {
+    if (a.name !== name) continue;
+    a.thumb = art.thumb || a.thumb;
+    a.image = art.image || a.image;
+    if (art.genres?.length && (!(a.genres || []).length || a.genres[0] === "other")) {
+      a.genres = art.genres;
+    }
+  }
+}
+
+function mapItunesGenreClient(name) {
+  const g = String(name || "").toLowerCase();
+  const table = [
+    ["hip-hop", "hiphop"],
+    ["hip hop", "hiphop"],
+    ["rap", "hiphop"],
+    ["electronic", "electronic"],
+    ["dance", "electronic"],
+    ["techno", "electronic"],
+    ["house", "electronic"],
+    ["rock", "rock"],
+    ["alternative", "rock"],
+    ["indie", "rock"],
+    ["punk", "rock"],
+    ["pop", "pop"],
+    ["folk", "folk"],
+    ["world", "folk"],
+    ["country", "folk"],
+    ["singer/songwriter", "folk"],
+    ["soul", "soul"],
+    ["r&b", "soul"],
+    ["reggae", "soul"],
+  ];
+  const found = [];
+  for (const [key, ours] of table) {
+    if (g.includes(key) && !found.includes(ours)) found.push(ours);
+  }
+  return found.slice(0, 2);
+}
+
+function namesMatchItunes(artist, wanted) {
+  const a = artist.replace(/[^a-z0-9]+/gi, " ").toLowerCase().trim();
+  const w = wanted.replace(/[^a-z0-9]+/gi, " ").toLowerCase().trim();
+  const ca = a.replace(/ /g, "");
+  const cw = w.replace(/ /g, "");
+  return a === w || a.startsWith(`${w} `) || w.startsWith(`${a} `) || (cw.length >= 4 && ca === cw);
+}
+
+async function lookupItunesClient(name) {
+  const cache = loadArtCache();
+  if (cache[name]) return cache[name].miss ? null : cache[name];
+  const term = name.replace(/\s*\([^)]*\)\s*$/, "");
+  const url = `https://itunes.apple.com/search?${new URLSearchParams({
+    term,
+    media: "music",
+    entity: "album",
+    limit: "8",
+  })}`;
+  const res = await fetch(url);
+  const payload = await res.json();
+  let artUrl = "";
+  const genres = [];
+  for (const row of payload.results || []) {
+    if (!namesMatchItunes(row.artistName || "", term)) continue;
+    artUrl = artUrl || row.artworkUrl100 || "";
+    for (const g of mapItunesGenreClient(row.primaryGenreName || "")) {
+      if (!genres.includes(g)) genres.push(g);
+    }
+  }
+  const rec = artUrl
+    ? {
+        image: artUrl.replace("100x100bb", "600x600bb"),
+        thumb: artUrl.replace("100x100bb", "200x200bb"),
+        genres,
+      }
+    : { miss: true };
+  cache[name] = rec;
+  saveArtCache(cache);
+  return rec.miss ? null : rec;
+}
+
+const artQueue = [];
+const artSeen = new Set();
+let artBusy = 0;
+
+function fillPlaceholder(name, art) {
+  applyArtToActs(name, art);
+  document.querySelectorAll(`[data-artist="${CSS.escape(name)}"]`).forEach((node) => {
+    const img = document.createElement("img");
+    img.className = node.className;
+    img.src = node.classList.contains("act-page__media") ? art.image : art.thumb;
+    img.alt = "";
+    img.loading = "lazy";
+    node.replaceWith(img);
+  });
+}
+
+function queueItunesArt(name) {
+  if (artSeen.has(name)) return;
+  artSeen.add(name);
+  if (artBusy >= 2) {
+    artQueue.push(name);
+    return;
+  }
+  artBusy += 1;
+  lookupItunesClient(name)
+    .then((art) => {
+      if (art) fillPlaceholder(name, art);
+    })
+    .catch(() => {})
+    .finally(() => {
+      artBusy -= 1;
+      const next = artQueue.shift();
+      if (next) queueItunesArt(next);
+    });
+}
+
+function observePlaceholders(root) {
+  if (!("IntersectionObserver" in window) || !("fetch" in window)) return;
+  const io = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) {
+        if (!entry.isIntersecting) continue;
+        const name = entry.target.dataset.artist;
+        if (name) queueItunesArt(name);
+        io.unobserve(entry.target);
+      }
+    },
+    { rootMargin: "120px" }
+  );
+  root.querySelectorAll("[data-placeholder][data-artist]").forEach((el) => io.observe(el));
+}
+
 function mediaMarkup(act, className, src) {
   const label = initials(act.name);
-  if (!src) {
-    return `<div class="${className}" data-placeholder="true" aria-hidden="true">${esc(label)}</div>`;
+  const live = liveArt(act);
+  const url = live || src;
+  if (!url) {
+    return `<div class="${className}" data-placeholder="true" data-artist="${esc(act.name)}" aria-hidden="true">${esc(label)}</div>`;
   }
-  return `<img class="${className}" src="${esc(src)}" alt="" loading="lazy" data-fallback="${esc(label)}">`;
+  return `<img class="${className}" src="${esc(url)}" alt="" loading="lazy" data-fallback="${esc(label)}" data-artist="${esc(act.name)}">`;
 }
 
 function bindMediaFallbacks(root) {
@@ -285,7 +442,7 @@ function bindMediaFallbacks(root) {
   });
 }
 
-function actCard(act, extra = "") {
+function actCard(act, extra = "", region = "list") {
   const picked = state.plan.includes(act.id);
   const clash = picked ? clashFor(act) : null;
   const genres = (act.genres || [])
@@ -303,7 +460,7 @@ function actCard(act, extra = "") {
       ${note}
       ${extra ? `<p class="item-card__note">${extra}</p>` : ""}
       ${mediaMarkup(act, "item-card__media", act.thumb || act.image)}
-      <button type="button" class="btn item-card__action" data-state="${picked ? "on" : "off"}" data-id="${esc(act.id)}" aria-pressed="${picked ? "true" : "false"}" aria-label="${esc(picked ? `Remove ${act.name} from route` : `Add ${act.name} to route`)}">${picked ? "★" : "☆"}</button>
+      <button type="button" class="btn item-card__action" data-state="${picked ? "on" : "off"}" data-id="${esc(act.id)}" data-region="${esc(region)}" aria-pressed="${picked ? "true" : "false"}" aria-label="${esc(picked ? `Remove ${act.name} from route` : `Add ${act.name} to route`)}">${picked ? "★" : "☆"}</button>
     </article>`;
 }
 
@@ -364,18 +521,29 @@ function bindCardClicks(root) {
   root.querySelectorAll("[data-id]").forEach((btn) => {
     btn.onclick = (e) => {
       e.stopPropagation();
-      toggle(btn.dataset.id);
+      toggle(btn.dataset.id, btn.dataset.region);
     };
   });
   root.querySelectorAll("[data-open]").forEach((btn) => {
     btn.onclick = () => openAct(btn.dataset.open);
   });
   bindMediaFallbacks(root);
+  observePlaceholders(root);
+}
+
+function bindSuggestFold() {
+  const fold = $("#suggest-fold");
+  if (!fold) return;
+  const stored = localStorage.getItem(SUGGEST_FOLD_KEY);
+  if (stored === "0") fold.open = false;
+  if (stored === "1") fold.open = true;
+  fold.ontoggle = () => localStorage.setItem(SUGGEST_FOLD_KEY, fold.open ? "1" : "0");
 }
 
 function renderSuggest() {
   const block = $("#suggest-block");
   if (block) block.classList.toggle("u-hidden", Boolean(state.kind && state.kind !== "music"));
+  bindSuggestFold();
   const items = suggestions();
   $("#suggest-count").textContent = items.length ? `${items.length}` : "";
   const box = $("#suggest");
@@ -388,7 +556,7 @@ function renderSuggest() {
     return;
   }
   box.innerHTML = items.map((x) =>
-    actCard(x.act, `Why: ${esc(x.reasons.join(" · "))}`)
+    actCard(x.act, `Why: ${esc(x.reasons.join(" · "))}`, "suggest")
   ).join("");
   bindCardClicks(box);
 }
@@ -439,7 +607,7 @@ function renderPlan() {
           <h3 class="item-card__title">${esc(act.name)}</h3>
           <p class="item-card__meta">${fmtTime(act.start)}–${fmtTime(act.end)} · ${esc(act.stage)}</p>
           ${clash ? `<p class="item-card__note" data-status="${esc(clash.kind)}">${esc(clash.note)}</p>` : ""}
-          <button type="button" class="btn item-card__action" data-id="${esc(act.id)}">Remove</button>
+          <button type="button" class="btn item-card__action" data-id="${esc(act.id)}" data-region="plan" aria-label="${esc(`Remove ${act.name} from route`)}">Remove</button>
         </article>`;
       prev = act;
     }
@@ -737,6 +905,17 @@ function restoreFocus(target) {
     document.getElementById(target.id)?.focus();
     return;
   }
+  const region = state.focusRegion || target.dataRegion;
+  if (region && target.dataId) {
+    const same = document.querySelector(
+      `[data-region="${CSS.escape(region)}"][data-id="${CSS.escape(target.dataId)}"]`
+    );
+    if (same) {
+      same.focus();
+      return;
+    }
+    if (region === "suggest") return;
+  }
   const sel = [
     target.dataId && `[data-id="${CSS.escape(target.dataId)}"]`,
     target.dataOpen && `[data-open="${CSS.escape(target.dataOpen)}"]`,
@@ -758,6 +937,7 @@ function render() {
     dataId: active.dataset?.id,
     dataOpen: active.dataset?.open,
     dataTheme: active.dataset?.theme,
+    dataRegion: active.dataset?.region,
   };
   const wasAct = state.view === "act";
   parseHash();

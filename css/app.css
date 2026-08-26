@@ -180,6 +180,19 @@
   margin-bottom: var(--space-md);
 }
 
+.suggest-fold {
+  margin: var(--space-md) 0;
+
+  .suggest-fold__summary {
+    cursor: pointer;
+    font-size: var(--text-md);
+    line-height: var(--leading-md);
+    font-weight: var(--font-bold);
+    color: var(--color-text-primary);
+    padding: var(--space-sm) 0;
+  }
+}
+
 .day-head {
   display: flex;
   justify-content: space-between;
