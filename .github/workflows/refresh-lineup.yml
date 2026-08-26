@@ -2,10 +2,15 @@ name: Refresh lineup
 
 # Every 3 hours, plus a manual button in the Actions tab.
 # Does not call Discogs. New acts keep Clashfinder blurbs until a local media crawl.
-on:
+# Quote "on" so YAML 1.1 does not treat it as a boolean.
+"on":
   schedule:
     - cron: "20 */3 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/refresh-lineup.yml"
 
 concurrency:
   group: refresh-lineup
