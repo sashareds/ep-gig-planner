@@ -231,9 +231,25 @@
     width: 100%;
     max-width: var(--size-media-detail);
     max-height: var(--size-media-detail);
+    aspect-ratio: 1;
     object-fit: cover;
     border-radius: var(--radius-md);
     border: var(--border-width-md) solid var(--color-action-primary-bg);
+    background: var(--color-bg-chip);
+
+    &[data-placeholder="true"] {
+      display: grid;
+      place-items: center;
+      background-color: var(--color-hero-bg);
+      background-image: url("../img/icon.svg");
+      background-size: cover;
+      background-position: center;
+      color: var(--color-text-on-hero);
+      font-size: var(--text-xl);
+      line-height: var(--leading-xl);
+      font-weight: var(--font-bold);
+      text-shadow: var(--shadow-hero-text);
+    }
   }
 
   .act-page__note {

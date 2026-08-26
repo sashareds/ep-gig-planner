@@ -253,6 +253,42 @@ function wantButton(act) {
   return `<button type="button" class="btn" data-state="${on ? "on" : "off"}" data-id="${esc(act.id)}">${on ? "Seeing this" : "I’d like to see"}</button>`;
 }
 
+function initials(name) {
+  const clean = String(name || "")
+    .replace(/^the\s+/i, "")
+    .replace(/[^a-z0-9\s]/gi, " ")
+    .trim();
+  const parts = clean.split(/\s+/).filter(Boolean);
+  if (!parts.length) return "EP";
+  if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
+  return `${parts[0][0]}${parts[parts.length - 1][0]}`.toUpperCase();
+}
+
+function mediaMarkup(act, className, src) {
+  const label = initials(act.name);
+  if (!src) {
+    return `<div class="${className}" data-placeholder="true" aria-hidden="true">${esc(label)}</div>`;
+  }
+  return `<img class="${className}" src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback="${esc(label)}">`;
+}
+
+function bindMediaFallbacks(root) {
+  root.querySelectorAll("img.item-card__media, img.act-page__media").forEach((img) => {
+    img.addEventListener(
+      "error",
+      () => {
+        const div = document.createElement("div");
+        div.className = img.className;
+        div.dataset.placeholder = "true";
+        div.setAttribute("aria-hidden", "true");
+        div.textContent = img.dataset.fallback || "EP";
+        img.replaceWith(div);
+      },
+      { once: true }
+    );
+  });
+}
+
 function actCard(act, extra = "") {
   const picked = state.plan.includes(act.id);
   const clash = picked ? clashFor(act) : null;
@@ -260,7 +296,6 @@ function actCard(act, extra = "") {
     .map((g) => `<span class="chip" data-genre="${esc(g)}">${esc(g)}</span>`)
     .join("");
   const status = clash ? ` data-status="${esc(clash.kind)}"` : "";
-  const thumb = act.thumb || act.image;
   const note = clash
     ? `<p class="item-card__note" data-status="${esc(clash.kind)}">${esc(clash.note)}</p>`
     : "";
@@ -271,7 +306,7 @@ function actCard(act, extra = "") {
       <div class="item-card__tags chips">${genres}</div>
       ${note}
       ${extra ? `<p class="item-card__note">${extra}</p>` : ""}
-      ${thumb ? `<img class="item-card__media" src="${esc(thumb)}" alt="" width="72" height="72" loading="lazy" referrerpolicy="no-referrer">` : ""}
+      ${mediaMarkup(act, "item-card__media", act.thumb || act.image)}
       <button type="button" class="btn item-card__action" data-state="${picked ? "on" : "off"}" title="I’d like to see" data-id="${esc(act.id)}">${picked ? "★" : "☆"}</button>
     </article>`;
 }
@@ -339,6 +374,7 @@ function bindCardClicks(root) {
   root.querySelectorAll("[data-open]").forEach((btn) => {
     btn.onclick = () => openAct(btn.dataset.open);
   });
+  bindMediaFallbacks(root);
 }
 
 function renderSuggest() {
@@ -436,7 +472,7 @@ function renderAct() {
         ${act.bio ? `<div class="prose"><div class="prose__label">From Discogs</div>${esc(act.bio)}</div>` : ""}
         ${act.blurb ? `<div class="prose">${esc(act.blurb)}</div>` : (!act.bio ? "<p class='empty'>No notes for this set.</p>" : "")}
       </div>
-      ${photo ? `<img class="act-page__media" src="${esc(photo)}" alt="${esc(act.name)}" referrerpolicy="no-referrer">` : ""}
+      ${mediaMarkup(act, "act-page__media", photo)}
     </div>
     ${others.length ? `<h2 class="lineup__heading">Also playing</h2>${others.map((a) => actCard(a)).join("")}` : ""}
   `;

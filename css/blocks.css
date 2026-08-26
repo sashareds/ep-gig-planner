@@ -136,7 +136,7 @@
 
 .item-card {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: auto 1fr auto;
   gap: var(--space-xs) var(--space-md);
   align-items: start;
   padding: var(--space-md);
@@ -157,7 +157,7 @@
   }
 
   .item-card__title {
-    grid-column: 1;
+    grid-column: 2;
     margin: 0;
     font-size: var(--text-lg);
     line-height: var(--leading-lg);
@@ -178,7 +178,7 @@
   }
 
   .item-card__meta {
-    grid-column: 1;
+    grid-column: 2;
     margin: 0;
     font-size: var(--text-sm);
     line-height: var(--leading-sm);
@@ -187,7 +187,7 @@
   }
 
   .item-card__note {
-    grid-column: 1;
+    grid-column: 2;
     margin: 0;
     font-size: var(--text-xs);
     line-height: var(--leading-xs);
@@ -197,41 +197,37 @@
     &[data-status="tight"] { color: var(--color-warning); font-weight: var(--font-bold); }
   }
 
-  .item-card__tags { grid-column: 1; }
+  .item-card__tags { grid-column: 2; }
 
   .item-card__media {
+    grid-column: 1;
+    grid-row: 1 / -1;
     width: var(--size-media);
     height: var(--size-media);
     object-fit: cover;
     border-radius: var(--radius-sm);
     border: var(--border-width-sm) solid var(--color-action-primary-bg);
     background: var(--color-bg-chip);
+
+    &[data-placeholder="true"] {
+      display: grid;
+      place-items: center;
+      background-color: var(--color-hero-bg);
+      background-image: url("../img/icon.svg");
+      background-size: cover;
+      background-position: center;
+      color: var(--color-text-on-hero);
+      font-size: var(--text-md);
+      line-height: var(--leading-md);
+      font-weight: var(--font-bold);
+      text-shadow: var(--shadow-hero-text);
+    }
   }
 
   .item-card__action {
-    grid-column: 2;
+    grid-column: 3;
     grid-row: 1 / -1;
     align-self: start;
-  }
-
-  &:has(.item-card__media) {
-    grid-template-columns: auto 1fr auto;
-
-    .item-card__media {
-      grid-column: 1;
-      grid-row: 1 / -1;
-    }
-
-    .item-card__title,
-    .item-card__meta,
-    .item-card__tags,
-    .item-card__note {
-      grid-column: 2;
-    }
-
-    .item-card__action {
-      grid-column: 3;
-    }
   }
 }
 
