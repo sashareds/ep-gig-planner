@@ -1,0 +1,32 @@
+/*
+ * CUBE composition — layout only.
+ * Custom properties do not resolve inside @media. Use 54rem to match --breakpoint-md.
+ */
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.with-sidebar {
+  display: grid;
+  grid-template-columns: 1fr var(--size-sidebar);
+
+  @media (max-width: 54rem) {
+    grid-template-columns: 1fr;
+  }
+}

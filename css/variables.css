@@ -1,0 +1,150 @@
+/*
+ * Design tokens. Values live here; blocks use var() only.
+ */
+
+:root {
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-layout-section: var(--space-2xl);
+
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+
+  --text-xs: 12px;
+  --leading-xs: 16px;
+  --text-sm: 14px;
+  --leading-sm: 20px;
+  --text-base: 16px;
+  --leading-base: 24px;
+  --text-md: 20px;
+  --leading-md: 28px;
+  --text-lg: 24px;
+  --leading-lg: 32px;
+  --text-xl: 32px;
+  --leading-xl: 40px;
+  --text-2xl: 40px;
+  --leading-2xl: 48px;
+  --text-3xl: 48px;
+  --leading-3xl: 56px;
+  --text-4xl: 64px;
+  --leading-4xl: 72px;
+
+  --size-thumb: 40px;
+  --size-media: 72px;
+  --size-control: 40px;
+  --size-sidebar: 20rem;
+  --size-content-main: 40rem;
+  --size-hero: 20rem;
+  --size-hero-compact: 11rem;
+  --breakpoint-md: 54rem;
+
+  --ep-sky: #3c679b;
+  --ep-mid: #4f80bb;
+  --ep-mint: #85bea0;
+  --ep-gold: #f2c45c;
+  --ep-peach: #ff9575;
+  --ep-terracotta: #c93b20;
+  --ep-mauve: #8b5678;
+  --ep-navy: #2e4f76;
+  --ep-cream: #fcf7ea;
+
+  --color-primary: var(--ep-sky);
+  --color-warning: var(--ep-peach);
+  --color-error: var(--ep-terracotta);
+
+  --color-bg-page: var(--ep-cream);
+  --color-bg-surface: #fffdf6;
+  --color-bg-header: #fff8e8;
+  --color-bg-aside: #fff4dc;
+  --color-bg-chip: #efe4c8;
+  --color-bg-clash: #ffe3e6;
+  --color-bg-tight: #ffe8d4;
+  --color-text-primary: var(--ep-navy);
+  --color-text-secondary: #5c6f88;
+  --color-text-accent: var(--ep-mauve);
+  --color-text-link: var(--ep-sky);
+  --color-text-error: var(--ep-terracotta);
+  --color-text-on-hero: var(--ep-cream);
+  --color-text-on-fill: var(--ep-navy);
+  --color-text-on-chip: var(--ep-cream);
+  --color-hero-bg: var(--ep-sky);
+  --color-border-subtle: #e4e4e7;
+  --color-action-primary-bg: var(--ep-gold);
+  --color-action-primary-fg: var(--ep-navy);
+  --color-input-bg: var(--color-bg-surface);
+  --color-input-border: var(--color-border-subtle);
+  --color-input-border-focus: var(--ep-sky);
+  --color-chip-electronic: var(--ep-mauve);
+  --color-chip-pop: var(--ep-gold);
+  --color-chip-rock: var(--ep-peach);
+  --color-chip-folk: var(--ep-sky);
+  --color-chip-hiphop: #7b4db0;
+  --color-chip-soul: #d45d4c;
+  --color-hero-scrim: rgb(46 79 118 / 0.4);
+  --shadow-hero-text: 0 2px 16px rgb(46 79 118 / 0.5);
+
+  --z-base: 0;
+  --z-card: 10;
+  --z-navigation: 100;
+  --z-sheet: 500;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-full: 9999px;
+
+  --border-width-sm: 1px;
+  --border-width-md: 2px;
+  --opacity-muted: 0.6;
+  --duration-busy: 300ms;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --color-bg-page: #12151c;
+    --color-bg-surface: #1a1f29;
+    --color-bg-header: #161b24;
+    --color-bg-aside: #151922;
+    --color-bg-chip: #2a3140;
+    --color-bg-clash: #3a1c24;
+    --color-bg-tight: #3a2a18;
+    --color-text-primary: var(--ep-cream);
+    --color-text-secondary: #b7c0ce;
+    --color-text-accent: var(--ep-peach);
+    --color-border-subtle: #27272a;
+    --color-input-bg: var(--color-bg-surface);
+    --color-input-border: var(--color-border-subtle);
+    --color-input-border-focus: var(--ep-gold);
+  }
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg-page: #12151c;
+  --color-bg-surface: #1a1f29;
+  --color-bg-header: #161b24;
+  --color-bg-aside: #151922;
+  --color-bg-chip: #2a3140;
+  --color-bg-clash: #3a1c24;
+  --color-bg-tight: #3a2a18;
+  --color-text-primary: var(--ep-cream);
+  --color-text-secondary: #b7c0ce;
+  --color-text-accent: var(--ep-peach);
+  --color-border-subtle: #27272a;
+  --color-input-bg: var(--color-bg-surface);
+  --color-input-border: var(--color-border-subtle);
+  --color-input-border-focus: var(--ep-gold);
+}
+
+html {
+  font-size: var(--text-base);
+  line-height: var(--leading-base);
+}

@@ -250,7 +250,7 @@ function suggestions() {
 
 function wantButton(act) {
   const on = state.plan.includes(act.id);
-  return `<button type="button" class="want-btn" data-state="${on ? "on" : "off"}" data-id="${esc(act.id)}">${on ? "Seeing this" : "I’d like to see"}</button>`;
+  return `<button type="button" class="btn" data-state="${on ? "on" : "off"}" data-id="${esc(act.id)}">${on ? "Seeing this" : "I’d like to see"}</button>`;
 }
 
 function actCard(act, extra = "") {
@@ -261,18 +261,18 @@ function actCard(act, extra = "") {
     .join("");
   const status = clash ? ` data-status="${esc(clash.kind)}"` : "";
   const thumb = act.thumb || act.image;
+  const note = clash
+    ? `<p class="item-card__note" data-status="${esc(clash.kind)}">${esc(clash.note)}</p>`
+    : "";
   return `
-    <article class="act-card"${status}>
-      ${thumb ? `<img class="act-card__thumb" src="${esc(thumb)}" alt="" width="72" height="72" loading="lazy" referrerpolicy="no-referrer">` : ""}
-      <div class="act-card__body">
-        <div class="act-card__when">${fmtTime(act.start)}–${fmtTime(act.end)}</div>
-        <button type="button" class="act-card__name" data-open="${esc(act.id)}">${esc(act.name)}</button>
-        <div class="act-card__stage">${esc(act.stage)}</div>
-        <div class="chips">${genres}</div>
-        ${clash ? `<div class="${clash.kind === "clash" ? "clash" : "tight"}">${esc(clash.note)}</div>` : ""}
-        ${extra}
-      </div>
-      <button type="button" class="icon" data-state="${picked ? "on" : "off"}" title="I’d like to see" data-id="${esc(act.id)}">${picked ? "★" : "☆"}</button>
+    <article class="item-card"${status}>
+      <button type="button" class="item-card__title" data-open="${esc(act.id)}">${esc(act.name)}</button>
+      <p class="item-card__meta">${fmtTime(act.start)}–${fmtTime(act.end)} · ${esc(act.stage)}</p>
+      <div class="item-card__tags chips">${genres}</div>
+      ${note}
+      ${extra ? `<p class="item-card__note">${extra}</p>` : ""}
+      ${thumb ? `<img class="item-card__media" src="${esc(thumb)}" alt="" width="72" height="72" loading="lazy" referrerpolicy="no-referrer">` : ""}
+      <button type="button" class="btn item-card__action" data-state="${picked ? "on" : "off"}" title="I’d like to see" data-id="${esc(act.id)}">${picked ? "★" : "☆"}</button>
     </article>`;
 }
 
@@ -289,7 +289,8 @@ function renderDays() {
   for (const day of data.days) {
     const btn = document.createElement("button");
     btn.textContent = day.label;
-    btn.className = "day-nav__btn";
+    btn.className = "btn";
+    btn.setAttribute("data-state", day.id === state.day ? "selected" : "off");
     btn.setAttribute("aria-pressed", day.id === state.day ? "true" : "false");
     btn.onclick = () => {
       state.day = day.id;
@@ -353,7 +354,7 @@ function renderSuggest() {
     return;
   }
   box.innerHTML = items.map((x) =>
-    actCard(x.act, `<div class="why">Why: ${esc(x.reasons.join(" · "))}</div>`)
+    actCard(x.act, `Why: ${esc(x.reasons.join(" · "))}`)
   ).join("");
   bindCardClicks(box);
 }
@@ -384,7 +385,7 @@ function renderPlan() {
   let html = "";
   for (const day of days) {
     const acts = plannedOnDay(day.id);
-    html += `<div class="day-head"><h3>${esc(day.label)} route</h3><span class="stats">${acts.length} stops</span></div>`;
+    html += `<div class="day-head"><h3 class="day-head__title">${esc(day.label)} route</h3><span class="day-head__meta">${acts.length} stops</span></div>`;
     let prev = null;
     for (const act of acts) {
       const clash = clashFor(act);
@@ -397,19 +398,14 @@ function renderPlan() {
               ? `${g} min walk — tight`
               : `${g} min gap, ~${WALK_MIN}–${WALK_MAX} min walk`)
           : "";
-        html += `<div class="walk">↓ ${esc(walkNote)}</div>`;
+        html += `<p class="walk-note">↓ ${esc(walkNote)}</p>`;
       }
       html += `
-        <article class="plan-act"${clash ? ` data-status="${esc(clash.kind)}"` : ""}>
-          <div class="row">
-            <div>
-              <div class="act-card__when">${fmtTime(act.start)}–${fmtTime(act.end)}</div>
-              <strong class="plan-act__name">${esc(act.name)}</strong>
-              <div class="act-card__stage">${esc(act.stage)}</div>
-              ${clash ? `<div class="${clash.kind === "clash" ? "clash" : "tight"}">${esc(clash.note)}</div>` : ""}
-            </div>
-            <button type="button" data-id="${esc(act.id)}">Remove</button>
-          </div>
+        <article class="item-card"${clash ? ` data-status="${esc(clash.kind)}"` : ""}>
+          <h3 class="item-card__title">${esc(act.name)}</h3>
+          <p class="item-card__meta">${fmtTime(act.start)}–${fmtTime(act.end)} · ${esc(act.stage)}</p>
+          ${clash ? `<p class="item-card__note" data-status="${esc(clash.kind)}">${esc(clash.note)}</p>` : ""}
+          <button type="button" class="btn item-card__action" data-id="${esc(act.id)}">Remove</button>
         </article>`;
       prev = act;
     }
@@ -429,17 +425,16 @@ function renderAct() {
   const clash = state.plan.includes(act.id) ? clashFor(act) : null;
   const photo = act.image || act.thumb;
   page.innerHTML = `
-    <p class="act-card__when">${esc(act.dayLabel)} ${fmtTime(act.start)}–${fmtTime(act.end)}</p>
-    <h2>${esc(act.name)}</h2>
-    <p class="act-card__stage">${esc(act.stage)}</p>
+    <p class="act-page__meta">${esc(act.dayLabel)} ${fmtTime(act.start)}–${fmtTime(act.end)} · ${esc(act.stage)}</p>
+    <h2 class="act-page__title">${esc(act.name)}</h2>
     <div class="chips">${(act.genres || []).map((g) => `<span class="chip" data-genre="${esc(g)}">${esc(g)}</span>`).join("")}
       <span class="chip">${esc(act.kind)}</span></div>
     <p>${wantButton(act)}</p>
-    ${clash ? `<p class="${clash.kind === "clash" ? "clash" : "tight"}">${esc(clash.note)}</p>` : ""}
-    ${photo ? `<img class="promo" src="${esc(photo)}" alt="${esc(act.name)}" referrerpolicy="no-referrer">` : ""}
-    ${act.bio ? `<div class="bio"><div class="bio__label">From Discogs</div>${esc(act.bio)}</div>` : ""}
-    ${act.blurb ? `<div class="blurb">${esc(act.blurb)}</div>` : (!act.bio ? "<p class='empty'>No notes for this set.</p>" : "")}
-    ${others.length ? `<h2>Also playing</h2>${others.map((a) => actCard(a)).join("")}` : ""}
+    ${clash ? `<p class="act-page__note" data-status="${esc(clash.kind)}">${esc(clash.note)}</p>` : ""}
+    ${photo ? `<img class="act-page__media" src="${esc(photo)}" alt="${esc(act.name)}" referrerpolicy="no-referrer">` : ""}
+    ${act.bio ? `<div class="prose"><div class="prose__label">From Discogs</div>${esc(act.bio)}</div>` : ""}
+    ${act.blurb ? `<div class="prose">${esc(act.blurb)}</div>` : (!act.bio ? "<p class='empty'>No notes for this set.</p>" : "")}
+    ${others.length ? `<h2 class="lineup__heading">Also playing</h2>${others.map((a) => actCard(a)).join("")}` : ""}
   `;
   bindCardClicks(page);
 }
@@ -687,7 +682,9 @@ function applyTheme(mode) {
   if (mode === "system") document.documentElement.removeAttribute("data-theme");
   else document.documentElement.dataset.theme = mode;
   document.querySelectorAll(".theme-switch__btn").forEach((btn) => {
-    btn.setAttribute("aria-pressed", btn.dataset.theme === mode ? "true" : "false");
+    const on = btn.dataset.theme === mode;
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+    btn.setAttribute("data-state", on ? "selected" : "off");
   });
 }
 

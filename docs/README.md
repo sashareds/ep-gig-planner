@@ -26,6 +26,10 @@ python3 scripts/normalize.py
 
 `--media` backfills Discogs artist photos and short bios for names already matched. The planner then shows those on cards and artist pages.
 
+## CSS
+
+House CSS load order: `css/variables.css` → `document.css` → `composition.css` → `blocks.css` → `utilities.css`, imported from `styles.css`.
+
 ## Open
 
 Live: https://sashareds.github.io/ep-gig-planner/

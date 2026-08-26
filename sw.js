@@ -1,8 +1,13 @@
-const CACHE = "ep26-v3";
+const CACHE = "ep26-v4";
 const SHELL = [
   "./",
   "./index.html",
   "./styles.css",
+  "./css/variables.css",
+  "./css/document.css",
+  "./css/composition.css",
+  "./css/blocks.css",
+  "./css/utilities.css",
   "./app.js",
   "./manifest.webmanifest",
   "./img/hero.svg",

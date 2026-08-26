@@ -26,60 +26,66 @@
       <h1 class="hero__title">Electric Picnic 2026</h1>
       <p class="hero__meta" id="updated"></p>
     </div>
-    <div class="theme-switch" role="group" aria-label="Colour theme">
-      <button type="button" class="theme-switch__btn" data-theme="system">System</button>
-      <button type="button" class="theme-switch__btn" data-theme="dark">Dark</button>
-      <button type="button" class="theme-switch__btn" data-theme="light">Light</button>
+    <div class="cluster" role="group" aria-label="Colour theme">
+      <button type="button" class="btn theme-switch__btn" data-theme="system">System</button>
+      <button type="button" class="btn theme-switch__btn" data-theme="dark">Dark</button>
+      <button type="button" class="btn theme-switch__btn" data-theme="light">Light</button>
     </div>
   </div>
 
   <header class="site-header">
-    <div class="filter-bar">
-      <label class="filter-bar__field">Search
-        <input id="search" type="search" placeholder="Act or stage" autocomplete="off">
+    <div class="filter-bar cluster">
+      <label class="field">
+        <span class="field__label">Search</span>
+        <input class="field__control" id="search" type="search" placeholder="Act or stage" autocomplete="off">
       </label>
-      <label class="filter-bar__field">Event type
-        <select id="kind"></select>
+      <label class="field">
+        <span class="field__label">Event type</span>
+        <select class="field__control" id="kind"></select>
       </label>
-      <label class="filter-bar__field" id="genre-field">Genre
-        <select id="genre"></select>
+      <label class="field" id="genre-field">
+        <span class="field__label">Genre</span>
+        <select class="field__control" id="genre"></select>
       </label>
-      <label class="filter-bar__field">Stage
-        <select id="stage"></select>
+      <label class="field">
+        <span class="field__label">Stage</span>
+        <select class="field__control" id="stage"></select>
       </label>
     </div>
     <p class="site-header__hint">Walk between stages is treated as 15–20 minutes. Routes never mix days.</p>
-    <div class="day-nav" id="days" role="group" aria-label="Festival day"></div>
+    <div class="cluster" id="days" role="group" aria-label="Festival day"></div>
   </header>
 
-  <div id="list-view" class="layout">
+  <div id="list-view" class="with-sidebar">
     <main class="lineup">
       <section class="taste">
-        <label for="taste">Artists you already like</label>
-        <textarea id="taste" rows="2" placeholder="Massive Attack, Underworld, Chemical Brothers…"></textarea>
-        <p class="taste__hint">Used to suggest nearby electronic-leaning sets. Stored only in this browser.</p>
+        <label class="field">
+          <span class="field__label">Artists you already like</span>
+          <textarea class="field__control" id="taste" rows="2" placeholder="Massive Attack, Underworld, Chemical Brothers…"></textarea>
+          <span class="field__help">Used to suggest nearby electronic-leaning sets. Stored only in this browser.</span>
+        </label>
       </section>
       <h2 class="lineup__heading">Suggested <span class="lineup__count" id="suggest-count"></span></h2>
-      <div id="suggest"></div>
+      <div id="suggest" class="stack"></div>
       <h2 class="lineup__heading">Line-up <span class="lineup__count" id="count"></span></h2>
-      <div id="list"></div>
+      <div id="list" class="stack"></div>
     </main>
     <aside class="route">
       <h2 class="route__heading">Your route</h2>
       <p class="route__stats" id="plan-stats"></p>
-      <div class="route__actions">
-        <button type="button" class="route__export" id="export">Copy timetable</button>
-        <button type="button" class="route__cal" id="cal-export">Add to calendar</button>
-        <button type="button" class="route__notify" id="notify-toggle" data-state="off">Notify 15 min before</button>
+      <div class="route__actions cluster">
+        <button type="button" class="btn" id="export">Copy timetable</button>
+        <button type="button" class="btn" id="cal-export">Add to calendar</button>
+        <button type="button" class="btn" id="notify-toggle" data-state="off">Notify 15 min before</button>
       </div>
-      <p class="route__cal-hint">Calendar: import once. Re-adding the file duplicates events on Apple. Each event already has a 15-minute reminder.</p>
-      <p class="route__cal-hint" id="notify-hint">Or use Notify — 15 minutes before each starred set. On iPhone, add this app to the Home Screen first.</p>
+      <p class="route__hint">Calendar: import once. Re-adding the file duplicates events on Apple. Each event already has a 15-minute reminder.</p>
+      <p class="route__hint" id="notify-hint">Or use Notify — 15 minutes before each starred set. On iPhone, add this app to the Home Screen first.</p>
       <div id="plan"></div>
     </aside>
   </div>
 
   <div id="act-view" class="act-page u-hidden">
-    <button type="button" class="text-btn" id="back">← Back to line-up</button>
+    <button type="button" class="btn" data-kind="quiet" id="back">← Back to line-up</button>
     <article id="act-detail"></article>
   </div>
 
