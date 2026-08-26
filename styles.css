@@ -296,7 +296,15 @@ button {
 .route__heading { font-size: 1rem; margin: var(--space-md) 0 var(--space-sm); }
 .lineup__count,
 .route__stats,
+.route__cal-hint,
 .taste__hint { color: var(--color-text-secondary); font-weight: var(--font-regular); }
+.route__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin: var(--space-sm) 0;
+}
+.route__cal-hint { margin: 0 0 var(--space-sm); }
 
 .taste label { display: block; font-size: var(--text-sm); color: var(--color-text-secondary); margin-bottom: var(--space-xs); }
 .taste textarea { width: 100%; resize: vertical; }

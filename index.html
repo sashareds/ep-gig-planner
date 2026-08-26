@@ -67,7 +67,11 @@
     <aside class="route">
       <h2 class="route__heading">Your route</h2>
       <p class="route__stats" id="plan-stats"></p>
-      <button type="button" class="route__export" id="export">Copy timetable</button>
+      <div class="route__actions">
+        <button type="button" class="route__export" id="export">Copy timetable</button>
+        <button type="button" class="route__cal" id="cal-export">Add to calendar</button>
+      </div>
+      <p class="route__cal-hint">Add to calendar writes an .ics of the starred sets for Apple Calendar and Google Calendar.</p>
       <div id="plan"></div>
     </aside>
   </div>

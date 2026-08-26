@@ -437,6 +437,91 @@ function renderAct() {
   bindCardClicks(page);
 }
 
+function icsEscape(value) {
+  return String(value ?? "")
+    .replaceAll("\\", "\\\\")
+    .replaceAll(";", "\\;")
+    .replaceAll(",", "\\,")
+    .replaceAll("\r\n", "\\n")
+    .replaceAll("\n", "\\n");
+}
+
+function icsStamp(ts) {
+  const d = new Date(`${ts.replace(" ", "T")}:00+01:00`);
+  if (Number.isNaN(d.getTime())) return "";
+  return d.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}Z$/, "Z");
+}
+
+function icsFold(line) {
+  const parts = [];
+  let rest = line;
+  while (rest.length > 75) {
+    parts.push(rest.slice(0, 75));
+    rest = ` ${rest.slice(75)}`;
+  }
+  parts.push(rest);
+  return parts.join("\r\n");
+}
+
+function buildIcs(acts) {
+  const now = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d{3}Z$/, "Z");
+  const lines = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//EP26 planner//EN",
+    "CALSCALE:GREGORIAN",
+    "METHOD:PUBLISH",
+    "X-WR-CALNAME:Electric Picnic 2026",
+    "X-WR-TIMEZONE:Europe/Dublin",
+  ];
+  for (const act of acts) {
+    const start = icsStamp(act.start);
+    const end = icsStamp(act.end);
+    if (!start || !end) continue;
+    lines.push(
+      "BEGIN:VEVENT",
+      `UID:ep26-${act.id}@sashareds.github.io`,
+      `DTSTAMP:${now}`,
+      `DTSTART:${start}`,
+      `DTEND:${end}`,
+      `SUMMARY:${icsEscape(act.name)}`,
+      `LOCATION:${icsEscape(`${act.stage}, Stradbally Hall`)}`,
+      `DESCRIPTION:${icsEscape(`${act.dayLabel} · ${act.stage}`)}`,
+      "END:VEVENT"
+    );
+  }
+  lines.push("END:VCALENDAR");
+  return `${lines.map(icsFold).join("\r\n")}\r\n`;
+}
+
+async function exportIcs() {
+  const acts = plannedActs();
+  const btn = $("#cal-export");
+  if (!acts.length) {
+    alert("Star some sets first.");
+    return;
+  }
+  const file = new File([buildIcs(acts)], "ep26-route.ics", { type: "text/calendar" });
+  try {
+    if (navigator.canShare?.({ files: [file] })) {
+      await navigator.share({ files: [file], title: "EP26 route" });
+      btn.textContent = "Shared";
+      setTimeout(() => (btn.textContent = "Add to calendar"), 1200);
+      return;
+    }
+  } catch (err) {
+    if (err && err.name === "AbortError") return;
+  }
+  const url = URL.createObjectURL(file);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = file.name;
+  link.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1500);
+  btn.textContent = "Downloaded";
+  setTimeout(() => (btn.textContent = "Add to calendar"), 1200);
+}
+
 function exportPlan() {
   const lines = [];
   for (const day of data.days) {
@@ -515,6 +600,7 @@ $("#taste").addEventListener("input", (e) => {
   renderSuggest();
 });
 $("#export").addEventListener("click", exportPlan);
+$("#cal-export").addEventListener("click", exportIcs);
 $("#back").addEventListener("click", closeAct);
 window.addEventListener("hashchange", render);
 document.querySelectorAll(".theme-switch__btn").forEach((btn) => {
