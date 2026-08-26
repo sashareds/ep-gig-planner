@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true">
   <title>Electric Picnic 2026 rainbow field</title>
-  <rect width="1600" height="520" fill="#4a8bc2"/>
-  <ellipse cx="800" cy="560" rx="1180" ry="500" fill="#f4d35e"/>
-  <ellipse cx="800" cy="560" rx="1020" ry="430" fill="#f08a4b"/>
-  <ellipse cx="800" cy="560" rx="860" ry="360" fill="#e23b8a"/>
-  <ellipse cx="800" cy="560" rx="700" ry="292" fill="#c42a7a"/>
-  <ellipse cx="800" cy="560" rx="540" ry="224" fill="#d989c4"/>
-  <ellipse cx="800" cy="560" rx="380" ry="156" fill="#f3d4e4"/>
+  <rect width="1600" height="520" fill="#3c679b"/>
+  <ellipse cx="800" cy="580" rx="1100" ry="560" fill="#4f80bb"/>
+  <ellipse cx="800" cy="580" rx="960" ry="485" fill="#85bea0"/>
+  <ellipse cx="800" cy="580" rx="820" ry="410" fill="#c8c66e"/>
+  <ellipse cx="800" cy="580" rx="680" ry="335" fill="#f2c45c"/>
+  <ellipse cx="800" cy="580" rx="540" ry="260" fill="#ff9575"/>
+  <ellipse cx="800" cy="580" rx="400" ry="185" fill="#c93b20"/>
+  <ellipse cx="800" cy="580" rx="260" ry="115" fill="#8b5678"/>
+  <ellipse cx="800" cy="580" rx="130" ry="55" fill="#f3d4e0"/>
 </svg>
