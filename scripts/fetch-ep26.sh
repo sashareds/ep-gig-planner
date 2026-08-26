@@ -17,13 +17,21 @@ tmp="$(mktemp)"
 cleanup() { rm -f "$tmp"; }
 trap cleanup EXIT
 
-curl -fsSL -G \
+curl -fsSL -G --compressed \
+  -A "EPGigPlanner/1.0 (+https://sashareds.github.io/ep-gig-planner/)" \
   --data-urlencode "authUsername=${CLASHFINDER_USER}" \
   --data-urlencode "authPublicKey=${CLASHFINDER_PUBLIC_KEY}" \
   -o "$tmp" \
   "https://clashfinder.com/data/event/ep26.json"
 
-python3 "$ROOT/scripts/normalize.py" --check "$tmp"
+if [[ ! -s "$tmp" ]]; then
+  echo "Clashfinder returned an empty dump" >&2
+  exit 1
+fi
+if ! python3 "$ROOT/scripts/normalize.py" --check "$tmp"; then
+  echo "dump starts: $(head -c 160 "$tmp" | tr '\n' ' ')" >&2
+  exit 1
+fi
 
 mv "$tmp" "$ROOT/ep26.json"
 trap - EXIT

@@ -247,7 +247,13 @@ def main() -> None:
 
 if __name__ == "__main__":
     if len(sys.argv) == 3 and sys.argv[1] == "--check":
-        raw = json.loads(Path(sys.argv[2]).read_text(encoding="utf-8"))
+        text = Path(sys.argv[2]).read_text(encoding="utf-8")
+        if not text.strip():
+            raise SystemExit("Clashfinder dump was empty")
+        try:
+            raw = json.loads(text)
+        except json.JSONDecodeError as exc:
+            raise SystemExit(f"Clashfinder dump was not JSON: {exc}") from exc
         validate_dump(raw)
         events = sum(len(loc.get("events") or []) for loc in raw.get("locations") or [])
         print(f"clashfinder dump ok events={events} modified={raw.get('modified')}")

@@ -7,10 +7,6 @@ name: Refresh lineup
   schedule:
     - cron: "20 */3 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/refresh-lineup.yml"
 
 concurrency:
   group: refresh-lineup
