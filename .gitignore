@@ -1,4 +1,5 @@
 .env-discogs
+.env-clashfinder
 .env
 .env.*
 new-discgos-api

@@ -142,8 +142,21 @@ def tags_from(text: str) -> list[str]:
     return keep
 
 
+def validate_dump(raw: dict) -> None:
+    """Refuse to publish an empty, wrong, or unauthenticated Clashfinder dump."""
+    if raw.get("id") != "ep26":
+        raise SystemExit(f"unexpected Clashfinder id: {raw.get('id')!r}")
+    if (raw.get("auth") or {}).get("result") != "pass":
+        raise SystemExit("Clashfinder auth did not pass")
+    locations = raw.get("locations") or []
+    events = sum(len(loc.get("events") or []) for loc in locations)
+    if events < 100:
+        raise SystemExit(f"refusing to publish thin dump ({events} events)")
+
+
 def main() -> None:
     raw = json.loads(SRC.read_text(encoding="utf-8"))
+    validate_dump(raw)
     discogs_cache = load_cache()
     acts = []
     stages = []
@@ -233,4 +246,10 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) == 3 and sys.argv[1] == "--check":
+        raw = json.loads(Path(sys.argv[2]).read_text(encoding="utf-8"))
+        validate_dump(raw)
+        events = sum(len(loc.get("events") or []) for loc in raw.get("locations") or [])
+        print(f"clashfinder dump ok events={events} modified={raw.get('modified')}")
+    else:
+        main()

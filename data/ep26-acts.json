@@ -3,7 +3,7 @@
   "id": "ep26",
   "source": "https://clashfinder.com/s/ep26/",
   "timezone": "Europe/Dublin",
-  "modified": "2026-08-26 11:06",
+  "modified": "2026-08-26 12:07",
   "walkMins": {
     "min": 15,
     "max": 20
@@ -906,6 +906,28 @@
         "stage",
         "irelands",
         "bright"
+      ]
+    },
+    {
+      "id": "pearly(2)",
+      "name": "The Pearly Whites",
+      "stage": "Survivor",
+      "kind": "music",
+      "genres": [
+        "other"
+      ],
+      "start": "2026-08-27 21:15",
+      "end": "2026-08-27 22:15",
+      "day": "2026-08-27",
+      "dayLabel": "Thursday",
+      "mins": 60,
+      "blurb": "",
+      "bio": "",
+      "image": "",
+      "thumb": "",
+      "tags": [
+        "pearly",
+        "whites"
       ]
     },
     {
@@ -3359,6 +3381,33 @@
       ]
     },
     {
+      "id": "bobbym(1)",
+      "name": "Bobby Mc with Luke Thomas & the Paul Dunlea Big Band",
+      "stage": "Survivor",
+      "kind": "music",
+      "genres": [
+        "other"
+      ],
+      "start": "2026-08-28 15:30",
+      "end": "2026-08-28 16:30",
+      "day": "2026-08-28",
+      "dayLabel": "Friday",
+      "mins": 60,
+      "blurb": "",
+      "bio": "",
+      "image": "",
+      "thumb": "",
+      "tags": [
+        "bobby",
+        "luke",
+        "thomas",
+        "paul",
+        "dunlea",
+        "big",
+        "band"
+      ]
+    },
+    {
       "id": "sonsof(1)",
       "name": "Son's of \u00c9ire",
       "stage": "Little Picnic - Ickle Big Top",
@@ -3884,33 +3933,6 @@
         "darcy",
         "core",
         "rarely"
-      ]
-    },
-    {
-      "id": "bobbym(1)",
-      "name": "Bobby Mc with Luke Thomas & the Paul Dunlea Big Band",
-      "stage": "Survivor",
-      "kind": "music",
-      "genres": [
-        "other"
-      ],
-      "start": "2026-08-28 16:00",
-      "end": "2026-08-28 17:00",
-      "day": "2026-08-28",
-      "dayLabel": "Friday",
-      "mins": 60,
-      "blurb": "",
-      "bio": "",
-      "image": "",
-      "thumb": "",
-      "tags": [
-        "bobby",
-        "luke",
-        "thomas",
-        "paul",
-        "dunlea",
-        "big",
-        "band"
       ]
     },
     {
@@ -15689,6 +15711,29 @@
       ]
     },
     {
+      "id": "encore(1)",
+      "name": "Encore Vocal Group",
+      "stage": "Survivor",
+      "kind": "music",
+      "genres": [
+        "other"
+      ],
+      "start": "2026-08-29 15:30",
+      "end": "2026-08-29 16:30",
+      "day": "2026-08-29",
+      "dayLabel": "Saturday",
+      "mins": 60,
+      "blurb": "",
+      "bio": "",
+      "image": "",
+      "thumb": "",
+      "tags": [
+        "encore",
+        "vocal",
+        "group"
+      ]
+    },
+    {
       "id": "annacl(1)",
       "name": "Anna Clifford",
       "stage": "Comedy Arena",
@@ -25657,7 +25702,7 @@
       ]
     },
     {
-      "id": "pearly(2)",
+      "id": "pearly(3)",
       "name": "THE PEARLY WHITES",
       "stage": "Trailer Park - Main Stage",
       "kind": "music",

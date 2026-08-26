@@ -522,4 +522,8 @@ document.querySelectorAll(".theme-switch__btn").forEach((btn) => {
 });
 applyTheme(localStorage.getItem(THEME_KEY) || "system");
 
+if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
+  navigator.serviceWorker.register("./sw.js");
+}
+
 render();

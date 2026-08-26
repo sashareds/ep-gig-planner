@@ -81,12 +81,20 @@ html[data-theme="dark"] {
 
 * { box-sizing: border-box; }
 html, body { margin: 0; min-height: 100%; }
+html { -webkit-text-size-adjust: 100%; }
 body {
   font-family: var(--font-sans);
   font-size: var(--text-sm);
   line-height: 1.45;
   background: var(--color-bg-page);
   color: var(--color-text-primary);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+button,
+.day-nav__btn,
+.want-btn,
+.icon {
+  touch-action: manipulation;
 }
 
 :focus-visible {
@@ -412,6 +420,43 @@ button {
 .u-hidden { display: none; }
 
 @media (max-width: 54rem) {
+  .hero {
+    min-height: 11rem;
+    padding: 1.6rem var(--space-md) var(--space-lg);
+    background-position: center bottom;
+  }
+  .hero__title { font-size: clamp(1.8rem, 9vw, 2.6rem); }
+  .hero .theme-switch { top: var(--space-sm); right: var(--space-sm); }
   .layout { grid-template-columns: 1fr; }
   .route { border-left: 0; border-top: 1px solid var(--color-border-subtle); }
+  .site-header {
+    position: static;
+    padding-left: max(var(--space-md), env(safe-area-inset-left));
+    padding-right: max(var(--space-md), env(safe-area-inset-right));
+  }
+  .filter-bar { display: grid; grid-template-columns: 1fr 1fr; }
+  .filter-bar__field:first-child { grid-column: 1 / -1; }
+  .filter-bar input,
+  .filter-bar select,
+  .taste textarea {
+    font-size: 16px;
+    min-height: 2.75rem;
+  }
+  .day-nav {
+    position: sticky;
+    top: 0;
+    z-index: 6;
+    background: var(--color-bg-header);
+    padding: var(--space-sm) 0;
+    margin-top: var(--space-sm);
+    border-bottom: 1px solid var(--color-border-subtle);
+  }
+  .day-nav__btn,
+  .want-btn,
+  .icon {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  .act-card__name { font-size: 1.3rem; }
+  .act-card__thumb { width: 3.6rem; height: 3.6rem; flex-basis: 3.6rem; }
 }

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-hidden="true">
+  <rect width="512" height="512" fill="#4a8bc2"/>
+  <ellipse cx="256" cy="430" rx="420" ry="250" fill="#f4d35e"/>
+  <ellipse cx="256" cy="430" rx="350" ry="208" fill="#f08a4b"/>
+  <ellipse cx="256" cy="430" rx="280" ry="166" fill="#e23b8a"/>
+  <ellipse cx="256" cy="430" rx="210" ry="124" fill="#c42a7a"/>
+  <ellipse cx="256" cy="430" rx="140" ry="82" fill="#f3d4e4"/>
+  <text x="256" y="210" text-anchor="middle" font-size="148" font-weight="800" fill="#ffffff" font-family="Segoe UI, system-ui, sans-serif">EP</text>
+</svg>

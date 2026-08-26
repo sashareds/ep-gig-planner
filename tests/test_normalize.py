@@ -30,6 +30,18 @@ MARY_BLURB = (
 )
 
 
+def test_validate_dump_rejects_thin_or_wrong_event():
+    with pytest.raises(SystemExit):
+        normalize.validate_dump({"id": "other", "auth": {"result": "pass"}, "locations": []})
+    with pytest.raises(SystemExit):
+        normalize.validate_dump({"id": "ep26", "auth": {"result": "fail"}, "locations": [{"events": [{}] * 200}]})
+    with pytest.raises(SystemExit):
+        normalize.validate_dump({"id": "ep26", "auth": {"result": "pass"}, "locations": []})
+    normalize.validate_dump(
+        {"id": "ep26", "auth": {"result": "pass"}, "locations": [{"events": [{}] * 100}]}
+    )
+
+
 def test_festival_day_folds_late_night_onto_previous_day():
     friday_late = datetime(2026, 8, 29, 0, 35)
     assert normalize.festival_day(friday_late) == "2026-08-28"

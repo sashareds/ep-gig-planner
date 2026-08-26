@@ -1,0 +1,33 @@
+{
+  "name": "Electric Picnic 2026 planner",
+  "short_name": "EP26",
+  "description": "Day-split gig planner for Electric Picnic 2026 at Stradbally.",
+  "id": "/ep-gig-planner/",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#4a8bc2",
+  "theme_color": "#4a8bc2",
+  "lang": "en-IE",
+  "icons": [
+    {
+      "src": "img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
