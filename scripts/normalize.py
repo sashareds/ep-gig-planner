@@ -109,7 +109,7 @@ def classify_genres(
 ) -> list[str]:
     mapped: list[str] = []
     if discogs:
-        mapped = list(discogs.get("mapped") or [])
+        mapped = list(discogs.get("itunes_mapped") or []) or list(discogs.get("mapped") or [])
         if not mapped:
             mapped = map_discogs(discogs.get("genres") or [], discogs.get("styles") or [])
     if mapped:

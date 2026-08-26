@@ -85,10 +85,10 @@
   --color-input-border-focus: var(--ep-sky);
   --color-chip-electronic: var(--ep-mauve);
   --color-chip-pop: var(--ep-gold);
-  --color-chip-rock: var(--ep-peach);
+  --color-chip-rock: #a43d12;
   --color-chip-folk: var(--ep-sky);
   --color-chip-hiphop: #7b4db0;
-  --color-chip-soul: #d45d4c;
+  --color-chip-soul: #6b1f18;
   --color-hero-scrim: rgb(46 79 118 / 0.4);
   --shadow-hero-text: 0 2px 16px rgb(46 79 118 / 0.5);
 
@@ -106,26 +106,6 @@
   --opacity-muted: 0.6;
   --duration-busy: 300ms;
   --letter-kicker: 0.08em;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --color-bg-page: #12151c;
-    --color-bg-surface: #1a1f29;
-    --color-bg-header: #161b24;
-    --color-bg-aside: #151922;
-    --color-bg-chip: #2a3140;
-    --color-bg-clash: #3a1c24;
-    --color-bg-tight: #3a2a18;
-    --color-text-primary: var(--ep-cream);
-    --color-text-secondary: #b7c0ce;
-    --color-text-accent: var(--ep-peach);
-    --color-border-subtle: #27272a;
-    --color-input-bg: var(--color-bg-surface);
-    --color-input-border: var(--color-border-subtle);
-    --color-input-border-focus: var(--ep-gold);
-  }
 }
 
 html[data-theme="dark"] {

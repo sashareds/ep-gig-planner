@@ -4,16 +4,22 @@
     "genres": [
       "Pop"
     ],
-    "image": "https://i.discogs.com/tLPoyUyd4u53QqBCQW6SK9ytd1gsbf5m-ZJjmlyHGgY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTkxODE0/NzEtMTc0NjI5Njkz/Ni05MjMwLmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/a0/3a/dea03a11-2d66-b01e-2815-e0fa7f851d02/5054429214772.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic",
+      "pop",
+      "rock"
+    ],
     "mapped": [
       "pop"
     ],
+    "media_source": "itunes",
     "query": "49th & Main",
     "source": "discogs",
     "styles": [
       "Indie Pop"
     ],
-    "thumb": "https://i.discogs.com/upPck_JyfN0J0VZ1MUO9yjHrEcs_UYmADOSCivf1_t4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTkxODE0/NzEtMTc0NjI5Njkz/Ni05MjMwLmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/a0/3a/dea03a11-2d66-b01e-2815-e0fa7f851d02/5054429214772.png/200x200bb.jpg"
   },
   "7LZ": {
     "bio": "",
@@ -62,6 +68,9 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/19/e8/5419e883-3cc4-5d8b-a10d-c1fee1f5c969/26UMGIM82372.rgb.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop"
+    ],
     "mapped": [
       "pop",
       "electronic"
@@ -90,22 +99,31 @@
       "Pop",
       "Folk, World, & Country"
     ],
-    "image": "https://i.discogs.com/simbtL0VFHgfUy52Ue5GsODFWIGJ0zWCKG8YnexA2vw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE3Njk5/Njc2LTE3ODUzNjY1/MzMtNzU3Ni5wbmc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6c/f4/24/6cf42450-9fef-0d0f-a87b-4733a5db3796/196874250587.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [
       "soul",
       "pop",
       "folk"
     ],
+    "media_source": "itunes",
     "query": "Aaron Rowe",
     "source": "discogs",
     "styles": [
       "Indie Pop"
     ],
-    "thumb": "https://i.discogs.com/yg2K3fJ2phei8hC2dv5Oiq5nZEcyiViUnI4395hJVZs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE3Njk5/Njc2LTE3ODUzNjY1/MzMtNzU3Ni5wbmc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6c/f4/24/6cf42450-9fef-0d0f-a87b-4733a5db3796/196874250587.jpg/200x200bb.jpg"
   },
   "Ab Stylez": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/89/62/3d/89623dfd-9e4c-78eb-0290-4216b45a0a40/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "rock",
+      "hiphop"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Ab Stylez",
@@ -122,10 +140,16 @@
   },
   "Aifric": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/67/c4/3f67c419-8e49-d9cd-b544-aa7e9984bcc3/823375105923_Cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Aifric",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/67/c4/3f67c419-8e49-d9cd-b544-aa7e9984bcc3/823375105923_Cover.jpg/200x200bb.jpg"
   },
   "Aimee": {
     "bio": "Vocalist appearing on releases by [a=A Silver Mt. Zion] in 2003 and 2004.\r\nNot to be confused with Irish pop singer [a=Aim\u00e9e (5)] aka Aimee Fitzpatrick.",
@@ -134,6 +158,10 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/ec/fd/41ecfd90-8cef-3c53-a296-ef26987d1167/810482514021.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "rock"
+    ],
     "mapped": [
       "rock",
       "pop"
@@ -167,18 +195,22 @@
       "Folk, World, & Country",
       "Electronic"
     ],
-    "image": "",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/e3/b6/35e3b648-99da-5cd5-6082-4db4ff82d70d/859739795813_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [
       "folk",
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Al Baker",
     "source": "discogs",
     "styles": [
       "Bluegrass",
       "Tropical House"
     ],
-    "thumb": ""
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/e3/b6/35e3b648-99da-5cd5-6082-4db4ff82d70d/859739795813_cover.jpg/200x200bb.jpg"
   },
   "Ali Kemal Ali": {
     "genres": [],
@@ -203,6 +235,10 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c3/77/d9/c377d9ab-d34d-506f-fb3f-457b4d55d633/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "folk"
+    ],
     "mapped": [
       "pop",
       "folk",
@@ -226,11 +262,15 @@
       "Stage & Screen",
       "Jazz"
     ],
-    "image": "https://i.discogs.com/RCyuyniPMWWbPTSdgzqylSkP-JzoC403Ploims7o_RM/rs:fit/g:sm/q:90/h:395/w:573/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTkwNjA2/OC0xMjI2MjQxODQ4/LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/af/1a/23/af1a238a-06a9-3ede-0ac4-c9e88e3694d3/00724359360850.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [
       "folk",
       "rock"
     ],
+    "media_source": "itunes",
     "query": "Altan",
     "source": "discogs",
     "styles": [
@@ -241,7 +281,7 @@
       "Folk",
       "Score"
     ],
-    "thumb": "https://i.discogs.com/H-FLMwGQ-T-c3_bPA9AASt0EieGmeZcFMQwCRRv-9hE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTkwNjA2/OC0xMjI2MjQxODQ4/LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/af/1a/23/af1a238a-06a9-3ede-0ac4-c9e88e3694d3/00724359360850.jpg/200x200bb.jpg"
   },
   "Amble": {
     "bio": "Amble is an Irish folk band formed in 2022. The band is made up of members Robbie Cunningham, Ois\u00edn McCaffrey, and Ross McNerney.\r\n\r\nThe band was originally formed by Cunningham and McCaffrey as a duo in 2022. Their main aim was to play cover songs in pubs in order to obtain free pints. McNerney was added to the band due to his skills playing the mandolin and banjo.\r\n\r\nAfter playing a concert in Leitrim, McNerney suggested that the band become a serious endeavour. At the time, McCaffrey was working as a data scientist and programmer at Pfizer, Cunningham was a primary school teacher in Terenure, and McNerney was a secondary school teacher.\r\n\r\nBy 2024, all three members had quit their jobs after signing a recording contract with Warner Records. When Cunningham told his father that he would quit his job, his father responded with the phrase, \"throw the trout out to catch the salmon\". The phrase, which the band has described as \"resonating\", has appeared on official merchandise.",
@@ -251,6 +291,9 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/20/7b/c2/207bc29e-170b-71a1-cccd-824710e589aa/093624831969.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [
       "folk",
       "rock",
@@ -288,6 +331,10 @@
       "Folk, World, & Country"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/17/61/b7/1761b7a4-fdfe-6227-f9ba-23441f2be357/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic",
+      "hiphop"
+    ],
     "mapped": [
       "electronic",
       "rock",
@@ -321,6 +368,11 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/16/80/26/16802661-0c19-d840-1009-7d231e2d6d67/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop",
+      "folk"
+    ],
     "mapped": [
       "pop",
       "folk",
@@ -339,6 +391,9 @@
   "Anna's Number": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/9d/cf/879dcf1d-b6fa-8a60-eaac-32a723c3699e/4130431.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Anna's Number",
@@ -359,6 +414,9 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6d/de/e4/6ddee4e6-c2ee-9e54-23b5-0b25d139e0d4/075679822796.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -377,6 +435,9 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/2c/55/2c2c557a-cec2-c3f1-c48c-b9223442f1fd/196873397825.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop"
+    ],
     "mapped": [
       "pop"
     ],
@@ -392,6 +453,9 @@
   "Avenue 68": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/1b/4f/5c1b4f55-50b0-4355-8095-501b87ef5621/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Avenue 68",
@@ -404,10 +468,14 @@
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/tucauD45m4sZc-eTlZZp94TAF6tdL-l0e_HCiQdPn9k/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTczNjM1/NTMtMTU5ODcyMjky/NS05MTQxLmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/32/33/15/32331509-fbc8-0e0f-ebbe-ecfd4eabc68d/f507a929-fcdd-43fa-b5c9-a8839d34a23a.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Azu Tiwaline",
     "source": "discogs",
     "styles": [
@@ -418,7 +486,7 @@
       "Deep Techno",
       "Minimal Techno"
     ],
-    "thumb": "https://i.discogs.com/JmcPeHH5_g5ir_kkAkRkxE9cqKSAwZjWBohNtsJbcvk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTczNjM1/NTMtMTU5ODcyMjky/NS05MTQxLmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/32/33/15/32331509-fbc8-0e0f-ebbe-ecfd4eabc68d/f507a929-fcdd-43fa-b5c9-a8839d34a23a.jpg/200x200bb.jpg"
   },
   "BABYRAT": {
     "genres": [],
@@ -442,6 +510,10 @@
       "Jazz"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/b3/8c/95/mzi.qhfktrcy.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "electronic"
+    ],
     "mapped": [
       "folk",
       "electronic"
@@ -546,6 +618,11 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d9/a7/4c/d9a74cad-c82f-fd7c-c7c8-7d7124edaa24/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "rock",
+      "pop"
+    ],
     "mapped": [
       "folk",
       "pop"
@@ -621,6 +698,11 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2c/d9/17/2cd91791-97cf-9538-0c96-4f1a9ee05285/8718521119881.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop",
+      "hiphop"
+    ],
     "mapped": [
       "rock"
     ],
@@ -639,11 +721,15 @@
       "Electronic",
       "Rock"
     ],
-    "image": "https://i.discogs.com/Ei-1F51o-6HVUEAaNkfiuXeSGP24E_tFD14JTAa2LAI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MjY3/MDA4LTE3NTk0NDI3/NDgtMzkwNi5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/91/c6/7c/91c67c06-5405-282d-c650-fd6629596513/732138467041_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic",
       "rock"
     ],
+    "media_source": "itunes",
     "query": "Baw",
     "source": "discogs",
     "styles": [
@@ -651,7 +737,7 @@
       "Indie Rock",
       "Punk"
     ],
-    "thumb": "https://i.discogs.com/i-Yko4dzm4TgS9QkF72diuCwKSuSmC8FNa_pcKe1kO8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MjY3/MDA4LTE3NTk0NDI3/NDgtMzkwNi5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/91/c6/7c/91c67c06-5405-282d-c650-fd6629596513/732138467041_cover.jpg/200x200bb.jpg"
   },
   "Baz Hickey": {
     "bio": "",
@@ -675,6 +761,9 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/49/b5/72/49b5721f-d4c0-7f67-5bb5-91816bd9e9b2/5905279281233.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "rock"
     ],
@@ -692,16 +781,20 @@
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/LW6dPeeYjJYSqJGHx82WFAkXxzQJQ2ViwfSnUiJppOI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEwMzkz/Njc4LTE2NTU5MTkw/NDQtODE2My5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9e/05/fb/9e05fbaf-900c-7f1e-9790-1b0a5b681740/22UM1IM34489.rgb.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Belters Only",
     "source": "discogs",
     "styles": [
       "House"
     ],
-    "thumb": "https://i.discogs.com/vnWQHzXcU2uMpAAKYqrCKm4uyQa1TNo3VTvbXtWmPr8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEwMzkz/Njc4LTE2NTU5MTkw/NDQtODE2My5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9e/05/fb/9e05fbaf-900c-7f1e-9790-1b0a5b681740/22UM1IM34489.rgb.jpg/200x200bb.jpg"
   },
   "Ben Hemsley": {
     "bio": "",
@@ -709,6 +802,9 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4f/99/88/4f9988d4-913d-87db-0630-684a2eb56541/196871940276.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -746,6 +842,9 @@
       "Funk / Soul"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ba/0c/01/ba0c01df-e99e-4789-8c15-c4b0aec36950/195999124902.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "hiphop",
       "soul"
@@ -761,10 +860,16 @@
   },
   "Black Nylon": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/c4/5a/53c45ae4-7ae7-d318-6563-f67bd715b709/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Black Nylon",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/c4/5a/53c45ae4-7ae7-d318-6563-f67bd715b709/artwork.jpg/200x200bb.jpg"
   },
   "Black Nylon DJ": {
     "genres": [],
@@ -778,10 +883,14 @@
     "genres": [
       "Rock"
     ],
-    "image": "https://i.discogs.com/iNnxYVRHbV9k3EdXUO1IIGcfgvfvzCiwwaos-Rik9KI/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2ODk0/ODkxLTE3Nzg1OTgw/NDEtODcyMi5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f7/ba/bb/f7babb23-c354-75b8-2aec-7f5d7d8ea41c/26UMGIM35329.rgb.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "rock"
     ],
+    "media_source": "itunes",
     "query": "Bleech 9:3",
     "source": "discogs",
     "styles": [
@@ -790,7 +899,7 @@
       "Indie Rock",
       "Nu Metal"
     ],
-    "thumb": "https://i.discogs.com/OeUR3awkYO7LsyboTIjTODX6weS-7y37hos3aEh_pho/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2ODk0/ODkxLTE3Nzg1OTgw/NDEtODcyMi5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f7/ba/bb/f7babb23-c354-75b8-2aec-7f5d7d8ea41c/26UMGIM35329.rgb.jpg/200x200bb.jpg"
   },
   "Bl\u00e1ith\u00edn De Burca - BlaComedy": {
     "genres": [],
@@ -814,11 +923,16 @@
       "Non-Music",
       "Jazz"
     ],
-    "image": "https://i.discogs.com/yw9RHNKU8gx7P__i1XOfaJuTcbIuXylDxkpb6FFfMgQ/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQwODkz/OTktMTQ1MTc5NjQ4/NC0yMzczLmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d8/41/0b/d8410b95-12f9-c6e4-7e22-6f6c752b0d5c/196925251105.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "folk"
+    ],
     "mapped": [
       "rock",
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Bog Bodies",
     "source": "discogs",
     "styles": [
@@ -829,7 +943,7 @@
       "Noise",
       "Contemporary"
     ],
-    "thumb": "https://i.discogs.com/kForUhNDfeewaIQW9_HphwBXorfo6aov88Kmbu_fLbE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQwODkz/OTktMTQ1MTc5NjQ4/NC0yMzczLmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d8/41/0b/d8410b95-12f9-c6e4-7e22-6f6c752b0d5c/196925251105.jpg/200x200bb.jpg"
   },
   "Boss Events & Friends (Abbey Blu, Angel Rose, Shiloh Grey, Mister K.Y.B": {
     "genres": [],
@@ -840,10 +954,16 @@
   },
   "Bren Curtis": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/17/45/9a/17459a02-eee5-9bea-cade-92edadcfd181/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Bren Curtis",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/17/45/9a/17459a02-eee5-9bea-cade-92edadcfd181/cover.jpg/200x200bb.jpg"
   },
   "Bricknasty": {
     "bio": "",
@@ -853,12 +973,17 @@
       "Folk, World, & Country",
       "Funk / Soul"
     ],
-    "image": "https://i.discogs.com/lXYTh-IoAgaX5Yvvyjgvx9g1ASvB-sqo5z9Ji2Q2NiY/rs:fit/g:sm/q:90/h:721/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExODc1/NjEwLTE3NjI0NjQ0/MjAtNjc2Mi5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/b9/f6/10b9f66a-762d-f061-41a5-3793003acb08/820233921664.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "soul"
+    ],
     "mapped": [
       "hiphop",
       "folk",
       "soul"
     ],
+    "media_source": "itunes",
     "query": "Bricknasty",
     "source": "discogs",
     "styles": [
@@ -868,7 +993,7 @@
       "Jazzy Hip-Hop",
       "Soul-Jazz"
     ],
-    "thumb": "https://i.discogs.com/R2sQqUeIJSXIhRZAPZ4o_kSOAAVFE1O8NxdQEi9OFa0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExODc1/NjEwLTE3NjI0NjQ0/MjAtNjc2Mi5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/b9/f6/10b9f66a-762d-f061-41a5-3793003acb08/820233921664.jpg/200x200bb.jpg"
   },
   "Brooki": {
     "genres": [],
@@ -882,10 +1007,14 @@
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/gHFqS8S9Wyfd9HtXssrGYy5yXHhiCXoJl7kOyZ8_elA/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4MDY2/Mi0xNDkzNTg2NDY3/LTEzNDIuanBlZw.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/20/09/76200940-14c2-d362-1f9f-b230a45bf893/8718522546136.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Bryan Kearney",
     "source": "discogs",
     "styles": [
@@ -893,7 +1022,7 @@
       "Tech Trance",
       "Psy-Trance"
     ],
-    "thumb": "https://i.discogs.com/feD-RatDknF4EiWFc-BgR_fAh-imPM7EsGUoQm-1ATQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4MDY2/Mi0xNDkzNTg2NDY3/LTEzNDIuanBlZw.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/20/09/76200940-14c2-d362-1f9f-b230a45bf893/8718522546136.png/200x200bb.jpg"
   },
   "Burglar": {
     "bio": "",
@@ -917,21 +1046,31 @@
     "genres": [
       "Rock"
     ],
-    "image": "https://i.discogs.com/1d4TRsiDEjEGlLFEqBSTTEumOEy8Ms-QySzveRHL-_4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQyMjcw/MzktMTQ4MjU4OTI2/OC02ODAzLmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4b/a4/16/4ba416ee-dcd9-1b2f-d6c2-93fc88a235c9/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "folk",
+      "rock"
+    ],
     "mapped": [
       "rock"
     ],
+    "media_source": "itunes",
     "query": "Burnchurch",
     "source": "discogs",
     "styles": [
       "Punk",
       "Crust"
     ],
-    "thumb": "https://i.discogs.com/i0HToQgNk7nGiY8Z9SIZHTOtbwTJ678oQ4NoSaTjBDw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQyMjcw/MzktMTQ4MjU4OTI2/OC02ODAzLmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4b/a4/16/4ba416ee-dcd9-1b2f-d6c2-93fc88a235c9/artwork.jpg/200x200bb.jpg"
   },
   "CALUM AGNEW": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/04/77/c704770b-8c1e-ffe0-9ac5-735197eb127f/199538266818.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul",
+      "pop"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "CALUM AGNEW",
@@ -952,6 +1091,10 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/97/06/47970610-299f-8edc-c5cb-9155cd751d02/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop"
+    ],
     "mapped": [
       "rock"
     ],
@@ -980,6 +1123,10 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e6/c3/53/e6c35338-0657-8116-3e79-70ce6f63bb23/5056167171362.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop"
+    ],
     "mapped": [
       "pop",
       "folk",
@@ -1004,6 +1151,10 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/51/77/64/51776402-9d3d-6415-59db-3d770d0fd000/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "soul"
+    ],
     "mapped": [
       "electronic",
       "pop"
@@ -1062,11 +1213,16 @@
       "Hip Hop",
       "Electronic"
     ],
-    "image": "",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/cb/85/a1cb8529-83f2-823b-47d9-e484beb4b9e2/6nMRMLpM9G5Ky-back-and-boomin-5-original-copy-65491c0e.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul",
+      "hiphop"
+    ],
     "mapped": [
       "hiphop",
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "CSD",
     "source": "discogs",
     "styles": [
@@ -1077,7 +1233,7 @@
       "Industrial",
       "Noise"
     ],
-    "thumb": ""
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/cb/85/a1cb8529-83f2-823b-47d9-e484beb4b9e2/6nMRMLpM9G5Ky-back-and-boomin-5-original-copy-65491c0e.png/200x200bb.jpg"
   },
   "CamrinWatsin": {
     "bio": "Multi-Platinum Selling, Brit Nominated, Irish Artist.",
@@ -1085,17 +1241,22 @@
       "Electronic",
       "Pop"
     ],
-    "image": "https://i.discogs.com/L-3K3GfVNbosXswjW5OEkQAfMRQhVY5KGUP9_ocKp3I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE0MzY1/NjU4LTE3ODE0NTI1/MzMtMjc4MS5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0a/4e/43/0a4e431c-588c-dd67-a475-4a3d6d6121cb/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic",
+      "pop"
+    ],
     "mapped": [
       "electronic",
       "pop"
     ],
+    "media_source": "itunes",
     "query": "CamrinWatsin",
     "source": "discogs",
     "styles": [
       "House"
     ],
-    "thumb": "https://i.discogs.com/EQtqAResmFROuqZmcmSIhfxFsD_Kd9APys_R2srC2yM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE0MzY1/NjU4LTE3ODE0NTI1/MzMtMjc4MS5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0a/4e/43/0a4e431c-588c-dd67-a475-4a3d6d6121cb/artwork.jpg/200x200bb.jpg"
   },
   "Caoimh\u00edn": {
     "bio": "Atmospheric Post-Black Metal band with members from The United States and Norway.",
@@ -1106,6 +1267,9 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b3/c0/b9/b3c0b9f5-2f70-bd0c-825a-bdd644f14ba1/0884108008294_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [
       "folk",
       "rock"
@@ -1209,10 +1373,15 @@
     "genres": [
       "Rock"
     ],
-    "image": "https://i.discogs.com/yBw_GH-qHVTl-3L4Yuq7H2iBQPv5IskbybEG_eMrOJQ/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE3NTU0/ODU3LTE3NzU4ODgx/MjgtNzMxNy5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/97/06/47970610-299f-8edc-c5cb-9155cd751d02/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop"
+    ],
     "mapped": [
       "rock"
     ],
+    "media_source": "itunes",
     "query": "Child of Prague",
     "source": "discogs",
     "styles": [
@@ -1220,7 +1389,7 @@
       "Art Rock",
       "Folk Rock"
     ],
-    "thumb": "https://i.discogs.com/6i4LpZC16ViURsVWRLWJnZbQOsksKwWJCDrELI_FPw8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE3NTU0/ODU3LTE3NzU4ODgx/MjgtNzMxNy5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/97/06/47970610-299f-8edc-c5cb-9155cd751d02/cover.jpg/200x200bb.jpg"
   },
   "Chris Watson": {
     "bio": "Christopher Richard \"Chris\" Watson is a Sheffield-born British musician and sound recordist specialising in natural history. \r\n\r\nA former & founding member of [a=Cabaret Voltaire] and The Hafler Trio, Watson has worked on numerous TV and radio documentaries for BBC, as well as other projects.  In addition, he has also released a number of solo and collaborative records, generally on the [l=Touch] label, which are derived from his location recordings.",
@@ -1229,6 +1398,10 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/55/22/92/552292ae-18f4-5a96-67ac-f02d541537e6/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic",
+      "rock"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -1250,6 +1423,9 @@
       "Classical"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/79/de/6579de94-5e43-9b30-51b7-4d6743245eee/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic",
       "pop"
@@ -1269,10 +1445,17 @@
   },
   "Ciara E": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0e/de/33/0ede33e6-b1f6-991e-2a48-8fddebb3962d/mzi.mgsfmcfa.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul",
+      "pop"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Ciara E",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0e/de/33/0ede33e6-b1f6-991e-2a48-8fddebb3962d/mzi.mgsfmcfa.jpg/200x200bb.jpg"
   },
   "Ciaran Moran": {
     "genres": [],
@@ -1286,10 +1469,14 @@
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/CvOW9zisPZMitq2yOgnmvYfMTiGzo1jYpbs-VBg_4I0/rs:fit/g:sm/q:90/h:424/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc0NjE3/MC0xNjY4MjcxODU3/LTQzOTAuanBlZw.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c9/1c/fe/c91cfece-d713-4acb-36ec-f9c9fe46e5f6/5056467311376_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Cinthie",
     "source": "discogs",
     "styles": [
@@ -1300,7 +1487,7 @@
       "Acid House",
       "UK Garage"
     ],
-    "thumb": "https://i.discogs.com/YxUuyaGyb8Ei4b-M_AEhLHm81b1Eeh6T_QiUIIZPjQo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc0NjE3/MC0xNjY4MjcxODU3/LTQzOTAuanBlZw.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c9/1c/fe/c91cfece-d713-4acb-36ec-f9c9fe46e5f6/5056467311376_cover.jpg/200x200bb.jpg"
   },
   "City Stages": {
     "genres": [],
@@ -1312,6 +1499,10 @@
   "Clada": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1b/40/ff/1b40ff4b-0259-20c1-7eac-6b8aed061e12/SGG5032.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "electronic"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Clada",
@@ -1321,10 +1512,16 @@
   },
   "Claire Beck": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/bd/76/c7/bd76c796-ebdc-e9f3-4b27-599b4c91e421/888295111928_cover.tif/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Claire Beck",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/bd/76/c7/bd76c796-ebdc-e9f3-4b27-599b4c91e421/888295111928_cover.tif/200x200bb.jpg"
   },
   "Claire Beck's Sunday Revival": {
     "genres": [],
@@ -1339,6 +1536,9 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d7/bd/e2/d7bde26e-7cfa-d4a1-2f95-2e58f6c17ace/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [
       "pop"
     ],
@@ -1356,18 +1556,23 @@
       "Rock",
       "Pop"
     ],
-    "image": "https://i.discogs.com/Qf4mfFlOfxW9zSelaHMyD1y7KEG7rPwS6nmU1e2UtEA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU2NDUz/NDgtMTc0ODYzNzE0/Ni02MzM5LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/99/aa/0299aa26-923a-556e-c5c9-f5c7126b4844/196873131184.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop"
+    ],
     "mapped": [
       "rock",
       "pop"
     ],
+    "media_source": "itunes",
     "query": "Cliffords",
     "source": "discogs",
     "styles": [
       "Indie Rock",
       "Indie Pop"
     ],
-    "thumb": "https://i.discogs.com/jAxPaKt_-5-7ccqXB7wQ4DPxTDJBTxzyKz78EXC2ouU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU2NDUz/NDgtMTc0ODYzNzE0/Ni02MzM5LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/99/aa/0299aa26-923a-556e-c5c9-f5c7126b4844/196873131184.jpg/200x200bb.jpg"
   },
   "Cliffords DJ": {
     "genres": [],
@@ -1402,6 +1607,9 @@
   "Code of Behaviour": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/93/87/8e938750-8f62-556a-ee34-4d8f1f060cfc/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Code of Behaviour",
@@ -1415,6 +1623,9 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/49/81/8e/49818e41-95ee-ca40-e5cd-7962bd6a6e88/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -1434,15 +1645,20 @@
       "Hip Hop",
       "Reggae"
     ],
-    "image": "https://i.discogs.com/0tTQj5YF8XbGv-EKjthnrG2IbcQ2FSZS3OEty6i4Yhc/rs:fit/g:sm/q:90/h:350/w:350/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyODg3/MzQtMTI1ODAzNzI3/MS5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/4b/10/d04b10d1-7a28-1573-e143-00ab9f91f696/859726926497_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul",
+      "hiphop"
+    ],
     "mapped": [
       "hiphop",
       "soul"
     ],
+    "media_source": "itunes",
     "query": "Collie",
     "source": "discogs",
     "styles": [],
-    "thumb": "https://i.discogs.com/Ac5rx5L-8fMrOEmj9uD2lXhPR4ScKSEcmtF9V2wXVsc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyODg3/MzQtMTI1ODAzNzI3/MS5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/4b/10/d04b10d1-7a28-1573-e143-00ab9f91f696/859726926497_cover.jpg/200x200bb.jpg"
   },
   "Cosc\u00e1n": {
     "bio": "",
@@ -1450,6 +1666,9 @@
       "Folk, World, & Country"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/a2/da/3d/a2da3de2-d38d-6cce-5081-7c01515c75fa/192914129912.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [
       "folk"
     ],
@@ -1469,6 +1688,7 @@
       "Folk, World, & Country"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0e/bd/1a/0ebd1a76-50cf-51a1-b61a-1db9215d30c4/604220355553.jpg/600x600bb.jpg",
+    "itunes_mapped": [],
     "mapped": [
       "soul",
       "folk"
@@ -1487,6 +1707,9 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/91/5c/43915c1a-f4f1-8e70-f829-03c80579ed4b/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "rock"
     ],
@@ -1543,6 +1766,9 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/6b/60/786b600e-4e56-b7e7-feb0-ef431f33bb52/199199414429.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -1583,21 +1809,33 @@
     "genres": [
       "Rock"
     ],
-    "image": "https://i.discogs.com/014ewsoMS2zVV7aODwQIcOds1BkK_BmTLb2uwkawyZc/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTkxOTU1/Ny0xNDU5MTA2Njk5/LTkxNTguanBlZw.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/68/77/52/6877524b-da6b-c1c6-4ab6-37d1b0138118/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic",
+      "folk"
+    ],
     "mapped": [
       "rock"
     ],
+    "media_source": "itunes",
     "query": "DAVID GERAGHTY",
     "source": "discogs",
     "styles": [],
-    "thumb": "https://i.discogs.com/ZMHPVrRzzIN4Ip4UD5a4BaMQuk-ErwX5M7Aujl2T-o0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTkxOTU1/Ny0xNDU5MTA2Njk5/LTkxNTguanBlZw.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/68/77/52/6877524b-da6b-c1c6-4ab6-37d1b0138118/artwork.jpg/200x200bb.jpg"
   },
   "DEAR WILLOW": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/24/af/91/24af9100-9c8f-a7f7-3766-2cf7e479da1b/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "folk"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "DEAR WILLOW",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/24/af/91/24af9100-9c8f-a7f7-3766-2cf7e479da1b/cover.jpg/200x200bb.jpg"
   },
   "DELUSH": {
     "bio": "",
@@ -1608,6 +1846,11 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e6/2e/84/e62e8489-084c-0fee-f839-fcf81a6102c1/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "electronic",
+      "rock"
+    ],
     "mapped": [
       "rock",
       "hiphop",
@@ -1676,10 +1919,16 @@
   },
   "DJ Deece": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/66/2c/ab662ca5-a903-57a9-693b-4f0352d95640/5059449013596.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "DJ Deece",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/66/2c/ab662ca5-a903-57a9-693b-4f0352d95640/5059449013596.png/200x200bb.jpg"
   },
   "DJ Denfensive": {
     "genres": [],
@@ -1797,14 +2046,23 @@
   },
   "DJammin": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/48/90/9f/48909ff5-d006-ef51-6df8-63c1d83451d6/197189179556.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "DJammin",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/48/90/9f/48909ff5-d006-ef51-6df8-63c1d83451d6/197189179556.jpg/200x200bb.jpg"
   },
   "DOGPOND": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/b6/2e/a8b62e01-d846-c83f-cb67-564c2b2961c8/198026231642.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "DOGPOND",
@@ -1869,19 +2127,25 @@
       "Rock",
       "Pop"
     ],
-    "image": "https://i.discogs.com/z5o6bFupfEmYldwVeN2sECc056Oh5rOLF-Af23QU8M4/rs:fit/g:sm/q:90/h:567/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTkyMDE1/NS0xNTEwNjk4OTQw/LTc4OTMuanBlZw.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/54/a5/0254a596-4177-b239-7624-42526790f84a/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "pop",
+      "rock"
+    ],
     "mapped": [
       "folk",
       "rock",
       "pop"
     ],
+    "media_source": "itunes",
     "query": "Damien Dempsey",
     "source": "discogs",
     "styles": [
       "Folk",
       "Celtic"
     ],
-    "thumb": "https://i.discogs.com/pmo3I3xxnb_uDs8gmbi0l5vTWhb3JZeKzpG5_bnUhDo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTkyMDE1/NS0xNTEwNjk4OTQw/LTc4OTMuanBlZw.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/54/a5/0254a596-4177-b239-7624-42526790f84a/cover.jpg/200x200bb.jpg"
   },
   "Dancenasty": {
     "genres": [],
@@ -1940,6 +2204,11 @@
   "Darren Kiely": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f9/fe/04/f9fe0498-b014-62d0-90aa-8eacf6a1952b/196871566520.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop",
+      "folk"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Darren Kiely",
@@ -1952,16 +2221,20 @@
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/gskWTbbYi4YBBV9_wD-t61L9Pp1UVD3dfuTfW7EThhY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDQ5/NTM4LTE2MzAzMjM1/NjgtMjAzOC5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/e5/1b/c2e51b6a-30cb-d5e1-6bf6-3dc3e660d7ed/8715576212796_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Darren Regan",
     "source": "discogs",
     "styles": [
       "House"
     ],
-    "thumb": "https://i.discogs.com/21WjD4Uv-NSk5mvYMZOwoslHSMvLCtETwVNzfHcwmFU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDQ5/NTM4LTE2MzAzMjM1/NjgtMjAzOC5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/e5/1b/c2e51b6a-30cb-d5e1-6bf6-3dc3e660d7ed/8715576212796_cover.jpg/200x200bb.jpg"
   },
   "Dave & Fionnuala": {
     "genres": [],
@@ -1972,10 +2245,17 @@
   },
   "Dave Lofts": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/79/66/3a7966d2-c162-3f0b-7e81-980ae92cf8f6/859732759447_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "rock"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Dave Lofts",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/79/66/3a7966d2-c162-3f0b-7e81-980ae92cf8f6/859732759447_cover.jpg/200x200bb.jpg"
   },
   "Dave Moore": {
     "bio": "Producer - engineer\r\nHe has worked at Phoenix Sound Studios (at both Wembley and Pinewood Studios) in 2003 - 2004",
@@ -1985,6 +2265,9 @@
       "Blues"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m04/d18/h13/s05.vpqxfmkz.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [
       "rock",
       "folk"
@@ -2005,6 +2288,9 @@
   "Dave Treacy": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ad/01/41/ad014186-4fad-622a-28aa-a9db578ed272/199538239454.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Dave Treacy",
@@ -2027,6 +2313,11 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/a8/f1/d7/a8f1d799-1909-09ff-6eee-8efc306132a8/859739299502_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop",
+      "pop",
+      "soul"
+    ],
     "mapped": [
       "hiphop",
       "soul",
@@ -2074,12 +2365,16 @@
       "Pop",
       "Electronic"
     ],
-    "image": "https://i.discogs.com/K0xzNg_8fXUvLr1GABNG9Ly5L_arR-ngJFHbip1XSNM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTcyODE1/MzItMTc2NzUzNDE2/My0zMDA4LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/20/c4/3e20c433-92a9-8866-ee86-b6dc6bc5e76d/199066503560.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "rock",
       "pop",
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Djo",
     "source": "discogs",
     "styles": [
@@ -2090,11 +2385,12 @@
       "Indie Pop",
       "Synth-pop"
     ],
-    "thumb": "https://i.discogs.com/WTC0zxs3aAit4nTpsDiTybDwy9cvX8ytuevMreGTsJY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTcyODE1/MzItMTc2NzUzNDE2/My0zMDA4LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/20/c4/3e20c433-92a9-8866-ee86-b6dc6bc5e76d/199066503560.jpg/200x200bb.jpg"
   },
   "Donna Leake": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f7/eb/7e/f7eb7ed8-6a00-3648-5ac7-39d34694b5d4/donna-leake_image-jkqkysqaka.jpg/600x600bb.jpg",
+    "itunes_mapped": [],
     "mapped": [],
     "media_source": "itunes",
     "query": "Donna Leake",
@@ -2109,11 +2405,15 @@
       "Classical",
       "Electronic"
     ],
-    "image": "https://i.discogs.com/NXLPVTlghNZBwbd5leqF3onQZ6PUvSzigl0ofD3HHpE/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNDkz/OTY4LTE0OTg1OTA1/ODUtMzc4Mi5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c7/0a/ec/c70aeccf-e910-f4f8-9dd4-b3df32232391/190374305723.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [
       "folk",
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Dord\u00e1n",
     "source": "discogs",
     "styles": [
@@ -2123,14 +2423,18 @@
       "New Age",
       "Baroque"
     ],
-    "thumb": "https://i.discogs.com/FXtmclbytjosDaSdgvdzky_pBIgagEhDvy57RSlfJxQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNDkz/OTY4LTE0OTg1OTA1/ODUtMzc4Mi5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c7/0a/ec/c70aeccf-e910-f4f8-9dd4-b3df32232391/190374305723.png/200x200bb.jpg"
   },
   "DrowZeeDan": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/88/c2/3c88c2f5-a5a5-faaf-4c58-8e8b46e5580e/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [],
     "mapped": [],
+    "media_source": "itunes",
     "query": "DrowZeeDan",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/88/c2/3c88c2f5-a5a5-faaf-4c58-8e8b46e5580e/artwork.jpg/200x200bb.jpg"
   },
   "Dudley's Bar & Lounge Session on Tour": {
     "genres": [],
@@ -2144,10 +2448,14 @@
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/2vw3O3rkvcgjkZuCVpSOcsypMI_K3HzFMzVYvJADjMg/rs:fit/g:sm/q:90/h:329/w:498/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYyNTgz/My0xNjYyNTY3NTAy/LTQ5MTEucG5n.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/eb/12/3aeb1288-a3b7-6976-458e-a789f6f03406/14462.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Duke Dumont",
     "source": "discogs",
     "styles": [
@@ -2156,7 +2464,7 @@
       "Progressive House",
       "Tech House"
     ],
-    "thumb": "https://i.discogs.com/qoM81s4RyeE_oz8UVPTxPyRBgtuCbKceaowqbzHWVb4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYyNTgz/My0xNjYyNTY3NTAy/LTQ5MTEucG5n.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/eb/12/3aeb1288-a3b7-6976-458e-a789f6f03406/14462.jpg/200x200bb.jpg"
   },
   "D\u00f3nal Lunny, M\u00e1irt\u00edn O'Connor & Zo\u00eb Conway": {
     "genres": [],
@@ -2171,6 +2479,9 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/df/ae/22/dfae22a6-59dd-7ec2-11b7-fbeff29824f0/8718274972566.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic",
       "rock"
@@ -2190,10 +2501,15 @@
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/gSPBr1PrxUqeFfw2N5xNOMNHmWH-I3QRDvsQVSj0AuA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2MDIz/NDEtMTM5ODU5MjM5/My01MTE5LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/da/13/6a/da136acc-2d7c-5d71-e4e6-744df2a51ab1/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic",
+      "rock"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "EFFY",
     "source": "discogs",
     "styles": [
@@ -2201,7 +2517,7 @@
       "House",
       "Tech House"
     ],
-    "thumb": "https://i.discogs.com/GXrgxrAHcgTHLsuFDpAExKMOGhYPDYDRptG8SFS9REg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2MDIz/NDEtMTM5ODU5MjM5/My01MTE5LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/da/13/6a/da136acc-2d7c-5d71-e4e6-744df2a51ab1/cover.jpg/200x200bb.jpg"
   },
   "EMORAH Collective": {
     "genres": [],
@@ -2249,6 +2565,9 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/64/ec/8264ec3e-8ea6-9300-16d3-11686b8e5ee8/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -2278,6 +2597,9 @@
       "Folk, World, & Country"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/10/3d/3a/103d3a01-13e1-e977-d342-afd39f9e7315/859716484334_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "electronic",
       "hiphop",
@@ -2298,6 +2620,9 @@
   "Eile": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/19/d3/4719d35e-bcb7-3566-885e-f428ea4b147e/859742070082_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Eile",
@@ -2319,12 +2644,18 @@
       "Folk, World, & Country",
       "Rock"
     ],
-    "image": "https://i.discogs.com/6XTtMfDOWK7J9gUj3a5yMJ2zFB5OtJDb0eYyR8f3h6w/rs:fit/g:sm/q:90/h:264/w:220/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1MzQ0/NC0xMzU3NzIzMDgw/LTUxNzcuanBlZw.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/da/22/a8/mzi.nonfgeyf.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "rock",
+      "pop"
+    ],
     "mapped": [
       "pop",
       "folk",
       "rock"
     ],
+    "media_source": "itunes",
     "query": "Eleanor McEvoy",
     "source": "discogs",
     "styles": [
@@ -2332,7 +2663,7 @@
       "Vocal",
       "Pop Rock"
     ],
-    "thumb": "https://i.discogs.com/-T8ibtby_CUudtsgYHNOrir1zMVqPw-hnyMfWNePja0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1MzQ0/NC0xMzU3NzIzMDgw/LTUxNzcuanBlZw.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music/da/22/a8/mzi.nonfgeyf.jpg/200x200bb.jpg"
   },
   "Elise FRANK": {
     "bio": "Elise Frank, born \u00c9lise Lounici on January 1, 1996, in Tarbes, France, is a singer, guitarist, and songwriter.",
@@ -2340,17 +2671,21 @@
       "Blues",
       "Rock"
     ],
-    "image": "https://i.discogs.com/AwEyfaN2hblzcYcm-JgfcRYK7JnHdhKg4tyq_ukGIQg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE3MjMw/NDg5LTE3Njk0NDYw/MjgtMjIzMy5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8b/cf/42/8bcf4200-1872-b5b4-69f5-f6e307cc819c/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "rock"
     ],
+    "media_source": "itunes",
     "query": "Elise FRANK",
     "source": "discogs",
     "styles": [
       "Blues Rock",
       "Electric Blues"
     ],
-    "thumb": "https://i.discogs.com/M_jvsXchy8njroHlPoPxzGQx9eB1ykerUxCBEKR9QEI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE3MjMw/NDg5LTE3Njk0NDYw/MjgtMjIzMy5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8b/cf/42/8bcf4200-1872-b5b4-69f5-f6e307cc819c/cover.jpg/200x200bb.jpg"
   },
   "Ellie D Soundsystem": {
     "genres": [],
@@ -2364,16 +2699,20 @@
     "genres": [
       "Rock"
     ],
-    "image": "https://i.discogs.com/QqJeyGD-xWzHfiSGCrQ-cd9TOdy6JIBXy518oTYCRM0/rs:fit/g:sm/q:90/h:375/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5Mjkx/NS0xMzAwMDE4MzIy/LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/98/f5/00/98f50087-1070-05e6-a99e-ca80ea6bd960/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [
       "rock"
     ],
+    "media_source": "itunes",
     "query": "Ember",
     "source": "discogs",
     "styles": [
       "Emo"
     ],
-    "thumb": "https://i.discogs.com/D9TN2SE12lYPYzpYqfo_Khogv8a0WbV8t2GRsGEBhGQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5Mjkx/NS0xMzAwMDE4MzIy/LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/98/f5/00/98f50087-1070-05e6-a99e-ca80ea6bd960/cover.jpg/200x200bb.jpg"
   },
   "Emma B": {
     "bio": "Born on April 28th, 1979 in Hastings, England is a British model and singer.",
@@ -2381,6 +2720,10 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/ca/9f/59ca9f96-f93a-84ed-67da-837e1b35159b/5056467395352_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic",
+      "soul"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -2399,10 +2742,16 @@
   },
   "Emma Lohan": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/93/5e/f2/935ef285-9fa6-e3a5-36fb-1a50b1d49769/859719906420_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Emma Lohan",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/93/5e/f2/935ef285-9fa6-e3a5-36fb-1a50b1d49769/859719906420_cover.jpg/200x200bb.jpg"
   },
   "Emmie": {
     "bio": "",
@@ -2410,6 +2759,9 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f3/fe/e6/f3fee68d-bcd6-d928-d4cc-7cf4e595ebbb/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -2445,21 +2797,34 @@
     "genres": [
       "Hip Hop"
     ],
-    "image": "https://i.discogs.com/qzRD03cEGxGmeIV86L7ZFbHaLNI3yq9yZRujPWcku_k/rs:fit/g:sm/q:90/h:321/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE3NjY1/MTctMTMxODI0NTYy/NC5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a5/e7/9b/a5e79b0c-90e4-8fdc-221f-0ed5312c7925/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "soul",
+      "hiphop"
+    ],
     "mapped": [
       "hiphop"
     ],
+    "media_source": "itunes",
     "query": "Eskay",
     "source": "discogs",
     "styles": [],
-    "thumb": "https://i.discogs.com/ZWLIl5eJ9d7kOPZX94AyogPOPr7_mP55i44b4C1xGW8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE3NjY1/MTctMTMxODI0NTYy/NC5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a5/e7/9b/a5e79b0c-90e4-8fdc-221f-0ed5312c7925/artwork.jpg/200x200bb.jpg"
   },
   "Esmeralda Road": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/90/ac/d7/90acd7d3-3810-d567-1ff2-2db768de3cf9/4062548103465.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "electronic"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Esmeralda Road",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/90/ac/d7/90acd7d3-3810-d567-1ff2-2db768de3cf9/4062548103465.png/200x200bb.jpg"
   },
   "Ev Wilde": {
     "bio": "Ev Wilde is a producer, remixer and DJ hailing from Dublin, Ireland. Learning from his roots of old school dance music Ev Wilde has formed his own style of deep and commercial house music.",
@@ -2467,11 +2832,15 @@
       "Electronic",
       "Pop"
     ],
-    "image": "https://i.discogs.com/ArBOmzoeGQ5R1jlcyfuIca2x98NifFO_2Rdnj8tpXFE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3OTAz/MzEtMTU5MjU0NjQ3/OC03NjA0LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ef/73/35/ef73350a-5ec3-acc3-2bdb-3a22fc1aa6d5/5054526587687_1.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic",
       "pop"
     ],
+    "media_source": "itunes",
     "query": "Ev Wilde",
     "source": "discogs",
     "styles": [
@@ -2480,11 +2849,16 @@
       "Techno",
       "Progressive House"
     ],
-    "thumb": "https://i.discogs.com/sOEarT5jr0IWX-zzk6J8fAJc_V5ceBNYKMllBWZC1TQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3OTAz/MzEtMTU5MjU0NjQ3/OC03NjA0LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ef/73/35/ef73350a-5ec3-acc3-2bdb-3a22fc1aa6d5/5054526587687_1.jpg/200x200bb.jpg"
   },
   "F3miii": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/a4/84/24a48418-e757-949a-2593-76851e0f9c05/196874129104.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul",
+      "rock",
+      "pop"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "F3miii",
@@ -2497,16 +2871,20 @@
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/0n7B6Muk2WG8tcHQ2TRvmnXC27Wyb-22YVi3-5AuX4Q/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MjE5/Ny0xMTA3Nzk5MDU1/LmpwZw.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0d/6f/91/0d6f91f5-5afe-3dc5-a06d-6b12b01bc17b/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "FAXE ON FAXE",
     "source": "discogs",
     "styles": [
       "Italo-Disco"
     ],
-    "thumb": "https://i.discogs.com/8sTyeeoa6kEylRF4-dJ3-dd7IErOkd5bRoSN7sz9Xrs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MjE5/Ny0xMTA3Nzk5MDU1/LmpwZw.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0d/6f/91/0d6f91f5-5afe-3dc5-a06d-6b12b01bc17b/artwork.jpg/200x200bb.jpg"
   },
   "FLOODY": {
     "bio": "",
@@ -2514,6 +2892,10 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d7/2e/fa/d72efaf0-a904-7422-ea88-dcb8a7c0ea4b/191953075938.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic",
+      "pop"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -2530,10 +2912,14 @@
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/cEYmX82xIJpWb3H6AJyc1QZ1TtfCKECV-YEKayWcmvs/rs:fit/g:sm/q:90/h:559/w:551/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNjYx/NS0xMTY3ODQxOTcx/LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/84/4e/3e/mzi.vpjzjskq.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "FUNKY TOWN",
     "source": "discogs",
     "styles": [
@@ -2542,7 +2928,7 @@
       "Trance",
       "Acid House"
     ],
-    "thumb": "https://i.discogs.com/f0swCg4Y4BSomgfA9l-fOotSWLdr6LWO-CFUrlPxJkI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNjYx/NS0xMTY3ODQxOTcx/LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music/84/4e/3e/mzi.vpjzjskq.jpg/200x200bb.jpg"
   },
   "Faster Horses": {
     "bio": "Manchester-based electronic music producer",
@@ -2550,6 +2936,9 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/3c/b7/e03cb76a-6fc2-4c69-cda3-7c5aa3912ec6/823375207757_Cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -2565,10 +2954,16 @@
   },
   "FeliSpeaks": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e6/83/87/e68387df-820a-6933-9218-f85586f2788a/198004976510.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "FeliSpeaks",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e6/83/87/e68387df-820a-6933-9218-f85586f2788a/198004976510.jpg/200x200bb.jpg"
   },
   "Fergal D'Arcy": {
     "genres": [],
@@ -2584,6 +2979,11 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/46/85/11/4685117e-67e7-4640-2217-6dca39f78cef/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "rock",
+      "electronic"
+    ],
     "mapped": [
       "electronic",
       "rock"
@@ -2610,6 +3010,10 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/0b/78/a10b78e4-21d9-b450-ce41-2ab310122df3/1200214652135.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop"
+    ],
     "mapped": [
       "rock"
     ],
@@ -2628,6 +3032,10 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/5c/d3/875cd3d1-7f12-d67b-8e64-f75f88a35990/191404168431.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "electronic"
+    ],
     "mapped": [
       "rock",
       "pop"
@@ -2646,10 +3054,16 @@
   },
   "Foreign Local": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/63/ef/4d/63ef4d95-89e3-4d75-3d80-4ec10785aa44/859725647157_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Foreign Local",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/63/ef/4d/63ef4d95-89e3-4d75-3d80-4ec10785aa44/859725647157_cover.jpg/200x200bb.jpg"
   },
   "Forget Romance": {
     "genres": [],
@@ -2667,10 +3081,18 @@
   },
   "Fortune Igiebor": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/1e/0d/aa1e0d46-81ff-6bf0-3d6f-988907ee6596/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop",
+      "pop",
+      "rock"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Fortune Igiebor",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/1e/0d/aa1e0d46-81ff-6bf0-3d6f-988907ee6596/artwork.jpg/200x200bb.jpg"
   },
   "FoxGluv": {
     "bio": "Electronica band based in San Francisco, California, United States.",
@@ -2680,6 +3102,9 @@
       "Funk / Soul"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/c7/a8/6ec7a8e7-e5f2-6a55-cdcf-3cd391aecd68/1255744.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic",
       "pop",
@@ -2711,6 +3136,9 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/a5/d6/fc/a5d6fc2b-6485-df7a-148e-5343331516e1/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -2735,18 +3163,24 @@
       "Pop",
       "Rock"
     ],
-    "image": "https://i.discogs.com/7ojy2Tw5G2qxEokWQVAvkWCRfIV_th-Zv4eJVyhUmv8/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTg0/NzUtMTc3OTEyMTQ3/My02OTk3LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7c/ac/6e/7cac6ee1-40a4-4fdc-3dc5-92d487de6fdd/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "folk",
+      "pop"
+    ],
     "mapped": [
       "pop",
       "rock"
     ],
+    "media_source": "itunes",
     "query": "GEORGE HOUSTON",
     "source": "discogs",
     "styles": [
       "Alt-Pop",
       "Alternative Rock"
     ],
-    "thumb": "https://i.discogs.com/U5EKSCpBbLch9U7C32OL3Rm_9bWVDNB_3lLsuYC3Cgo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTg0/NzUtMTc3OTEyMTQ3/My02OTk3LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7c/ac/6e/7cac6ee1-40a4-4fdc-3dc5-92d487de6fdd/artwork.jpg/200x200bb.jpg"
   },
   "GLAMO": {
     "genres": [],
@@ -2768,6 +3202,11 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bc/1a/51/bc1a51f2-5bf2-ca82-c6d7-c2781941e15a/820233863087.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "folk",
+      "electronic"
+    ],
     "mapped": [
       "pop"
     ],
@@ -2802,6 +3241,10 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d1/0e/19/d10e197d-7573-8086-b00e-2a7dfaf3d42d/4250101422287_Cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic",
+      "hiphop"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -2820,11 +3263,15 @@
       "Rock",
       "Electronic"
     ],
-    "image": "https://i.discogs.com/U5PcY8NMi3KxdGPTZnMemVBR7YkGy-v442u0IGtQXcY/rs:fit/g:sm/q:90/h:615/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Nzk4/OTg2LTE3ODMyNDIw/NjktNjM4NC5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9b/b4/4e/9bb44ee2-de81-4d21-65bd-f57c2c26b00d/5400863192792_Cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "rock",
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Geese",
     "source": "discogs",
     "styles": [
@@ -2835,7 +3282,7 @@
       "Folk Rock",
       "Psychedelic Rock"
     ],
-    "thumb": "https://i.discogs.com/SnCGzWuv4t_dhPsTOu2Y3X1vS13zk7xaik-RlSWCbc4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Nzk4/OTg2LTE3ODMyNDIw/NjktNjM4NC5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9b/b4/4e/9bb44ee2-de81-4d21-65bd-f57c2c26b00d/5400863192792_Cover.jpg/200x200bb.jpg"
   },
   "George Feely": {
     "bio": "DJ & Producer from Dublin, Ireland.",
@@ -2843,11 +3290,15 @@
       "Electronic",
       "Funk / Soul"
     ],
-    "image": "https://i.discogs.com/VIEP_cCmwUDhW6MEBWe4s9olnP16f1IDn64G21LiLWA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY0NzA1/NjgtMTc4NzI0NzIy/NC0yODY0LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/9a/24/549a244f-b191-9008-ed69-609b52e11510/c6d6cf89-8d03-416f-8804-2b7af2897cdd.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic",
       "soul"
     ],
+    "media_source": "itunes",
     "query": "George Feely",
     "source": "discogs",
     "styles": [
@@ -2855,7 +3306,7 @@
       "Disco",
       "Deep House"
     ],
-    "thumb": "https://i.discogs.com/d8pK_EMfh-41bTBn1iEUQU23iGZjZp5GqNsGXiBpzMQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY0NzA1/NjgtMTc4NzI0NzIy/NC0yODY0LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/9a/24/549a244f-b191-9008-ed69-609b52e11510/c6d6cf89-8d03-416f-8804-2b7af2897cdd.png/200x200bb.jpg"
   },
   "Gorillaz": {
     "bio": "Virtual band founded in 1998 by [a=Damon Albarn] and [a=Jamie Hewlett]. They can be found in [i]The Guiness Book of World Records[/I] under Most Successful Virtual Band. When the band were first created in 1998, the original concept was a group named 'Gorilla', with a slightly different lineup.\n\nMembers' fictional bios:\n[a=2D (3)] - Lead singer, keyboards, additional instruments. Gained his nickname from injuries he sustained in a car accident (vocals performed by [a=Damon Albarn]).\n[a=Murdoc Niccals] - Bassist, additional instruments. Sold his soul and middle name to the devil for the band's success.\n[a=Noodle (2)] - Guitarist, occasional backing vocalist. A Japanese expat and former child soldier, she was shipped to the band in a FedEx crate when she was eight years old.\n[a=Russel Hobbs] - Drummer. An American expat, possessed by the ghosts of his late friends; Creator of Hobbs Hot Sauce.\n\nFormer members' fictional bios:\nPaula Cracker - Guitarist. 2D's girlfriend of two months, she was kicked out of the band for having an affair with Murdoc. She was a part of the band when they were known as 'Gorilla'.\nMr. Maggits - An actual gorilla who played bongos, also during the band's time",
@@ -2866,6 +3317,11 @@
       "Latin"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1c/0f/81/1c0f818a-e458-dd84-6f1b-ccbdf5fe14d6/825646291045.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "hiphop",
+      "pop"
+    ],
     "mapped": [
       "electronic",
       "hiphop",
@@ -2905,10 +3361,14 @@
   },
   "Graham Smyth": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/ba/10/2bba10bd-50ab-2f69-3ab0-d25768497c4e/199350966545.jpg/600x600bb.jpg",
+    "itunes_mapped": [],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Graham Smyth",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/ba/10/2bba10bd-50ab-2f69-3ab0-d25768497c4e/199350966545.jpg/200x200bb.jpg"
   },
   "Granted": {
     "bio": "",
@@ -2933,6 +3393,9 @@
   "Groove & Palette": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/4e/01/084e01dd-89b6-aa38-f7bd-91b5b078b996/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Groove & Palette",
@@ -2962,6 +3425,9 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/13/77/b0137741-6479-9890-53dd-c7b77da40467/5051083225878_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "rock"
     ],
@@ -3005,10 +3471,16 @@
   },
   "Havana Roots": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d1/6f/fa/d16ffab3-4b8d-3499-3138-a57d88043a37/199800963643.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Havana Roots",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d1/6f/fa/d16ffab3-4b8d-3499-3138-a57d88043a37/199800963643.jpg/200x200bb.jpg"
   },
   "Hermitage Green": {
     "bio": "",
@@ -3017,18 +3489,24 @@
       "Folk, World, & Country",
       "Pop"
     ],
-    "image": "https://i.discogs.com/sQ8VmYg7faRYpY982F_hgwjlzDeCdU3H8u644Vaa1vk/rs:fit/g:sm/q:90/h:427/w:428/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MTgw/MDI3LTE2MDQ4MDE0/NDEtMjUwOS5wbmc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/07/fb/5b07fb40-e4d0-c608-ae7a-0933553c5783/dj.vhmaijiy.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop",
+      "folk"
+    ],
     "mapped": [
       "rock",
       "folk",
       "pop"
     ],
+    "media_source": "itunes",
     "query": "Hermitage Green",
     "source": "discogs",
     "styles": [
       "Folk Rock"
     ],
-    "thumb": "https://i.discogs.com/eOEuFIqzplw71zb73_043ezMNpwA-pe66WgEJ_Gbb3g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MTgw/MDI3LTE2MDQ4MDE0/NDEtMjUwOS5wbmc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/07/fb/5b07fb40-e4d0-c608-ae7a-0933553c5783/dj.vhmaijiy.jpg/200x200bb.jpg"
   },
   "Hidden Orchestra": {
     "bio": "Hidden Orchestra is the solo studio project of multi-instrumentalist composer/producer [a=Joe Acheson].\r\nThe albums and live shows feature a wide variety of guest musicians from all kinds of musical backgrounds.",
@@ -3037,6 +3515,9 @@
       "Jazz"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/6f/b2/d9/6fb2d959-e670-01ea-d6ce-1de3cc2c5d8a/5060205153616.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -3063,19 +3544,24 @@
       "Rock",
       "Folk, World, & Country"
     ],
-    "image": "https://i.discogs.com/VX8rdXpgMl9_Hky49IjAVIxi88mbY2mNFp6x_yHYFNQ/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2NjQ4/MDE5LTE3NzIzNjQ4/NjAtODk5OS5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/56/85/0556859e-dd34-9db3-4e29-1b324834d9e4/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "electronic"
+    ],
     "mapped": [
       "electronic",
       "rock",
       "folk"
     ],
+    "media_source": "itunes",
     "query": "Huartan",
     "source": "discogs",
     "styles": [
       "Folk",
       "Celtic"
     ],
-    "thumb": "https://i.discogs.com/FfJy4smRZDdP01gKgaoUsVGqzaSMceVHpFBdbChjBNA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2NjQ4/MDE5LTE3NzIzNjQ4/NjAtODk5OS5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/56/85/0556859e-dd34-9db3-4e29-1b324834d9e4/artwork.jpg/200x200bb.jpg"
   },
   "Hykken": {
     "genres": [],
@@ -3087,6 +3573,9 @@
   "I DREAMED I DREAM": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/96/5b/0d/965b0d67-297b-6efe-8198-3f2c94bba359/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "I DREAMED I DREAM",
@@ -3122,10 +3611,17 @@
   },
   "Ian Dempsey": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/47/85/d2/4785d209-76de-6755-5920-cc5a9d6962d3/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "rock"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Ian Dempsey",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/47/85/d2/4785d209-76de-6755-5920-cc5a9d6962d3/artwork.jpg/200x200bb.jpg"
   },
   "Ian Hart/One World Sound": {
     "genres": [],
@@ -3146,10 +3642,14 @@
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/03oQ8b6u2_uVokH4M4divUbL1hoQ94gFyXXCioHrl7o/rs:fit/g:sm/q:90/h:888/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDc0/ODktMTYwMzAxNDM3/NC0zNjk1LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/77/60/bd77604b-ff82-1feb-4d28-67e34327ee95/196871936941.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Interplanetary Criminal",
     "source": "discogs",
     "styles": [
@@ -3158,7 +3658,7 @@
       "Breakbeat",
       "Leftfield"
     ],
-    "thumb": "https://i.discogs.com/9Q5MZsU3OniXCzVgSKfgj6DO2eupzpYBzaT0LJDM240/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDc0/ODktMTYwMzAxNDM3/NC0zNjk1LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/77/60/bd77604b-ff82-1feb-4d28-67e34327ee95/196871936941.jpg/200x200bb.jpg"
   },
   "Ispini na hEireann": {
     "genres": [],
@@ -3179,16 +3679,20 @@
     "genres": [
       "Folk, World, & Country"
     ],
-    "image": "https://i.discogs.com/91xgFlG3OHJ7D9hFN4HzlD2-3RhQfJJp6mQWBanTLYc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzMTY2/NTExLTE3NjY3OTMz/MTgtODg2OC5wbmc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/db/fb/91dbfb1e-b12b-93ac-2f94-a7c00c144d95/823000497638.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [
       "folk"
     ],
+    "media_source": "itunes",
     "query": "Isp\u00edn\u00ed na h\u00c9ireann",
     "source": "discogs",
     "styles": [
       "Celtic"
     ],
-    "thumb": "https://i.discogs.com/1_w-bw1yVb7-9mK-gg2u5wxHBMXTlK2BOIxPkaDgIUw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzMTY2/NTExLTE3NjY3OTMz/MTgtODg2OC5wbmc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/db/fb/91dbfb1e-b12b-93ac-2f94-a7c00c144d95/823000497638.png/200x200bb.jpg"
   },
   "JADE": {
     "bio": "",
@@ -3198,6 +3702,10 @@
       "Folk, World, & Country"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/80/25/9d/80259d74-89a6-618e-2f01-ed5c235f6a24/mzi.riieaefb.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "electronic"
+    ],
     "mapped": [
       "rock",
       "pop",
@@ -3233,19 +3741,23 @@
       "Pop",
       "Folk, World, & Country"
     ],
-    "image": "https://i.discogs.com/-WfK8dsld2lB74EXqWPMibKwPmp1LXOoMftAzTBNrjk/rs:fit/g:sm/q:90/h:376/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI3MTY4/Mi0xNjQyOTcxMjQ5/LTc5NTUuanBlZw.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/94/70/e6/9470e62a-6e7d-063b-ddfd-f2fa42c9fe3d/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "rock",
       "pop",
       "folk"
     ],
+    "media_source": "itunes",
     "query": "JERRY FISH",
     "source": "discogs",
     "styles": [
       "Lounge",
       "Folk"
     ],
-    "thumb": "https://i.discogs.com/wTWkOj2RN1BxmXtleuYkVbiIYHoEKw2i5hPVGT3U0lU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI3MTY4/Mi0xNjQyOTcxMjQ5/LTc5NTUuanBlZw.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/94/70/e6/9470e62a-6e7d-063b-ddfd-f2fa42c9fe3d/artwork.jpg/200x200bb.jpg"
   },
   "JINX LENNON": {
     "bio": "",
@@ -3256,6 +3768,10 @@
       "Folk, World, & Country"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/aa/a7/b9/aaa7b969-d0b2-7dda-a0ea-f9ea9388e05c/0723172619688_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "rock"
+    ],
     "mapped": [
       "rock",
       "electronic",
@@ -3281,6 +3797,9 @@
       "Funk / Soul"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3b/3a/fc/3b3afc41-34d9-5c13-ebfb-084b061d972e/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop"
+    ],
     "mapped": [
       "electronic",
       "hiphop",
@@ -3301,10 +3820,14 @@
   },
   "Jack Madden": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/87/33/4e87335e-e2c7-3fe6-c231-d0418a49c9c2/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Jack Madden",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/87/33/4e87335e-e2c7-3fe6-c231-d0418a49c9c2/cover.jpg/200x200bb.jpg"
   },
   "Jacqui": {
     "bio": "",
@@ -3314,12 +3837,18 @@
       "Jazz",
       "Rock"
     ],
-    "image": "https://i.discogs.com/6OGmOKe0n2kK-dSZvhUcyOnDQzHDjRYLbUNd1QvLRZA/rs:fit/g:sm/q:90/h:521/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NzU1/NDEzLTE1OTcxOTU0/NTktNTMxMi5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/11/a3/aa/mzi.pcahzixp.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "rock",
+      "soul"
+    ],
     "mapped": [
       "electronic",
       "folk",
       "rock"
     ],
+    "media_source": "itunes",
     "query": "Jacqui",
     "source": "discogs",
     "styles": [
@@ -3328,7 +3857,7 @@
       "Cool Jazz",
       "Pop Rock"
     ],
-    "thumb": "https://i.discogs.com/xKpAwWTVf6ksEn4emS4E14b6XdYGT2_LYCo-15DiH8c/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NzU1/NDEzLTE1OTcxOTU0/NTktNTMxMi5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music/11/a3/aa/mzi.pcahzixp.jpg/200x200bb.jpg"
   },
   "Jade Carney": {
     "genres": [],
@@ -3344,6 +3873,11 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/78/d4/c778d4a1-9ab3-2c18-2555-4a90b5046345/199350410109.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop",
+      "electronic"
+    ],
     "mapped": [
       "rock",
       "pop"
@@ -3371,6 +3905,10 @@
   "Jamie McIntyre": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6f/df/10/6fdf100e-04bc-ff85-aa6c-a63e10a19b01/5063778232917_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "rock"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Jamie McIntyre",
@@ -3415,6 +3953,11 @@
       "Funk / Soul"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b3/bf/3c/b3bf3cc6-e546-8bf7-6b26-3ce846a57bb9/196871807814.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "rock",
+      "folk"
+    ],
     "mapped": [
       "pop",
       "hiphop",
@@ -3438,6 +3981,9 @@
       "Folk, World, & Country"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/83/89/9b/83899b87-1851-9b2b-6e9b-d46027566799/191402802153.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [
       "folk"
     ],
@@ -3464,6 +4010,11 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/16/c1/d5/16c1d57e-b8fe-c796-58e8-04bc7ff1aae7/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "hiphop",
+      "electronic"
+    ],
     "mapped": [
       "rock",
       "pop"
@@ -3479,6 +4030,9 @@
   "Jordo Byrne": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7a/d2/2c/7ad22c10-f281-6a11-2184-dc1dd04faa19/725336620288_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Jordo Byrne",
@@ -3488,10 +4042,18 @@
   },
   "JusMe": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/a1/ba/f9/a1baf926-016e-a4f2-8b85-23a885f5e91c/700261916231.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop",
+      "soul",
+      "pop"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "JusMe",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/a1/ba/f9/a1baf926-016e-a4f2-8b85-23a885f5e91c/700261916231.jpg/200x200bb.jpg"
   },
   "Juslinis": {
     "genres": [],
@@ -3503,6 +4065,10 @@
   "Just Alice": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f2/7b/84/f27b8472-5782-4702-a701-2112ee26d7e1/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "folk"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Just Alice",
@@ -3526,6 +4092,9 @@
       "Funk / Soul"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e9/6b/96/e96b9611-b855-d1d1-da44-170e6f083fd3/21UMGIM81101.rgb.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop"
+    ],
     "mapped": [
       "rock",
       "pop",
@@ -3558,6 +4127,10 @@
       "Stage & Screen"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/cb/3a/94cb3a0e-a112-4dbb-d9a0-44488e77926e/859718947028_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "pop"
+    ],
     "mapped": [
       "rock",
       "pop",
@@ -3575,6 +4148,9 @@
   "Kapayja": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ba/b9/eb/bab9eb85-81d0-18fb-f03f-9be63b6aaf34/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Kapayja",
@@ -3589,6 +4165,9 @@
       "Funk / Soul"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/34/ef/7234ef4f-94a8-f2e3-36ba-e8b28efc9d7f/674053188864_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic",
       "soul"
@@ -3643,18 +4222,24 @@
       "Funk / Soul",
       "Pop"
     ],
-    "image": "https://i.discogs.com/oBdFjSU9-92yVhfW_emv7QDWvYnlQ1_TipBJmBNRUU0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MzY5/NjY2LTE2MjUzNTIz/OTAtODk1My5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/44/3e/f3/443ef3c2-5a09-6218-f9f6-c24ce8fb59e6/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "electronic",
+      "soul"
+    ],
     "mapped": [
       "soul",
       "pop"
     ],
+    "media_source": "itunes",
     "query": "Kayleigh Noble",
     "source": "discogs",
     "styles": [
       "Soul",
       "Rhythm & Blues"
     ],
-    "thumb": "https://i.discogs.com/Q_zU8dOr72d339TU141WuWmep2uYWMB50PCSGw6Vl0s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MzY5/NjY2LTE2MjUzNTIz/OTAtODk1My5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/44/3e/f3/443ef3c2-5a09-6218-f9f6-c24ce8fb59e6/artwork.jpg/200x200bb.jpg"
   },
   "Kean Kavanagh": {
     "bio": "Singer / Producer from Portlaoise, Ireland.",
@@ -3664,12 +4249,18 @@
       "Folk, World, & Country",
       "Funk / Soul"
     ],
-    "image": "https://i.discogs.com/0MIuwGocpxKzfamkWwN6sxbOi-YF5OMFrkB-rXmrcZA/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYzMzQz/MjQtMTc1OTE4ODYw/MC05MTUyLmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/48/1a/53481a83-28c7-1cfd-94e6-ad506b704ba0/5051083217941_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop",
+      "folk"
+    ],
     "mapped": [
       "rock",
       "pop",
       "folk"
     ],
+    "media_source": "itunes",
     "query": "Kean Kavanagh",
     "source": "discogs",
     "styles": [
@@ -3677,11 +4268,15 @@
       "Alternative Rock",
       "Country Rock"
     ],
-    "thumb": "https://i.discogs.com/8fwV1F_tgsZqL0wn4s7FTj-v1snrCX9jFUqXENxIlLg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYzMzQz/MjQtMTc1OTE4ODYw/MC05MTUyLmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/48/1a/53481a83-28c7-1cfd-94e6-ad506b704ba0/5051083217941_cover.jpg/200x200bb.jpg"
   },
   "Keg DJ": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/e1/ad/55e1ad8a-a040-f924-aec1-ac9a4af277f5/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "electronic"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Keg DJ",
@@ -3698,10 +4293,17 @@
   },
   "Kelsey": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7f/59/83/7f59839f-bf83-35ee-56d4-a8bf6f34d368/194646041869.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "pop"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Kelsey",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7f/59/83/7f59839f-bf83-35ee-56d4-a8bf6f34d368/194646041869.png/200x200bb.jpg"
   },
   "Keo": {
     "bio": "",
@@ -3709,6 +4311,9 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/62/f3/f662f3aa-63be-b469-b15b-5b10ca62f685/199350217661.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "rock"
     ],
@@ -3724,6 +4329,10 @@
   "Kettleboilers": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/8f/d8/cf8fd86a-bcd4-c360-d104-3c696630fa5e/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "rock"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Kettleboilers",
@@ -3733,10 +4342,16 @@
   },
   "Kev Mac": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4d/e0/a5/4de0a5be-4598-000c-e725-1addab83a3cd/195079327452.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Kev Mac",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4d/e0/a5/4de0a5be-4598-000c-e725-1addab83a3cd/195079327452.jpg/200x200bb.jpg"
   },
   "Kiki D": {
     "bio": "",
@@ -3746,6 +4361,9 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f0/56/85/f056858d-8603-7e1b-133d-5169a0336206/196626680761.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop"
+    ],
     "mapped": [
       "pop",
       "rock",
@@ -3795,12 +4413,16 @@
       "Funk / Soul",
       "Pop"
     ],
-    "image": "https://i.discogs.com/G92csdooHx8haxU65hmlvtH-T-2TW12cv1zZVhfVEGs/rs:fit/g:sm/q:90/h:250/w:168/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY2NDQt/MTEzMjA5MjExMi5q/cGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/e3/11/6de31158-3048-0a32-e89d-6e1fb8e5677d/0.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop"
+    ],
     "mapped": [
       "electronic",
       "soul",
       "pop"
     ],
+    "media_source": "itunes",
     "query": "LAWRENCE",
     "source": "discogs",
     "styles": [
@@ -3811,7 +4433,7 @@
       "Soul",
       "Disco"
     ],
-    "thumb": "https://i.discogs.com/fL6SVVjwSjQquSfzc2cOlsT5bLLk2Qbb33FGwbMJbRM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY2NDQt/MTEzMjA5MjExMi5q/cGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/e3/11/6de31158-3048-0a32-e89d-6e1fb8e5677d/0.jpg/200x200bb.jpg"
   },
   "LEEVY": {
     "bio": "",
@@ -3819,18 +4441,24 @@
       "Rock",
       "Folk, World, & Country"
     ],
-    "image": "https://i.discogs.com/-mH6OqHElzOjG_r20HadEkSy83D1KyE-p566ZAyVfk8/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA5/NTQxLTE3ODIzMTU2/NzYtNzcwMy5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/5f/7a/065f7a40-ce7c-cb7e-5587-0139b1ae38b4/199335864941_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "folk",
+      "pop"
+    ],
     "mapped": [
       "rock",
       "folk"
     ],
+    "media_source": "itunes",
     "query": "LEEVY",
     "source": "discogs",
     "styles": [
       "Folk",
       "Folk Rock"
     ],
-    "thumb": "https://i.discogs.com/gJ8_K2MGdfGmnSodKwMXCdAm_RmnTcUikb0HrpJmVpk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA5/NTQxLTE3ODIzMTU2/NzYtNzcwMy5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/5f/7a/065f7a40-ce7c-cb7e-5587-0139b1ae38b4/199335864941_cover.jpg/200x200bb.jpg"
   },
   "LIA": {
     "bio": "Japanese singer, lyricist, composer, and producer.",
@@ -3841,6 +4469,10 @@
       "Funk / Soul"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bf/31/64/bf3164b3-c578-dd15-7d7e-24277d9a1dc8/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "soul"
+    ],
     "mapped": [
       "electronic",
       "pop",
@@ -3864,21 +4496,34 @@
     "genres": [
       "Folk, World, & Country"
     ],
-    "image": "",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/6b/a1/e1/mzi.gyrfoqur.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "rock"
+    ],
     "mapped": [
       "folk"
     ],
+    "media_source": "itunes",
     "query": "LIAM O CONNOR",
     "source": "discogs",
     "styles": [],
-    "thumb": ""
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music/6b/a1/e1/mzi.gyrfoqur.jpg/200x200bb.jpg"
   },
   "LUCY MC WILLIAMS": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/b6/5d/8cb65d17-de6d-ab4a-06ff-516e9684b5f7/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "rock",
+      "soul"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "LUCY MC WILLIAMS",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/b6/5d/8cb65d17-de6d-ab4a-06ff-516e9684b5f7/artwork.jpg/200x200bb.jpg"
   },
   "Laoise Kelly": {
     "bio": "Irish Harper.",
@@ -3886,6 +4531,10 @@
       "Folk, World, & Country"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/9f/d9/b5/mzi.uwdrdxju.tif/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "pop"
+    ],
     "mapped": [
       "folk"
     ],
@@ -3900,6 +4549,7 @@
   "Largo Da Cumbia": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/12/38/36/12383640-4357-8573-5763-ce7402db9fde/824296578643_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [],
     "mapped": [],
     "media_source": "itunes",
     "query": "Largo Da Cumbia",
@@ -3913,6 +4563,10 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/88/4a/a7/884aa7ff-c8e8-fc84-a9a5-859beebd6078/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "folk"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -3931,10 +4585,16 @@
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/EAXSgJCpCxrX6R8RfeoR6WgVi9eLxNZP2G4UekSONEE/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxOTg4/NzQ0LTE3Mjk1ODA0/NjItNjcwMC5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/3c/c7/e03cc758-ccc8-1129-fb4f-d558bb26a96d/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic",
+      "pop",
+      "rock"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Le Boom",
     "source": "discogs",
     "styles": [
@@ -3942,11 +4602,14 @@
       "French House",
       "Nu-Disco"
     ],
-    "thumb": "https://i.discogs.com/v32pAAKhLqGUEeIeFUJ-ZU7600ZzXwC9kpnsSm6eimU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxOTg4/NzQ0LTE3Mjk1ODA0/NjItNjcwMC5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/3c/c7/e03cc758-ccc8-1129-fb4f-d558bb26a96d/artwork.jpg/200x200bb.jpg"
   },
   "Leatsa": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f1/2a/cd/f12acda7-86c1-6698-c814-73fa296e60ff/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Leatsa",
@@ -3961,6 +4624,10 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d0/85/be/d085be12-b409-961d-b19e-2940832793af/112345.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop"
+    ],
     "mapped": [
       "rock",
       "pop"
@@ -3976,14 +4643,19 @@
     "genres": [
       "Classical"
     ],
-    "image": "https://i.discogs.com/rpIEqOaSgriDviziqBxI8AMl1xEhouKkwHQIX4z50-g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTQ4/MTY3LTE1OTM0MTk3/OTUtODUyMi5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/c6/12/4fc612b6-a326-a343-3169-f3fdb4f33798/5063535573857_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "soul"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Leon Carter",
     "source": "discogs",
     "styles": [
       "Modern"
     ],
-    "thumb": "https://i.discogs.com/HOZruxMy0tBgEylN8oydxUmaLkXHF17-FeoTAluKzgk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTQ4/MTY3LTE1OTM0MTk3/OTUtODUyMi5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/c6/12/4fc612b6-a326-a343-3169-f3fdb4f33798/5063535573857_cover.jpg/200x200bb.jpg"
   },
   "Lewis Capaldi": {
     "bio": "Lewis Capaldi (born 7 October 1996 Glasgow, Scotland) is a Scottish singer-songwriter. Lewis Capaldi learned to play drums and guitar when he was two, and began his musical career singing in pubs aged 9. By 17 he had committed to a career in music. He was discovered by his manager Ryan Walter through an iPhone recording Capaldi recorded in his bedroom and had uploaded to his SoundCloud account. He was nominated at the 2020 Grammy Awards for \"Song of the Year\" with Someone You Loved\". At the 2020 Brit Awards he was nominated in 4 categories and won the awards for \"Best New Artist\" and \"Song of the Year\". After his rise to fame, Capaldi started feeling anxiety and a pressure to perform. He started showing nervous tics. In September 2022, he revealed that he had been diagnosed with Tourette's syndrome.\r\n\r\nLewis Capaldi is second cousin to actor [a=Peter Capaldi] of [b]Dr. Who[/b] fame, and the latter has appeared in one of Lewis' videos.",
@@ -3991,6 +4663,9 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5e/6b/27/5e6b279b-0737-1de1-eb40-6410353bb891/25UM1IM00170.rgb.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "pop"
     ],
@@ -4021,6 +4696,10 @@
       "Reggae"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/d0/fa/e8d0fa52-0d7a-6af8-b571-5d044bd11d76/859724821008_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul",
+      "hiphop"
+    ],
     "mapped": [
       "soul",
       "pop"
@@ -4057,10 +4736,14 @@
     "genres": [
       "Electronic"
     ],
-    "image": "",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/58/3e/37/583e37eb-4780-6c04-ee7d-dab9bca69287/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Lorcan Kelly",
     "source": "discogs",
     "styles": [
@@ -4069,7 +4752,7 @@
       "Tribal",
       "Disco"
     ],
-    "thumb": ""
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/58/3e/37/583e37eb-4780-6c04-ee7d-dab9bca69287/artwork.jpg/200x200bb.jpg"
   },
   "Los Wachos": {
     "genres": [],
@@ -4108,6 +4791,9 @@
       "Funk / Soul"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b5/55/e8/b555e8cf-07ff-434b-218e-ee62c338ddcf/22UM1IM32437.rgb.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop"
+    ],
     "mapped": [
       "hiphop",
       "soul"
@@ -4124,6 +4810,11 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/bb/20/76bb202f-5f08-da8a-573a-f8aad16ac5a8/056870946214.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "rock",
+      "electronic"
+    ],
     "mapped": [
       "pop"
     ],
@@ -4154,10 +4845,16 @@
   },
   "Luke Grogan": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5b/0c/ce/5b0cce88-6e9d-5588-e416-c49a1c2787b4/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Luke Grogan",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5b/0c/ce/5b0cce88-6e9d-5588-e416-c49a1c2787b4/cover.jpg/200x200bb.jpg"
   },
   "Luke Thomas and Paul Dunlem Big Band": {
     "genres": [],
@@ -4190,6 +4887,9 @@
   "MADAMS LAST DISCOVERY": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/97/da/1c97da67-7f17-6758-73cd-9d824c361d93/184702.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "MADAMS LAST DISCOVERY",
@@ -4210,6 +4910,9 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/18/34/f6/1834f6d6-061e-49b6-be86-d563b2ff91b6/3616558960078.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop"
+    ],
     "mapped": [
       "electronic",
       "rock"
@@ -4229,10 +4932,14 @@
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/7PcHDFGqNfUkqggfjORoIlDsNSozG8e3Ls_ZtXg2tMg/rs:fit/g:sm/q:90/h:836/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTgwOTUz/NDQtMTc3NDM3NDI2/NC0xNTgzLnBuZw.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/42/40/06/42400620-2f03-2449-aecc-a7f743e7b34d/617513578263_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "MALUGI",
     "source": "discogs",
     "styles": [
@@ -4241,7 +4948,7 @@
       "Speed Garage",
       "Techno"
     ],
-    "thumb": "https://i.discogs.com/eKxKJ-b4EYckDNldCA6Vp8DCyV-QqLtbECJtlJLIiW4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTgwOTUz/NDQtMTc3NDM3NDI2/NC0xNTgzLnBuZw.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/42/40/06/42400620-2f03-2449-aecc-a7f743e7b34d/617513578263_cover.jpg/200x200bb.jpg"
   },
   "MANWELLI": {
     "genres": [],
@@ -4259,10 +4966,16 @@
   },
   "MAV666": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/73/b6/54/73b654b2-9443-6f51-a2ad-e3d3f54c4157/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "MAV666",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/73/b6/54/73b654b2-9443-6f51-a2ad-e3d3f54c4157/artwork.jpg/200x200bb.jpg"
   },
   "MAYKAY": {
     "bio": "Singer and musician from Kildare, Ireland.",
@@ -4270,18 +4983,23 @@
       "Rock",
       "Pop"
     ],
-    "image": "https://i.discogs.com/hXCnQXPU0L7s2u0ScR63PmOVSvCN4nHSydF5lPJoCRA/rs:fit/g:sm/q:90/h:500/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2NTk2/NDAtMTU4MTYwNTI1/MS02Mzk2LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/eb/56/6c/eb566c17-c788-e72d-10a0-ca534c3a0ff9/198015231332.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop",
+      "pop"
+    ],
     "mapped": [
       "rock",
       "pop"
     ],
+    "media_source": "itunes",
     "query": "MAYKAY",
     "source": "discogs",
     "styles": [
       "Indie Rock",
       "Pop Rock"
     ],
-    "thumb": "https://i.discogs.com/doTHQO-fQOasXVkNAlAk51LrmcQZUOKY6rNUCEcHz2E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2NTk2/NDAtMTU4MTYwNTI1/MS02Mzk2LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/eb/56/6c/eb566c17-c788-e72d-10a0-ca534c3a0ff9/198015231332.jpg/200x200bb.jpg"
   },
   "MCCARTNEY ALL THE BEST": {
     "genres": [],
@@ -4293,6 +5011,10 @@
   "MIK PYRO": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0f/07/bb/0f07bb90-b356-e807-de69-3f4ff13071e0/199800964879.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "hiphop"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "MIK PYRO",
@@ -4302,10 +5024,16 @@
   },
   "MONSIEUR POMPIER": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/55/f2/be/55f2bed7-335b-10f1-6dc6-ff2823dfd735/889466247910.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "MONSIEUR POMPIER",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/55/f2/be/55f2bed7-335b-10f1-6dc6-ff2823dfd735/889466247910.jpg/200x200bb.jpg"
   },
   "MOTHER DJS": {
     "genres": [],
@@ -4316,20 +5044,33 @@
   },
   "MXRK": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/4b/a0/0d4ba01e-74b2-e117-38fb-da063e0c5cc7/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop",
+      "rock"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "MXRK",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/4b/a0/0d4ba01e-74b2-e117-38fb-da063e0c5cc7/artwork.jpg/200x200bb.jpg"
   },
   "MY BAD SISTER": {
     "bio": "",
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/X6OP0uM7RzY8R0Qtub-9jMshUJgI8YKYsRiKhWZftYI/rs:fit/g:sm/q:90/h:542/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNzUy/NDQ2LTE1NjAzNjE0/NjQtMzk3MS5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/7a/c1/347ac1fb-aa10-17ef-71fd-50996b4915c8/MBS100.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic",
+      "pop",
+      "hiphop"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "MY BAD SISTER",
     "source": "discogs",
     "styles": [
@@ -4338,11 +5079,14 @@
       "Bassline",
       "Breaks"
     ],
-    "thumb": "https://i.discogs.com/HzTxEHgAeQ1gMxvS_oO6R7bAeNim9Qm6tBH-m7NXgZ8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNzUy/NDQ2LTE1NjAzNjE0/NjQtMzk3MS5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/7a/c1/347ac1fb-aa10-17ef-71fd-50996b4915c8/MBS100.jpg/200x200bb.jpg"
   },
   "Mac Steady": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/73/bd/c6/73bdc63e-4ef6-2369-e84a-df8c92c3b8c0/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Mac Steady",
@@ -4359,10 +5103,18 @@
   },
   "Mad Gab": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/ff/77/16ff77df-6403-55eb-5882-8af77103f7b1/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic",
+      "rock",
+      "hiphop"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Mad Gab",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/ff/77/16ff77df-6403-55eb-5882-8af77103f7b1/artwork.jpg/200x200bb.jpg"
   },
   "Madonna Kebab": {
     "genres": [],
@@ -4376,14 +5128,18 @@
     "genres": [
       "Folk, World, & Country"
     ],
-    "image": "https://i.discogs.com/MVMcTjDV5BDN0MFcKKVcyrzLtu3rJ0kgEq4fsJezuUE/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE3MjM1/NTI2LTE3Njk1NDUw/NDItMzExNC5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/49/30/ce493074-4c90-fd5e-9ce9-30c3489f3fb2/199502991067_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "folk"
     ],
+    "media_source": "itunes",
     "query": "Madra Salach",
     "source": "discogs",
     "styles": [],
-    "thumb": "https://i.discogs.com/xvknH904404PccjworFAJ8w2euQsXxMoHcmbs54LbvE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE3MjM1/NTI2LTE3Njk1NDUw/NDItMzExNC5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/49/30/ce493074-4c90-fd5e-9ce9-30c3489f3fb2/199502991067_cover.jpg/200x200bb.jpg"
   },
   "Madra Salach DJ": {
     "genres": [],
@@ -4398,6 +5154,9 @@
       "Hip Hop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/45/59/39455931-96b6-d265-8bd5-5abe98fed55e/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop"
+    ],
     "mapped": [
       "hiphop"
     ],
@@ -4418,10 +5177,16 @@
   },
   "Maic\u00edn": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/94/38/749438ea-10dc-8c1c-9cad-05a3fa1261c6/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Maic\u00edn",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/94/38/749438ea-10dc-8c1c-9cad-05a3fa1261c6/artwork.jpg/200x200bb.jpg"
   },
   "Maighread & Tr\u00edona N\u00ed Dhomhnaill": {
     "bio": "",
@@ -4444,21 +5209,28 @@
     "genres": [
       "Folk, World, & Country"
     ],
-    "image": "https://i.discogs.com/yPnpwg72tRiYY0RT3_mDHhCkI8vw3w3SlIdQkIgNN_8/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMjkz/NDYtMTU3MDgwMzI2/MC03NTI3LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/83/07/8f/83078f0a-40d1-40ea-5409-86d28b9fe624/191018082307.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [
       "folk"
     ],
+    "media_source": "itunes",
     "query": "Mair\u00e9ad",
     "source": "discogs",
     "styles": [
       "Celtic",
       "Folk"
     ],
-    "thumb": "https://i.discogs.com/JA-x9FvK8oi3U09xf8RVkdPB9dVSNW0xJvdCBAijigM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMjkz/NDYtMTU3MDgwMzI2/MC03NTI3LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/83/07/8f/83078f0a-40d1-40ea-5409-86d28b9fe624/191018082307.png/200x200bb.jpg"
   },
   "Major Feen": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/56/0b/fa560b1c-1143-0aed-7885-413ab65eeee6/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Major Feen",
@@ -4475,6 +5247,9 @@
       "Jazz"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c8/6a/c6/c86ac64c-d3b9-1097-47bc-d6639ce878fd/mzi.wexfpnsv.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "soul",
       "rock"
@@ -4494,10 +5269,16 @@
   },
   "Marcus O\u2019Laoire": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6e/4e/68/6e4e6888-e6fd-313d-6849-c4ce34983c53/5057272741341_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Marcus O\u2019Laoire",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6e/4e/68/6e4e6888-e6fd-313d-6849-c4ce34983c53/5057272741341_cover.jpg/200x200bb.jpg"
   },
   "Maria Lawlor": {
     "genres": [],
@@ -4508,10 +5289,16 @@
   },
   "Mark Fitz": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Features/42/76/64/dj.vwxdcxxw.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Mark Fitz",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Features/42/76/64/dj.vwxdcxxw.jpg/200x200bb.jpg"
   },
   "Mark Fitz & Baw": {
     "genres": [],
@@ -4526,6 +5313,7 @@
       "Jazz"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/3d/08/13/3d0813a4-0ecb-c741-af3c-839fd0768ec0/00602498576373.rgb.jpg/600x600bb.jpg",
+    "itunes_mapped": [],
     "mapped": [],
     "media_source": "itunes",
     "query": "Mark Murphy",
@@ -4535,10 +5323,17 @@
   },
   "Mattie B": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8f/d2/9d/8fd29dc1-78ae-fb59-1152-de934adc2d97/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul",
+      "hiphop"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Mattie B",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8f/d2/9d/8fd29dc1-78ae-fb59-1152-de934adc2d97/artwork.jpg/200x200bb.jpg"
   },
   "Megatrad": {
     "genres": [],
@@ -4550,6 +5345,9 @@
   "Melina Malone": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/69/f1/b7/69f1b747-35d1-ba61-22b7-c93f7f5161bc/859777139020_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Melina Malone",
@@ -4565,6 +5363,11 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/2d/f5/662df515-7dff-1012-ccf4-08822f6ac11b/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "electronic",
+      "rock"
+    ],
     "mapped": [
       "pop",
       "rock",
@@ -4586,6 +5389,10 @@
       "Classical"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5d/09/a3/5d09a3c4-1f9e-8252-edec-33fcd50c93de/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Michael Downing",
@@ -4610,6 +5417,11 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/75/2b/8f/752b8f95-1b42-6867-4719-fdecae708233/859743094018_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "pop",
+      "rock"
+    ],
     "mapped": [
       "folk",
       "rock",
@@ -4646,6 +5458,10 @@
       "Jazz"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b3/10/c9/b310c98a-275b-e0ee-528a-04a9f809952f/886448990505.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "hiphop"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Mills",
@@ -4663,6 +5479,9 @@
   "Mitch Presents": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/c2/36/34c2362f-7199-d7d8-629d-55e73a89a563/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Mitch Presents",
@@ -4690,6 +5509,9 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/27/04/e5/2704e51a-a6b5-ea1e-cf84-25a9c89e3ec9/4062548049824.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -4720,6 +5542,10 @@
       "Hip Hop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e2/0c/04/e20c04c0-8643-09ef-dae2-92a1b7ebee39/610012574071_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop",
+      "soul"
+    ],
     "mapped": [
       "hiphop"
     ],
@@ -4780,10 +5606,16 @@
   },
   "Music Generation Laois Harp Ensemble": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/6c/a9/d26ca910-f5b0-8a1a-1124-5fea14482a54/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Music Generation Laois Harp Ensemble",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/6c/a9/d26ca910-f5b0-8a1a-1124-5fea14482a54/cover.jpg/200x200bb.jpg"
   },
   "Music Generation Louth Harp Ensemble": {
     "genres": [],
@@ -4804,10 +5636,16 @@
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/X6OP0uM7RzY8R0Qtub-9jMshUJgI8YKYsRiKhWZftYI/rs:fit/g:sm/q:90/h:542/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNzUy/NDQ2LTE1NjAzNjE0/NjQtMzk3MS5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/7a/c1/347ac1fb-aa10-17ef-71fd-50996b4915c8/MBS100.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic",
+      "pop",
+      "hiphop"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "My Bad Sister",
     "source": "discogs",
     "styles": [
@@ -4816,14 +5654,20 @@
       "Bassline",
       "Breaks"
     ],
-    "thumb": "https://i.discogs.com/HzTxEHgAeQ1gMxvS_oO6R7bAeNim9Qm6tBH-m7NXgZ8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNzUy/NDQ2LTE1NjAzNjE0/NjQtMzk3MS5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/7a/c1/347ac1fb-aa10-17ef-71fd-50996b4915c8/MBS100.jpg/200x200bb.jpg"
   },
   "Mykology": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/95/f7/7095f754-4099-8d35-a767-39bf54ce47ae/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Mykology",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/95/f7/7095f754-4099-8d35-a767-39bf54ce47ae/artwork.jpg/200x200bb.jpg"
   },
   "M\u00e9abh & Eva": {
     "genres": [],
@@ -4880,11 +5724,17 @@
       "Rock",
       "Pop"
     ],
-    "image": "https://i.discogs.com/_CrHL8l83r8M2UEjncM4sQsArIGy0RT_vt9j9FTeXOY/rs:fit/g:sm/q:90/h:381/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTkxMzY4/MTAtMTc2MTE2MTI4/OS02MjYzLmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/46/b0/78/46b07897-0c45-1a8a-89af-7e17ca09643f/672985453234_1.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop",
+      "electronic"
+    ],
     "mapped": [
       "rock",
       "pop"
     ],
+    "media_source": "itunes",
     "query": "NewDad",
     "source": "discogs",
     "styles": [
@@ -4894,7 +5744,7 @@
       "Indie Rock",
       "Indie Pop"
     ],
-    "thumb": "https://i.discogs.com/ZAuF0vmZU22EnG3SxmO7Ay0VrXsOLEobmCFq9dZc0Ec/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTkxMzY4/MTAtMTc2MTE2MTI4/OS02MjYzLmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/46/b0/78/46b07897-0c45-1a8a-89af-7e17ca09643f/672985453234_1.jpg/200x200bb.jpg"
   },
   "NewEra": {
     "bio": "",
@@ -4903,19 +5753,23 @@
       "Pop",
       "Hip Hop"
     ],
-    "image": "https://i.discogs.com/ZfdqPc3SH_Co_XkYbzuEmcUQ15GbGTiN79E10stGarE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0NzEz/MTkyLTE3NTQxNTI5/MDItNDA5Ni5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/44/42/3c44422d-ca19-93bf-2570-de53a2e59ecd/f392562f-0eb3-47b3-bb0a-9cc63543dbe6.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic",
       "pop",
       "hiphop"
     ],
+    "media_source": "itunes",
     "query": "NewEra",
     "source": "discogs",
     "styles": [
       "House",
       "Dark Ambient"
     ],
-    "thumb": "https://i.discogs.com/H7_k723QeP_xo55OMk3udp5hvNSdJC1FNBcLIpIbfko/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0NzEz/MTkyLTE3NTQxNTI5/MDItNDA5Ni5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/44/42/3c44422d-ca19-93bf-2570-de53a2e59ecd/f392562f-0eb3-47b3-bb0a-9cc63543dbe6.jpg/200x200bb.jpg"
   },
   "Nia Byrd": {
     "genres": [],
@@ -4930,6 +5784,10 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a7/13/6a/a7136a0e-5185-a2dc-9530-ec56acff7a29/198588856321.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "rock"
+    ],
     "mapped": [
       "pop"
     ],
@@ -4986,6 +5844,10 @@
   "OUT ON BALE": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/ef/77/92ef776a-317b-f7c7-983a-524c3cd04db4/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "pop"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "OUT ON BALE",
@@ -4998,10 +5860,14 @@
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/8V6N8uqRB8goXiyngZmDmEMP25kILgjbtO89LvgSX_4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzU3/MjQ1LTE3Nzg5Mzkz/NjItNTE2Ny5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/6b/0e/e76b0ed4-5f30-c9a0-9884-39b987e03e41/198704876851_Cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Obsk\u00fcr",
     "source": "discogs",
     "styles": [
@@ -5010,7 +5876,7 @@
       "House",
       "Minimal Techno"
     ],
-    "thumb": "https://i.discogs.com/jRU5EXQ33pNOA39253PZvlA8bzVCa_t2IuJ3In5Xs3g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzU3/MjQ1LTE3Nzg5Mzkz/NjItNTE2Ny5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/6b/0e/e76b0ed4-5f30-c9a0-9884-39b987e03e41/198704876851_Cover.jpg/200x200bb.jpg"
   },
   "Oklou": {
     "bio": "Marylou Mayniel is a singer and producer from Poitiers, France who makes contemporary, minimalist, and melodic synth pop with the use of computers, drum machines, and synthesizers.",
@@ -5018,11 +5884,17 @@
       "Electronic",
       "Pop"
     ],
-    "image": "https://i.discogs.com/tuz7yIz59jwqWcGy2v2dQ0tVik98nu1eZ3EEbASRI3I/rs:fit/g:sm/q:90/h:640/w:526/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ5NjEx/NjctMTc0MjMyNDc3/NS00MTI0LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c0/d9/d5/c0d9d5fb-287c-0c0e-671c-14b66dd6fcff/850064074956.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "rock",
+      "electronic"
+    ],
     "mapped": [
       "electronic",
       "pop"
     ],
+    "media_source": "itunes",
     "query": "Oklou",
     "source": "discogs",
     "styles": [
@@ -5033,7 +5905,7 @@
       "Electro",
       "Synth-pop"
     ],
-    "thumb": "https://i.discogs.com/tWiBYNfEnrUEg57RwQD9uij7stppdHjZXV1qniVFCuc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ5NjEx/NjctMTc0MjMyNDc3/NS00MTI0LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c0/d9/d5/c0d9d5fb-287c-0c0e-671c-14b66dd6fcff/850064074956.jpg/200x200bb.jpg"
   },
   "Omen": {
     "bio": "Sidney Brown (August 21, 1976 \u2013 September 2025), was an American record producer from Harlem.",
@@ -5057,10 +5929,16 @@
   },
   "Onai": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c8/d6/a2/c8d6a239-93f1-c234-e37b-00d8ebe65e40/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Onai",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c8/d6/a2/c8d6a239-93f1-c234-e37b-00d8ebe65e40/artwork.jpg/200x200bb.jpg"
   },
   "One More Tune": {
     "genres": [],
@@ -5071,10 +5949,16 @@
   },
   "Oracle Villa": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/1e/58/491e58c0-30e6-9390-b8a0-6c3c3e436dce/199900873194.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Oracle Villa",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/1e/58/491e58c0-30e6-9390-b8a0-6c3c3e436dce/199900873194.jpg/200x200bb.jpg"
   },
   "Outstraight Records": {
     "genres": [],
@@ -5089,6 +5973,9 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/c9/28/10/c9281031-497f-7e36-3c57-ee7361413a62/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -5136,17 +6023,27 @@
   },
   "Pablo Santo": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/59/47/a1/5947a196-b787-68c1-3828-8467cb695100/5397333124653.jpg/600x600bb.jpg",
+    "itunes_mapped": [],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Pablo Santo",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/59/47/a1/5947a196-b787-68c1-3828-8467cb695100/5397333124653.jpg/200x200bb.jpg"
   },
   "Paige Tomlinson": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5a/7c/52/5a7c52b8-5336-a1f5-9249-f3b33fc438f5/d0fa41f1-1c5b-405a-9973-316dcba84fe7.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Paige Tomlinson",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5a/7c/52/5a7c52b8-5336-a1f5-9249-f3b33fc438f5/d0fa41f1-1c5b-405a-9973-316dcba84fe7.jpg/200x200bb.jpg"
   },
   "Paradise Conspiracy - Electric Youth": {
     "genres": [],
@@ -5171,6 +6068,10 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/33/69/cb/3369cb74-7d05-eee3-4ea2-0672dc4ad567/190296871962.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop"
+    ],
     "mapped": [
       "soul",
       "folk",
@@ -5191,10 +6092,16 @@
   },
   "People I've Met": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/7d/56/687d5628-ef8e-43cd-cac1-a90a82c4730d/26UMGIM06207.rgb.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "People I've Met",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/7d/56/687d5628-ef8e-43cd-cac1-a90a82c4730d/26UMGIM06207.rgb.jpg/200x200bb.jpg"
   },
   "People_Like_Us": {
     "bio": "Since 1991 British artist Vicki Bennett has been working in the field of audio-visual collage, sampling, appropriation and cutting up of found footage and archives.",
@@ -5237,6 +6144,10 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/57/fb/a4/57fba4bc-fd0f-1485-3d67-8731b9754c97/21UM1IM56358.rgb.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "electronic"
+    ],
     "mapped": [
       "rock"
     ],
@@ -5258,10 +6169,16 @@
   },
   "Prymary Colours": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/69/69/a1/6969a195-6fc2-f3e7-9374-86ec6955e89c/198342021040_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Prymary Colours",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/69/69/a1/6969a195-6fc2-f3e7-9374-86ec6955e89c/198342021040_cover.jpg/200x200bb.jpg"
   },
   "Puffin Man/Ray McShake": {
     "genres": [],
@@ -5280,6 +6197,9 @@
   "RACK & RUINS": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/83/6f/5b/836f5b8a-9b11-9c4b-d60a-12db53f14941/8445162429368.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "RACK & RUINS",
@@ -5327,6 +6247,11 @@
   "RIA RUA": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/78/c2/d5/78c2d568-89bf-4284-70bd-9f4c8cad6be4/198015343325.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "rock",
+      "electronic"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "RIA RUA",
@@ -5341,11 +6266,17 @@
       "Non-Music",
       "Rock"
     ],
-    "image": "",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/61/5a/4c/615a4cf7-18eb-ebbf-33e5-911dbb8fea96/732138350381_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "soul",
+      "hiphop"
+    ],
     "mapped": [
       "electronic",
       "rock"
     ],
+    "media_source": "itunes",
     "query": "RNL",
     "source": "discogs",
     "styles": [
@@ -5355,7 +6286,7 @@
       "Sound Collage",
       "Prog Rock"
     ],
-    "thumb": ""
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/61/5a/4c/615a4cf7-18eb-ebbf-33e5-911dbb8fea96/732138350381_cover.jpg/200x200bb.jpg"
   },
   "ROCKY T. DELGADO": {
     "genres": [],
@@ -5371,12 +6302,16 @@
       "Funk / Soul",
       "Pop"
     ],
-    "image": "https://i.discogs.com/XzvfgIYwYBLe4InTOfHTlw059sbCU-UI9mQGdGRAzd8/rs:fit/g:sm/q:90/h:851/w:538/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQwNjMy/LTE0MzIzMTcwNjct/ODA0MS5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e5/6e/83/e56e83a8-6e43-672a-d2a8-91ca1b8dd732/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic",
       "soul",
       "pop"
     ],
+    "media_source": "itunes",
     "query": "ROWETTA",
     "source": "discogs",
     "styles": [
@@ -5386,7 +6321,7 @@
       "House",
       "Progressive House"
     ],
-    "thumb": "https://i.discogs.com/-bqARzDS6KfkNON78p1MolNNJ2eZ0vSUVzPWasFh1_c/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQwNjMy/LTE0MzIzMTcwNjct/ODA0MS5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e5/6e/83/e56e83a8-6e43-672a-d2a8-91ca1b8dd732/cover.jpg/200x200bb.jpg"
   },
   "RT\u00c9 C\u00e9ili M\u00f3r": {
     "genres": [],
@@ -5424,12 +6359,16 @@
       "Blues",
       "Hip Hop"
     ],
-    "image": "https://i.discogs.com/GoiZDUdm8-TC8MRjRWoR5rSxtJ6uIQEj1-d3n8Iwbbg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTc4NTg2NTk1/Ny00ODU0LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/78/c5/2c78c5d7-daba-d1c7-d982-099a480fb239/075679576170.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul"
+    ],
     "mapped": [
       "soul",
       "pop",
       "hiphop"
     ],
+    "media_source": "itunes",
     "query": "Ravyn Lenae",
     "source": "discogs",
     "styles": [
@@ -5437,7 +6376,7 @@
       "Neo Soul",
       "Soul"
     ],
-    "thumb": "https://i.discogs.com/psmjDSsfdnAwe5Qj9XKtdJM3Vye1kIH3ufoKuVMxYHo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTc4NTg2NTk1/Ny00ODU0LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/78/c5/2c78c5d7-daba-d1c7-d982-099a480fb239/075679576170.jpg/200x200bb.jpg"
   },
   "Ray Foley": {
     "genres": [],
@@ -5470,6 +6409,7 @@
   "Remor": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/17/51/af175126-d332-706d-7391-c07ec36e29f4/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [],
     "mapped": [],
     "media_source": "itunes",
     "query": "Remor",
@@ -5487,6 +6427,9 @@
   "Ricky Chong": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/39/6a/de/396adecb-92fb-e18f-f2ee-e10d403ac4b3/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Ricky Chong",
@@ -5496,10 +6439,16 @@
   },
   "Riff Shop": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/cb/ac/a8/cbaca8eb-fbcc-8f9e-2a49-7e5417d6cbc4/194171423369.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Riff Shop",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/cb/ac/a8/cbaca8eb-fbcc-8f9e-2a49-7e5417d6cbc4/194171423369.jpg/200x200bb.jpg"
   },
   "Risky Business": {
     "bio": "RIsky Business were from Halifax, Nova Scotia, Canada. They started off in 2004 playing fast hardcore with lots of mosh parts and sing alongs. They did 2 full North American tours playing with bands such as Righteous Jams, Justice, Have Heart, Wake Up Call and many more. They then did 2 European tours in 2007 before breaking up. They released a demo, 7\", CD and split 7\" with Nervous Wreck from the UK.",
@@ -5531,6 +6480,9 @@
       "Hip Hop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d4/ae/fc/d4aefc9c-7510-30c7-078b-dc130325bacd/808391028067_01_img001.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop"
+    ],
     "mapped": [
       "pop",
       "hiphop"
@@ -5569,6 +6521,10 @@
       "Hip Hop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/dd/22/e3dd2298-c4de-fa15-d4d8-a9485481be24/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic",
+      "hiphop"
+    ],
     "mapped": [
       "electronic",
       "hiphop"
@@ -5592,11 +6548,17 @@
       "Electronic",
       "Pop"
     ],
-    "image": "https://i.discogs.com/yRosEpA4yAbben6zAkoPmbwKYZsbJpKIn-lAzx411Ig/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzMjgy/MDYyLTE3MzY5NDMw/OTEtNzU1Ni5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/99/85/ff/9985ff62-f765-3a9f-4024-a96951789dec/25UMGIM98148.rgb.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "electronic",
+      "rock"
+    ],
     "mapped": [
       "electronic",
       "pop"
     ],
+    "media_source": "itunes",
     "query": "Rose Gray",
     "source": "discogs",
     "styles": [
@@ -5604,11 +6566,14 @@
       "House",
       "Synth-pop"
     ],
-    "thumb": "https://i.discogs.com/_6FjpTdQ7QgGfbcdhwjFZd54zHHmlobW6PKFMkINBt4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzMjgy/MDYyLTE3MzY5NDMw/OTEtNzU1Ni5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/99/85/ff/9985ff62-f765-3a9f-4024-a96951789dec/25UMGIM98148.rgb.jpg/200x200bb.jpg"
   },
   "Rua R\u00ed": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/c0/16/f7c01600-bc31-36df-b96f-ba165ebbd4d3/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Rua R\u00ed",
@@ -5630,11 +6595,16 @@
       "Blues",
       "Folk, World, & Country"
     ],
-    "image": "https://i.discogs.com/AR9lawbBLPdql3i0tIfMz1GW26u7WP2WoEEYyUrAVCw/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MTA5/Mjc2LTE3Njc2MzAw/OTktMjIwMS5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/f0/ac/a3/f0aca36a-3fd7-7732-9bea-68b5492fc692/9008798180547_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "folk"
+    ],
     "mapped": [
       "rock",
       "folk"
     ],
+    "media_source": "itunes",
     "query": "SAVAGE HEARTS",
     "source": "discogs",
     "styles": [
@@ -5644,7 +6614,7 @@
       "Country",
       "Bluegrass"
     ],
-    "thumb": "https://i.discogs.com/kCNEvBfTs_XfLb6ymRul_mA4koIp4jEl-MQTBzl2kgc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MTA5/Mjc2LTE3Njc2MzAw/OTktMjIwMS5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/f0/ac/a3/f0aca36a-3fd7-7732-9bea-68b5492fc692/9008798180547_cover.jpg/200x200bb.jpg"
   },
   "SEANEM": {
     "genres": [],
@@ -5660,12 +6630,16 @@
       "Pop",
       "Reggae"
     ],
-    "image": "https://i.discogs.com/JU6O6_-EOziP4jwcOEBjmxOHZORV7CzIc1RE4ZXz47g/rs:fit/g:sm/q:90/h:609/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NDgw/ODMtMTY2MDI1NDI1/OC0zMTM4LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/63/46/5b/63465b24-b2ab-cadb-e3fe-384f276111ad/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop"
+    ],
     "mapped": [
       "rock",
       "pop",
       "soul"
     ],
+    "media_source": "itunes",
     "query": "SECRET ACT",
     "source": "discogs",
     "styles": [
@@ -5675,14 +6649,21 @@
       "Alternative Rock",
       "Art Rock"
     ],
-    "thumb": "https://i.discogs.com/kDMJdo2JdTjAqxraOjmpZSAXmTD7p8aVSTZO8EigZWU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NDgw/ODMtMTY2MDI1NDI1/OC0zMTM4LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/63/46/5b/63465b24-b2ab-cadb-e3fe-384f276111ad/artwork.jpg/200x200bb.jpg"
   },
   "SELL EVERYTHING": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/66/66/ec6666a7-b030-58ac-a46c-4d49ef7ec9ea/17095.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "folk"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "SELL EVERYTHING",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/66/66/ec6666a7-b030-58ac-a46c-4d49ef7ec9ea/17095.jpg/200x200bb.jpg"
   },
   "SHAKALAK": {
     "bio": "Band based in Dublin, Ireland.",
@@ -5691,6 +6672,11 @@
       "Hip Hop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/73/2c/b0/732cb023-1f06-9e60-ab5d-7021edd478f2/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop",
+      "rock",
+      "electronic"
+    ],
     "mapped": [
       "electronic",
       "hiphop"
@@ -5706,30 +6692,43 @@
   },
   "SHAMROCK SHOWBAND": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/1e/88/9a1e8815-c9e4-7716-5394-1bd90a5fc6b7/999776.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "SHAMROCK SHOWBAND",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/1e/88/9a1e8815-c9e4-7716-5394-1bd90a5fc6b7/999776.jpg/200x200bb.jpg"
   },
   "SHEE": {
     "bio": "",
     "genres": [
       "Rock"
     ],
-    "image": "https://i.discogs.com/x-B0a_bjIODO9z2uSXfl7SYyGj26GIr_kCrDGWBFIoY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTcxMzU3/MTktMTU1Njg3MjM2/Ny0yMDUwLmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d0/36/e5/d036e55e-2298-460e-691f-de6f511107b0/23UMGIM70150.rgb.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "rock"
     ],
+    "media_source": "itunes",
     "query": "SHEE",
     "source": "discogs",
     "styles": [
       "Punk"
     ],
-    "thumb": "https://i.discogs.com/IBNBCS83GeVw7m8zGmIkJisoN14kdUi3gFPDzxrXLoU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTcxMzU3/MTktMTU1Njg3MjM2/Ny0yMDUwLmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d0/36/e5/d036e55e-2298-460e-691f-de6f511107b0/23UMGIM70150.rgb.jpg/200x200bb.jpg"
   },
   "SHOBSY": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/74/c5/cc/74c5cc35-bc9e-eb81-3545-c5da761dfc13/198003023499.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "SHOBSY",
@@ -5740,6 +6739,11 @@
   "SHREM": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/af/69/d9/af69d942-b9e2-c3b5-746e-e8f5d2f94711/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "electronic",
+      "soul"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "SHREM",
@@ -5759,34 +6763,43 @@
     "genres": [
       "Rock"
     ],
-    "image": "https://i.discogs.com/lFmbwy7gdI9YS_c-ctfA7N-K4jU6SgbCrb7U-DA5pR8/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2NDI1/MDEtMTYwMDUyNzA4/NC0zMzAxLmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/c9/db/16c9db90-5bf7-ada9-3739-a7f664abb2d2/5056321609939.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "rock"
     ],
+    "media_source": "itunes",
     "query": "SILVERBACKS",
     "source": "discogs",
     "styles": [
       "Indie Rock",
       "Post-Punk"
     ],
-    "thumb": "https://i.discogs.com/i5RhzI3q_LphT7pZg41KMqJfptHZhVLvgJ6orTELIF4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2NDI1/MDEtMTYwMDUyNzA4/NC0zMzAxLmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/c9/db/16c9db90-5bf7-ada9-3739-a7f664abb2d2/5056321609939.png/200x200bb.jpg"
   },
   "SMO": {
     "bio": "Rapper.",
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/T5hozSA_i4dgi6JxeratI4d23xBOtaqxY99ISM_moLY/rs:fit/g:sm/q:90/h:405/w:419/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzODc2/NzUtMTI1NjQ4OTg3/NC5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6b/de/af/6bdeaf28-6ea0-eeb3-6984-15567562c775/093624943389.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "hiphop"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "SMO",
     "source": "discogs",
     "styles": [
       "Drum n Bass",
       "Jungle"
     ],
-    "thumb": "https://i.discogs.com/1DhWgD_apD0NI4EPdZAX2pPPMuVTwjq-Gd_4Z6Q7rx4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzODc2/NzUtMTI1NjQ4OTg3/NC5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6b/de/af/6bdeaf28-6ea0-eeb3-6984-15567562c775/093624943389.jpg/200x200bb.jpg"
   },
   "SOMBR": {
     "bio": "Shane Michael Boose (born July 5, 2005), known professionally as Sombr (sometimes stylized in lowercase), is an American singer, songwriter, and record producer.",
@@ -5795,6 +6808,10 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/87/33/798733c3-e926-b1ef-435b-6a2dd7993171/093624827795.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop"
+    ],
     "mapped": [
       "pop",
       "rock"
@@ -5818,11 +6835,16 @@
       "Electronic",
       "Rock"
     ],
-    "image": "https://i.discogs.com/LPr6l4Q_XHJFXp8aaJMBxu1XDXDK5c1osFrYH4PN4t4/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI5ODk1/MzQtMTM3OTc4NDMx/OS0yMzE0LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/8a/51/c3/8a51c314-2ff9-4727-046b-415cf5cd4cc5/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic",
+      "rock"
+    ],
     "mapped": [
       "electronic",
       "rock"
     ],
+    "media_source": "itunes",
     "query": "SQUAREHEAD",
     "source": "discogs",
     "styles": [
@@ -5832,7 +6854,7 @@
       "Alternative Rock",
       "Hardstyle"
     ],
-    "thumb": "https://i.discogs.com/ZGeOonWDdjfX4bmiC76Xn8xWpajuYA-oFvPIi3sJxwU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI5ODk1/MzQtMTM3OTc4NDMx/OS0yMzE0LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/8a/51/c3/8a51c314-2ff9-4727-046b-415cf5cd4cc5/artwork.jpg/200x200bb.jpg"
   },
   "SX2": {
     "bio": "",
@@ -5841,6 +6863,9 @@
       "Folk, World, & Country"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/12/67/51/12675103-504a-7e58-8e23-a959e7b3d2c1/5056032395947.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic",
       "folk"
@@ -5874,6 +6899,11 @@
   "Saibhin": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2c/43/b3/2c43b3ef-d228-2fd5-5ece-032618b459e4/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "rock",
+      "electronic"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Saibhin",
@@ -5883,10 +6913,17 @@
   },
   "Salamay": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/ac/1c/28ac1cbf-f20b-af50-0a31-9359b10db1b1/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop",
+      "folk"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Salamay",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/ac/1c/28ac1cbf-f20b-af50-0a31-9359b10db1b1/artwork.jpg/200x200bb.jpg"
   },
   "Sally C": {
     "bio": "Electronic music producer based in Berlin.\r\nRuns [l1851622].",
@@ -5894,6 +6931,9 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/b4/94/2cb4941b-e5eb-0ca4-9976-a57f458217b6/0e1bac35-326b-41d7-87d6-3b3ad3e979b9.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -5908,34 +6948,51 @@
   },
   "Sally Cinnamon": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/58/ee/dc58ee90-7ea1-113b-de48-b7219a49fe63/PCSP_05960.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "rock"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Sally Cinnamon",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/58/ee/dc58ee90-7ea1-113b-de48-b7219a49fe63/PCSP_05960.jpg/200x200bb.jpg"
   },
   "Saltaire": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/6b/96/ae6b969d-5d52-33d9-7408-ecfb576a1e74/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Saltaire",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/6b/96/ae6b969d-5d52-33d9-7408-ecfb576a1e74/artwork.jpg/200x200bb.jpg"
   },
   "Sam Divine": {
     "bio": "DJ and producer based in London.\r\nFounder of [l=D-Vine Sounds] from 2015 - 2025. \r\nFounded a new label, [l=555 (4)], in February 2026.\r\nHer husband is [a=Cash Only (2)].",
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/k97khSNbvvEFn014Ypo783_x1RHI3mtabnhGJYijELM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1NTU2/MzktMTQ4MDY2OTI2/NS00OTI5LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/10/55/e910550a-5f9c-91f3-3408-465dc2e8a394/7f9133a2-4cbe-405d-8e80-79bb05b0844a.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Sam Divine",
     "source": "discogs",
     "styles": [
       "House",
       "Tech House"
     ],
-    "thumb": "https://i.discogs.com/t5E7bQLAGXWzS4vrHd2h0r9vQnMdYK4gpcZEQvoP-8U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1NTU2/MzktMTQ4MDY2OTI2/NS00OTI5LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/10/55/e910550a-5f9c-91f3-3408-465dc2e8a394/7f9133a2-4cbe-405d-8e80-79bb05b0844a.jpg/200x200bb.jpg"
   },
   "Sam E Morrissey": {
     "genres": [],
@@ -5947,6 +7004,10 @@
   "Sarah Crean": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/87/0a/e5/870ae504-f990-ea20-24cc-772991e24d86/5059950653113.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "rock"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Sarah Crean",
@@ -5963,6 +7024,10 @@
       "Classical"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/87/ae/11/87ae11d1-633f-d90c-639c-6337ae69ba98/198025373107.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "folk"
+    ],
     "mapped": [
       "folk",
       "rock",
@@ -6006,16 +7071,20 @@
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/3cSjHYISIwYpaRNIeSTbcs7l8HVzf3ffWAwvhAJvpTU/rs:fit/g:sm/q:90/h:502/w:499/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg4MjU3/NTItMTc3MDk5ODk5/Mi01NTI0LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/26/8c/c7/268cc7e7-1d73-e585-c641-bfaa6d2ec053/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Sharpson",
     "source": "discogs",
     "styles": [
       "Techno"
     ],
-    "thumb": "https://i.discogs.com/C2R4SAcB20FSVVM6n8DfmUFykg-TCFfjnNkBhcwDwiY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg4MjU3/NTItMTc3MDk5ODk5/Mi01NTI0LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/26/8c/c7/268cc7e7-1d73-e585-c641-bfaa6d2ec053/cover.jpg/200x200bb.jpg"
   },
   "Shauna Dee": {
     "genres": [],
@@ -6041,6 +7110,10 @@
   "Shrunk Jumper": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/3f/6a/f63f6abf-e47d-805d-1f12-548ffc4a1066/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "soul"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Shrunk Jumper",
@@ -6094,18 +7167,23 @@
       "Hip Hop",
       "Electronic"
     ],
-    "image": "https://i.discogs.com/HlKcPXk9I7KKZEOm43yD9szvm-mVcFaSEAfCxX8abBM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDc1/MS0xNzUzNTYzNTc5/LTIxNjQucG5n.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d4/9f/ca/d49fca53-4d7b-e5b7-2410-ebd584a59dc8/23UM1IM17744.rgb.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop",
+      "electronic"
+    ],
     "mapped": [
       "hiphop",
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Skepta",
     "source": "discogs",
     "styles": [
       "Grime",
       "House"
     ],
-    "thumb": "https://i.discogs.com/qjkAZyKAlHgVKR-KHnd1y-uvL9DWNH7E_CpqTyJellU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDc1/MS0xNzUzNTYzNTc5/LTIxNjQucG5n.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d4/9f/ca/d49fca53-4d7b-e5b7-2410-ebd584a59dc8/23UM1IM17744.rgb.jpg/200x200bb.jpg"
   },
   "Skye Newman": {
     "bio": "Skye Newman is an English singer-songwriter from South East London.\nBorn 9th November 2003 in London.",
@@ -6113,18 +7191,22 @@
       "Pop",
       "Funk / Soul"
     ],
-    "image": "https://i.discogs.com/1rvQlSO_hdKLPaVO_brFuSujbAG4YBqYops2rMpPASk/rs:fit/g:sm/q:90/h:316/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2NDQ0/NTY3LTE3NTQ5ODU1/NTctNjkyMS5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/bc/df/9bbcdf97-06ba-703d-8e23-20dfc90089fd/196873610375.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul"
+    ],
     "mapped": [
       "pop",
       "soul"
     ],
+    "media_source": "itunes",
     "query": "Skye Newman",
     "source": "discogs",
     "styles": [
       "Contemporary R&B",
       "Soul"
     ],
-    "thumb": "https://i.discogs.com/Yc7ztNZbTob0hKZUbx8lygGE1J1hZo1--XdqvQsXivQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2NDQ0/NTY3LTE3NTQ5ODU1/NTctNjkyMS5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/bc/df/9bbcdf97-06ba-703d-8e23-20dfc90089fd/196873610375.jpg/200x200bb.jpg"
   },
   "Sloucho [DJ Set]": {
     "genres": [],
@@ -6171,6 +7253,10 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/c7/e0/9dc7e09b-5d99-57fc-5945-a1a398d831dd/06UMGIM02331.rgb.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul",
+      "pop"
+    ],
     "mapped": [
       "soul",
       "rock",
@@ -6203,10 +7289,16 @@
   },
   "Some One's Sons": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c0/95/bc/c095bcb8-1ab1-e5fd-8955-e03dec131f20/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Some One's Sons",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c0/95/bc/c095bcb8-1ab1-e5fd-8955-e03dec131f20/artwork.jpg/200x200bb.jpg"
   },
   "Sorcha Richardson": {
     "bio": "Singer/songwriter from Dublin, Ireland.",
@@ -6216,6 +7308,11 @@
       "Folk, World, & Country"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/9b/c9/08/9bc9086f-a2d2-9a78-05f5-20c32e4612e6/RUIN_YOUR_NIGHTDRAFT.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop",
+      "electronic"
+    ],
     "mapped": [
       "rock",
       "pop",
@@ -6258,6 +7355,9 @@
       "Jazz"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d8/d4/1d/d8d41d8a-4412-8ef3-acc7-9830b69ef27a/825105159220.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Standback",
@@ -6284,17 +7384,22 @@
     "genres": [
       "Electronic"
     ],
-    "image": "https://i.discogs.com/_YO8nb3CV0hqOEFmP9ksVtrFDrV9FP24VFrWEeakrn4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NTQ4/ODcxLTE2ODgyMzA1/OTMtODkzNy5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/48/35/f2/4835f226-f066-8205-7aa3-659e793fd71f/MACA030.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul",
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "Stevie G",
     "source": "discogs",
     "styles": [
       "Garage House",
       "Hands Up"
     ],
-    "thumb": "https://i.discogs.com/G7R-S4x7SNIgmjPAr1_x6wS9oAmDveA8wgTPSXke3MA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NTQ4/ODcxLTE2ODgyMzA1/OTMtODkzNy5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/48/35/f2/4835f226-f066-8205-7aa3-659e793fd71f/MACA030.jpg/200x200bb.jpg"
   },
   "Stevie McD": {
     "genres": [],
@@ -6326,6 +7431,9 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b8/27/d3/b827d35c-f82a-86ca-5a49-13d173f3455b/00008817003320.rgb.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [
       "electronic",
       "rock"
@@ -6359,6 +7467,10 @@
       "Folk, World, & Country"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/86/20/bf/8620bfde-5d20-effa-113a-c25ea1eb7856/3856008357120.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic",
+      "pop"
+    ],
     "mapped": [
       "folk"
     ],
@@ -6382,6 +7494,10 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/0e/0a/280e0ad7-ab54-30c4-e61a-1f2357ecf22d/885288386646.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul",
+      "hiphop"
+    ],
     "mapped": [
       "hiphop",
       "rock"
@@ -6429,6 +7545,9 @@
       "Funk / Soul"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/e3/db/de/e3dbde8b-9bd1-28ce-e113-04fd430c3f8b/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "rock",
       "soul"
@@ -6445,6 +7564,9 @@
   "THE EVERGREEN BROTHERS": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1a/1b/5b/1a1b5b4a-85ed-e88a-0035-160d0c3d5538/1092573.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "THE EVERGREEN BROTHERS",
@@ -6486,6 +7608,11 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/1d/22/0c/1d220c5d-84ca-cc71-d0a9-e2c0ddf0fbba/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop",
+      "folk"
+    ],
     "mapped": [
       "rock",
       "soul",
@@ -6504,17 +7631,30 @@
   },
   "THE LUNA BOYS": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/fd/02/3afd023b-8987-bfd6-b3da-e291b4108bf7/3616553889084.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "THE LUNA BOYS",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/fd/02/3afd023b-8987-bfd6-b3da-e291b4108bf7/3616553889084.jpg/200x200bb.jpg"
   },
   "THE MOLGOGGERS": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/43/25/67/43256760-87bc-0de8-05cc-48ed8c271a46/0654367952535.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "folk"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "THE MOLGOGGERS",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/43/25/67/43256760-87bc-0de8-05cc-48ed8c271a46/0654367952535.jpg/200x200bb.jpg"
   },
   "THE PEARLY WHITES": {
     "genres": [],
@@ -6540,6 +7680,9 @@
   "THE WEDNESDAY GANG": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e7/fb/3f/e7fb3ff9-e72a-b8a6-247b-0e17d9e3c5ec/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "THE WEDNESDAY GANG",
@@ -6550,6 +7693,9 @@
   "THE WRAN": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/49/d2/87/49d28700-fb7f-846f-3132-d93ee97f2ab3/5053760154532_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "THE WRAN",
@@ -6602,6 +7748,9 @@
       "Folk, World, & Country"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/cf/1d/b4cf1df4-33da-d9c6-4aac-f375deb220c7/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "rock",
       "folk"
@@ -6637,6 +7786,10 @@
       "Hip Hop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e3/27/79/e3277974-f8ef-f632-bbdb-7674f6595764/5050580711150.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "hiphop"
+    ],
     "mapped": [
       "electronic",
       "hiphop"
@@ -6656,31 +7809,41 @@
     "genres": [
       "Electronic"
     ],
-    "image": "",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0f/45/a2/0f45a2ff-bd22-ba07-ef20-3526e781dd6d/11523.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
+    "media_source": "itunes",
     "query": "TWOFACED",
     "source": "discogs",
     "styles": [
       "Deep House",
       "House"
     ],
-    "thumb": ""
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0f/45/a2/0f45a2ff-bd22-ba07-ef20-3526e781dd6d/11523.jpg/200x200bb.jpg"
   },
   "Tailor Birds": {
     "bio": "",
     "genres": [
       "Pop"
     ],
-    "image": "",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/f1/07/6b/f1076bf4-e720-ca89-4f74-38ebda1054c7/080687421633.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "rock",
+      "electronic"
+    ],
     "mapped": [
       "pop"
     ],
+    "media_source": "itunes",
     "query": "Tailor Birds",
     "source": "discogs",
     "styles": [],
-    "thumb": ""
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/f1/07/6b/f1076bf4-e720-ca89-4f74-38ebda1054c7/080687421633.jpg/200x200bb.jpg"
   },
   "Taurean": {
     "bio": "DIY melodic punk band from Portland, Oregon. \r\nActive in the mid-2010s.",
@@ -6689,12 +7852,17 @@
       "Hip Hop",
       "Rock"
     ],
-    "image": "https://i.discogs.com/oRJSQzKKPoeIN1du0nFIXZwqu1eRFatltOu21k3kLqo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MDI3/MDgwLTE3NDc2ODM4/MzYtMTk0Ny5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4e/da/6f/4eda6fc0-4864-7674-47a6-e4b55b4b0e3d/859739878486_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "hiphop",
+      "soul"
+    ],
     "mapped": [
       "electronic",
       "hiphop",
       "rock"
     ],
+    "media_source": "itunes",
     "query": "Taurean",
     "source": "discogs",
     "styles": [
@@ -6703,11 +7871,14 @@
       "House",
       "Indie Rock"
     ],
-    "thumb": "https://i.discogs.com/RqBdNSBkktR-n03FPB9wdRmZpHV_7c5f7ToyIT1742I/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MDI3/MDgwLTE3NDc2ODM4/MzYtMTk0Ny5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4e/da/6f/4eda6fc0-4864-7674-47a6-e4b55b4b0e3d/859739878486_cover.jpg/200x200bb.jpg"
   },
   "Teggy": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/8a/22/ad/8a22ad52-bbdf-5516-cab9-134965dfc120/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Teggy",
@@ -6728,22 +7899,30 @@
       "Rock",
       "Pop"
     ],
-    "image": "https://i.discogs.com/LaXlEq7JQXhQ0t36u0kKcUsz5FSPiclF9ZhbraRRDys/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwNjYx/ODktMTUzOTI3OTUy/MC0yNzk5LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/59/cf/85/59cf856d-a600-f337-543a-82e65eb51511/0194491407605.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "rock",
       "pop"
     ],
+    "media_source": "itunes",
     "query": "The Academic",
     "source": "discogs",
     "styles": [
       "Indie Rock",
       "Indie Pop"
     ],
-    "thumb": "https://i.discogs.com/U4XP9_axEkqj5UnfeX6NXpG8VknzSBDnJMX2QYedDEM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwNjYx/ODktMTUzOTI3OTUy/MC0yNzk5LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/59/cf/85/59cf856d-a600-f337-543a-82e65eb51511/0194491407605.jpg/200x200bb.jpg"
   },
   "The Blow In's": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/3b/9f/dc3b9f16-08e8-1c5f-104d-16ced2b9b96f/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "rock"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "The Blow In's",
@@ -6753,10 +7932,16 @@
   },
   "The Byrne Brothers": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/49/a6/2f/49a62f22-d3d1-1563-755f-ac876be272c3/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "The Byrne Brothers",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/49/a6/2f/49a62f22-d3d1-1563-755f-ac876be272c3/artwork.jpg/200x200bb.jpg"
   },
   "The Caochaleles": {
     "genres": [],
@@ -6818,10 +8003,16 @@
   },
   "The Gladstone Band": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/9d/6c/789d6c60-4095-6429-c872-6e4aba5f42de/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "The Gladstone Band",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/9d/6c/789d6c60-4095-6429-c872-6e4aba5f42de/artwork.jpg/200x200bb.jpg"
   },
   "The Inishbofin C\u00e9il\u00ed Band": {
     "genres": [],
@@ -6833,6 +8024,10 @@
   "The Labourers": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/94/6a/5e/946a5e2e-b35f-53fe-d02e-3244418cfe97/195269130893.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "rock"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "The Labourers",
@@ -6853,6 +8048,10 @@
       "Funk / Soul"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/89/ad/7c/89ad7c40-0f17-51ca-788c-b813f87ff4c0/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul",
+      "rock"
+    ],
     "mapped": [
       "soul"
     ],
@@ -6897,16 +8096,21 @@
     "genres": [
       "Folk, World, & Country"
     ],
-    "image": "https://i.discogs.com/Vj4hujghHFAYHfwIXd28aUnz5iccwvsM5Lmbosv4IeQ/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc3OTE0/MzgtMTY5NzQ3Mjcx/Mi02Njg5LmpwZWc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/93/d7/e7/93d7e7c9-9fae-518e-232a-5318bc2868ed/5053760096054.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "folk"
+    ],
     "mapped": [
       "folk"
     ],
+    "media_source": "itunes",
     "query": "The Mary Wallopers",
     "source": "discogs",
     "styles": [
       "Celtic"
     ],
-    "thumb": "https://i.discogs.com/lORd6KpeNHB9SaPqZ28Dd75QgK7QXKCKHJOygB2fnlE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc3OTE0/MzgtMTY5NzQ3Mjcx/Mi02Njg5LmpwZWc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/93/d7/e7/93d7e7c9-9fae-518e-232a-5318bc2868ed/5053760096054.png/200x200bb.jpg"
   },
   "The Mo Cultivation": {
     "genres": [],
@@ -6936,6 +8140,10 @@
       "Folk, World, & Country"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/4e/c2/83/4ec2839a-3d74-cf5f-69f3-0c682d05c5c9/Cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop"
+    ],
     "mapped": [
       "rock",
       "folk"
@@ -6954,6 +8162,9 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6c/2d/26/6c2d26b1-e886-ecc9-be90-bd0cb784a352/196873610412.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "rock"
     ],
@@ -6969,26 +8180,38 @@
   },
   "The Spudguns": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/0d/5e/290d5efb-c29f-c06d-6d90-da6068fa99d8/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "The Spudguns",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/0d/5e/290d5efb-c29f-c06d-6d90-da6068fa99d8/artwork.jpg/200x200bb.jpg"
   },
   "The Stunning": {
     "bio": "Irish band formed in Galway in 1987 that had huge success with their albums [i][m=405094][/i] and [i][m=405091][/i]. They split up in 1994 but reformed for live tours again in 2003, 2006 and 2008.",
     "genres": [
       "Rock"
     ],
-    "image": "https://i.discogs.com/Q0fTAFIzHcjsYpHbGRd4GOKRYiBUzSTSK1B5CUCJ-Y0/rs:fit/g:sm/q:90/h:404/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTgyOTEx/MC0xNTU4NzIzMzg5/LTY0NDkuanBlZw.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/dc/64/64dc6418-dd29-ec99-44ed-74efe8ec155e/824296326053_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "folk",
+      "pop"
+    ],
     "mapped": [
       "rock"
     ],
+    "media_source": "itunes",
     "query": "The Stunning",
     "source": "discogs",
     "styles": [
       "Soft Rock"
     ],
-    "thumb": "https://i.discogs.com/tqPuoULt9JEkFZo7y_DNavkwCIk337QK2GecB2IW3Q8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTgyOTEx/MC0xNTU4NzIzMzg5/LTY0NDkuanBlZw.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/dc/64/64dc6418-dd29-ec99-44ed-74efe8ec155e/824296326053_cover.jpg/200x200bb.jpg"
   },
   "The Undertones": {
     "bio": "The Undertones formed in Derry, Northern Ireland, in 1975.  Their debut EP, Teenage Kicks, was released by Belfast record shop owner Terry Hooley on his Good Vibrations label in September 1978. The song captivated Britain's top DJ, [a=John Peel], who played the song on his [l=BBC] radio show. This attracted a deal from [l=Sire], which released the band's debut LP in April 1979. That Autumn, The Undertones earned kudos as a support act on the Clash's American tour. \r\n\r\nA second LP, Hypnotised, was recorded and released in 1980, followed in 1981 by their first LP for EMI, Positive Touch. The Sin Of Pride was released in 1983, shortly before the Undertones split up in the summer of 1983 after a series of summer festival gigs.\r\n\r\nFeargal Sharkey launched a short-lived solo career, while the O'Neills won critical plaudits - but little sales - for their tough-minded political band, [a=That Petrol Emotion]. \r\n\r\nHopes of re-forming the original lineup for John Peel's 50th birthday 1989 fell apart after the O'Neills' father died. \r\n\r\nTheir first new album in 20 years, Get What You Need,  was released in September 2003, but with a new singer Paul McLoone, instead of Feargal Sharkey.\r\n\r\nOrigi",
@@ -6996,6 +8219,10 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/73/a5/6a/73a56abe-649c-83f2-b963-0d2bfbc42add/0698458352583.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "pop"
+    ],
     "mapped": [
       "rock"
     ],
@@ -7012,6 +8239,9 @@
   "The Voodoo Kitchen": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/de/e7/a6/dee7a60a-7b58-1b2e-7705-955896977110/0.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "The Voodoo Kitchen",
@@ -7029,6 +8259,9 @@
   "The Weaving": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/96/70/82/96708281-b7c1-78d8-81cb-0b8198a5619d/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "The Weaving",
@@ -7039,6 +8272,11 @@
   "The Wires": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/0e/58/ff/0e58ffe2-967b-b2e7-0117-979dceb7652c/884501816496.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "rock",
+      "pop"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "The Wires",
@@ -7056,6 +8294,9 @@
   "The Wran": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/49/d2/87/49d28700-fb7f-846f-3132-d93ee97f2ab3/5053760154532_cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "The Wran",
@@ -7083,6 +8324,9 @@
   "Three Little Birds": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c0/65/88/c0658825-658f-2e1d-3cec-6448806e76bc/625989658822.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "Three Little Birds",
@@ -7208,19 +8452,23 @@
       "Folk, World, & Country",
       "Rock"
     ],
-    "image": "https://i.discogs.com/y_W-XqxMUIp7s8hPpb3sMohv9BOriHKadu6RdU205UI/rs:fit/g:sm/q:90/h:753/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MzQx/NjI4LTE3NTg2MjEx/NTMtMTU5OS5wbmc.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/74/55/1374555d-9001-754e-fe29-ffa9f1fae429/191402055368.png/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "pop",
       "folk",
       "rock"
     ],
+    "media_source": "itunes",
     "query": "Tyler Ballgame",
     "source": "discogs",
     "styles": [
       "Indie Pop",
       "Classic Rock"
     ],
-    "thumb": "https://i.discogs.com/3v0oI6h1_oNkwocuxxfH_Kmyxg6Us3OhOrdlGMaU410/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MzQx/NjI4LTE3NTg2MjEx/NTMtMTU5OS5wbmc.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/74/55/1374555d-9001-754e-fe29-ffa9f1fae429/191402055368.png/200x200bb.jpg"
   },
   "Uaithne": {
     "bio": "",
@@ -7242,10 +8490,16 @@
   },
   "Ursula Burns \u2013 The Dangerous Harpist": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/8a/27/9b/8a279b70-c509-596d-bb25-6ba6e86480da/24979.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Ursula Burns \u2013 The Dangerous Harpist",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/8a/27/9b/8a279b70-c509-596d-bb25-6ba6e86480da/24979.jpg/200x200bb.jpg"
   },
   "Valentina's Thursday Providencia Parade": {
     "genres": [],
@@ -7263,6 +8517,10 @@
       "Pop"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9a/c7/e2/9ac7e266-1f0d-997a-fe43-6741bc96eda6/081227963637.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "folk"
+    ],
     "mapped": [
       "rock",
       "soul",
@@ -7312,16 +8570,20 @@
     "genres": [
       "Rock"
     ],
-    "image": "https://i.discogs.com/xlYxJ_gEGipBv6CLQvpPACgb_sGYOLvjLF-sgioKex8/rs:fit/g:sm/q:90/h:429/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3MjIw/MjctMTc4MDMzNjgw/MC0yNzkzLnBuZw.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/ca/68/35ca6891-1fbc-303f-8d97-0ba91a048f0c/26UMGIM22395.rgb.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "rock"
     ],
+    "media_source": "itunes",
     "query": "Violet Grohl",
     "source": "discogs",
     "styles": [
       "Alternative Rock"
     ],
-    "thumb": "https://i.discogs.com/k_IP8NweSNcsL_m2x00cZye64yR6mupJCZ1U8LAX8-o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3MjIw/MjctMTc4MDMzNjgw/MC0yNzkzLnBuZw.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/ca/68/35ca6891-1fbc-303f-8d97-0ba91a048f0c/26UMGIM22395.rgb.jpg/200x200bb.jpg"
   },
   "WEDDING BAND OF THE DAMNED": {
     "genres": [],
@@ -7350,6 +8612,10 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/04/ef/8e/04ef8eff-fd24-3357-4190-7ce4f028de2e/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "soul"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -7367,6 +8633,9 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6e/35/2e/6e352e5c-0c30-dbb2-a383-0a2e2feaa000/192641849060.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [
       "rock"
     ],
@@ -7386,6 +8655,10 @@
       "Rock"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7b/7b/4a/7b7b4a32-f2ff-fdb1-cb05-7f7332c812cc/cover.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock",
+      "folk"
+    ],
     "mapped": [
       "rock"
     ],
@@ -7405,6 +8678,9 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/84/85/94848542-a8bd-16ef-c301-d1b284585b38/3744.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "electronic"
+    ],
     "mapped": [
       "electronic"
     ],
@@ -7462,6 +8738,10 @@
       "Electronic"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/56/d8/82/56d88283-eaa5-394a-8e66-ec6ea2448617/886448105589.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "pop",
+      "electronic"
+    ],
     "mapped": [
       "pop",
       "electronic"
@@ -7479,10 +8759,16 @@
   },
   "Zazaman": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/a1/53/10a153ce-6fca-5c8f-5641-b13905ab9a58/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "soul"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "Zazaman",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/a1/53/10a153ce-6fca-5c8f-5641-b13905ab9a58/artwork.jpg/200x200bb.jpg"
   },
   "_lawrence909": {
     "genres": [],
@@ -7493,10 +8779,16 @@
   },
   "and he, the fool": {
     "genres": [],
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6a/f2/26/6af22635-6995-14b7-8c62-5aa0193153bf/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "rock"
+    ],
     "mapped": [],
+    "media_source": "itunes",
     "query": "and he, the fool",
     "source": "miss",
-    "styles": []
+    "styles": [],
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6a/f2/26/6af22635-6995-14b7-8c62-5aa0193153bf/artwork.jpg/200x200bb.jpg"
   },
   "danzi": {
     "bio": "",
@@ -7532,6 +8824,10 @@
   "vasuki red": {
     "genres": [],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/54/39/e1/5439e18f-5a19-e19e-6982-a60e6f464feb/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "rock"
+    ],
     "mapped": [],
     "media_source": "itunes",
     "query": "vasuki red",
@@ -7544,16 +8840,22 @@
     "genres": [
       "Folk, World, & Country"
     ],
-    "image": "https://i.discogs.com/SKAJ5LlP1EENnoo27tk9iSjhwQHitNYg2vtpdNC9VaI/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NTAx/NDgzLTE2OTY0OTcx/MzEtMzQ0Ny5qcGVn.jpeg",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9c/f0/929cf005-16a8-83b0-df86-68eebe730a6e/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk",
+      "pop",
+      "rock"
+    ],
     "mapped": [
       "folk"
     ],
+    "media_source": "itunes",
     "query": "\u00c9abha",
     "source": "discogs",
     "styles": [
       "Celtic"
     ],
-    "thumb": "https://i.discogs.com/yXDftUhFc0ybbON1_gUX5-fcixMHy_RY8PaOiiEoF_Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NTAx/NDgzLTE2OTY0OTcx/MzEtMzQ0Ny5qcGVn.jpeg"
+    "thumb": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9c/f0/929cf005-16a8-83b0-df86-68eebe730a6e/artwork.jpg/200x200bb.jpg"
   },
   "\u00dana N\u00ed Fhlannag\u00e1in": {
     "bio": "",
@@ -7561,6 +8863,9 @@
       "Folk, World, & Country"
     ],
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/c6/71/a5c671a4-73b4-def5-d73b-205a33eb1e7a/artwork.jpg/600x600bb.jpg",
+    "itunes_mapped": [
+      "folk"
+    ],
     "mapped": [
       "folk"
     ],

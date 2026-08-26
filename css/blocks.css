@@ -118,7 +118,7 @@
   }
   &[data-genre="rock"] {
     background: var(--color-chip-rock);
-    color: var(--color-text-on-fill);
+    color: var(--color-text-on-chip);
   }
   &[data-genre="folk"] {
     background: var(--color-chip-folk);

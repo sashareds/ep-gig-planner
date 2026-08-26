@@ -30,9 +30,7 @@ const TASTE_TAGS = {
 
 function loadTaste() {
   const stored = localStorage.getItem(TASTE_KEY);
-  if (stored === null) {
-    return "Massive Attack, Underworld, Chemical Brothers, LCD Soundsystem, Dave Clarke, Adam Beyer, London Grammar, Fever Ray";
-  }
+  if (stored === null) return "";
   return stored;
 }
 
@@ -235,13 +233,10 @@ function scoreAct(act, profile) {
 }
 
 function suggestions() {
+  if (state.kind && state.kind !== "music") return [];
   const profile = tasteProfile();
   return data.acts
-    .filter((a) => {
-      if (a.day !== state.day || a.kind !== "music") return false;
-      if (state.genre && !(a.genres || []).includes(state.genre)) return false;
-      return true;
-    })
+    .filter(matchesFilters)
     .map((a) => ({ act: a, ...scoreAct(a, profile) }))
     .filter((x) => x.score >= 4)
     .sort((a, b) => b.score - a.score || a.act.start.localeCompare(b.act.start))
@@ -250,7 +245,8 @@ function suggestions() {
 
 function wantButton(act) {
   const on = state.plan.includes(act.id);
-  return `<button type="button" class="btn" data-state="${on ? "on" : "off"}" data-id="${esc(act.id)}">${on ? "Seeing this" : "I’d like to see"}</button>`;
+  const label = on ? `Remove ${act.name} from route` : `Add ${act.name} to route`;
+  return `<button type="button" class="btn" data-state="${on ? "on" : "off"}" data-id="${esc(act.id)}" aria-pressed="${on ? "true" : "false"}" aria-label="${esc(label)}">${on ? "Seeing this" : "I’d like to see"}</button>`;
 }
 
 function initials(name) {
@@ -307,7 +303,7 @@ function actCard(act, extra = "") {
       ${note}
       ${extra ? `<p class="item-card__note">${extra}</p>` : ""}
       ${mediaMarkup(act, "item-card__media", act.thumb || act.image)}
-      <button type="button" class="btn item-card__action" data-state="${picked ? "on" : "off"}" title="I’d like to see" data-id="${esc(act.id)}">${picked ? "★" : "☆"}</button>
+      <button type="button" class="btn item-card__action" data-state="${picked ? "on" : "off"}" data-id="${esc(act.id)}" aria-pressed="${picked ? "true" : "false"}" aria-label="${esc(picked ? `Remove ${act.name} from route` : `Add ${act.name} to route`)}">${picked ? "★" : "☆"}</button>
     </article>`;
 }
 
@@ -378,6 +374,8 @@ function bindCardClicks(root) {
 }
 
 function renderSuggest() {
+  const block = $("#suggest-block");
+  if (block) block.classList.toggle("u-hidden", Boolean(state.kind && state.kind !== "music"));
   const items = suggestions();
   $("#suggest-count").textContent = items.length ? `${items.length}` : "";
   const box = $("#suggest");
@@ -462,7 +460,7 @@ function renderAct() {
   const photo = act.image || act.thumb;
   page.innerHTML = `
     <p class="act-page__meta">${esc(act.dayLabel)} ${fmtTime(act.start)}–${fmtTime(act.end)} · ${esc(act.stage)}</p>
-    <h2 class="act-page__title">${esc(act.name)}</h2>
+    <h2 class="act-page__title" tabindex="-1">${esc(act.name)}</h2>
     <div class="chips">${(act.genres || []).map((g) => `<span class="chip" data-genre="${esc(g)}">${esc(g)}</span>`).join("")}
       <span class="chip">${esc(act.kind)}</span></div>
     <p>${wantButton(act)}</p>
@@ -635,8 +633,8 @@ function syncNotifyUi() {
     return;
   }
   hint.textContent = on
-    ? "15 minutes before each starred set. On iPhone this needs the Home Screen app; iOS will not wake a killed PWA. For lock-screen alerts, Add to calendar once."
-    : "PWA alerts 15 minutes before starred sets. On iPhone, add this page to the Home Screen first.";
+    ? "Alerts fire only while this page is open. They do not run after you close the tab or PWA. For lock-screen reminders, Add to calendar once."
+    : "Alerts 15 minutes before starred sets, only while this page stays open. Add to calendar once for lock-screen reminders.";
 }
 
 async function toggleNotify() {
@@ -717,10 +715,15 @@ function exportPlan() {
   );
 }
 
+function resolvedTheme(mode) {
+  if (mode === "dark") return "dark";
+  if (mode === "light") return "light";
+  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+
 function applyTheme(mode) {
   localStorage.setItem(THEME_KEY, mode);
-  if (mode === "system") document.documentElement.removeAttribute("data-theme");
-  else document.documentElement.dataset.theme = mode;
+  document.documentElement.dataset.theme = resolvedTheme(mode);
   document.querySelectorAll(".theme-switch__btn").forEach((btn) => {
     const on = btn.dataset.theme === mode;
     btn.setAttribute("aria-pressed", on ? "true" : "false");
@@ -728,25 +731,58 @@ function applyTheme(mode) {
   });
 }
 
+function restoreFocus(target) {
+  if (!target) return;
+  if (target.id) {
+    document.getElementById(target.id)?.focus();
+    return;
+  }
+  const sel = [
+    target.dataId && `[data-id="${CSS.escape(target.dataId)}"]`,
+    target.dataOpen && `[data-open="${CSS.escape(target.dataOpen)}"]`,
+    target.dataTheme && `[data-theme="${CSS.escape(target.dataTheme)}"]`,
+  ].filter(Boolean);
+  for (const s of sel) {
+    const el = document.querySelector(s);
+    if (el) {
+      el.focus();
+      return;
+    }
+  }
+}
+
 function render() {
+  const active = document.activeElement;
+  const focusTarget = active && {
+    id: active.id,
+    dataId: active.dataset?.id,
+    dataOpen: active.dataset?.open,
+    dataTheme: active.dataset?.theme,
+  };
+  const wasAct = state.view === "act";
   parseHash();
   $("#list-view").classList.toggle("u-hidden", state.view !== "list");
   $("#act-view").classList.toggle("u-hidden", state.view !== "act");
   renderHeader();
   renderDays();
   renderFilters();
-  if (state.view === "act") renderAct();
-  else {
+  if (state.view === "act") {
+    renderAct();
+    $("#act-detail .act-page__title")?.focus();
+  } else {
     $("#taste").value = state.taste;
     renderSuggest();
     renderList();
     renderPlan();
+    if (wasAct) $("#search")?.focus();
+    else restoreFocus(focusTarget);
   }
 }
 
 $("#search").addEventListener("input", (e) => {
   state.query = e.target.value;
   renderList();
+  renderSuggest();
 });
 $("#kind").addEventListener("change", (e) => {
   state.kind = e.target.value;
@@ -763,6 +799,7 @@ $("#genre").addEventListener("change", (e) => {
 $("#stage").addEventListener("change", (e) => {
   state.stage = e.target.value;
   renderList();
+  renderSuggest();
 });
 $("#taste").addEventListener("input", (e) => {
   state.taste = e.target.value;
@@ -781,6 +818,9 @@ document.querySelectorAll(".theme-switch__btn").forEach((btn) => {
   btn.addEventListener("click", () => applyTheme(btn.dataset.theme));
 });
 applyTheme(localStorage.getItem(THEME_KEY) || "system");
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+  if ((localStorage.getItem(THEME_KEY) || "system") === "system") applyTheme("system");
+});
 
 if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
   navigator.serviceWorker.register("./sw.js").then(() => scheduleAlerts());

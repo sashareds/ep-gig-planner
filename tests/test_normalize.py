@@ -92,6 +92,11 @@ def test_discogs_electronic_beats_blurb():
     ]
 
 
+def test_itunes_mapped_beats_discogs_mapped():
+    discogs = {"mapped": ["rock"], "itunes_mapped": ["electronic"], "source": "discogs"}
+    assert normalize.classify_genres("Main Stage", "Someone", "", discogs) == ["electronic"]
+
+
 def test_map_discogs_styles():
     from discogs_lookup import map_discogs
 
@@ -115,6 +120,15 @@ def test_usable_image_rejects_spacer():
 def test_public_image_drops_discogs_cdn():
     assert normalize._public_image("https://is1-ssl.mzstatic.com/image/thumb/x.jpg")
     assert normalize._public_image("https://i.discogs.com/abc.jpeg") == ""
+
+
+def test_map_itunes_genre():
+    from discogs_lookup import map_itunes_genre
+
+    assert map_itunes_genre("Electronic") == ["electronic"]
+    assert map_itunes_genre("Dance") == ["electronic"]
+    assert map_itunes_genre("Hip-Hop/Rap") == ["hiphop"]
+    assert map_itunes_genre("Alternative") == ["rock"]
 
 
 def test_itunes_sizes_upgrade_artwork_url():

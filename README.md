@@ -37,6 +37,8 @@ python3 scripts/normalize.py
 
 Do not commit `.env-discogs` or Clashfinder credentials.
 
+This is a static GitHub Pages app (HTML + CSS + one `app.js`). It does **not** use the DevKit greenfield JS stack (Vite, TypeScript, pnpm, Biome, Vitest, Playwright).
+
 ## Tests
 
 ```bash

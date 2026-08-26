@@ -14,7 +14,7 @@ A thin or unauthenticated dump is rejected so Pages keeps the last good line-up.
 
 `scripts/normalize.py` writes `data/ep26.js`. Do not hand-edit that file.
 
-Genre tags prefer Discogs. The planner page does **not** call Discogs; only `scripts/discogs_lookup.py` does, once, then writes `data/discogs-cache.json`.
+Genre tags prefer iTunes (`itunes_mapped`), then Discogs, then blurb heuristics. The planner page does **not** call iTunes or Discogs at runtime.
 
 Discogs caps authenticated apps at **60 requests per minute** (consumer key does not raise that). A full first crawl of ~600 artists is therefore ~10 minutes. Re-runs skip names already in the cache.
 

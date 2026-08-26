@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#3c679b">
+  <meta name="description" content="Plan Electric Picnic 2026 sets by day, with 15–20 minute walks and a phone-friendly route.">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="EP26">
@@ -14,28 +16,29 @@
   <script>
     (function () {
       var t = localStorage.getItem("ep26-theme-v1") || "system";
-      if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+      var dark = t === "dark" || (t !== "light" && window.matchMedia("(prefers-color-scheme: dark)").matches);
+      document.documentElement.dataset.theme = dark ? "dark" : "light";
     })();
   </script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="hero" role="banner">
-    <div class="hero__inner">
-      <p class="hero__kicker">Music and arts festival · Stradbally Hall</p>
-      <h1 class="hero__title">Electric Picnic 2026</h1>
-      <p class="hero__meta" id="updated"></p>
-    </div>
     <div class="hero__themes cluster" role="group" aria-label="Colour theme">
       <button type="button" class="btn theme-switch__btn" data-theme="system">System</button>
       <button type="button" class="btn theme-switch__btn" data-theme="dark">Dark</button>
       <button type="button" class="btn theme-switch__btn" data-theme="light">Light</button>
     </div>
+    <div class="hero__inner">
+      <p class="hero__kicker">Music and arts festival · Stradbally Hall</p>
+      <h1 class="hero__title">Electric Picnic 2026</h1>
+      <p class="hero__meta" id="updated"></p>
+    </div>
   </div>
 
   <header class="site-header">
     <div class="filter-bar cluster site-header__filters">
-      <label class="field">
+      <label class="field site-header__search">
         <span class="field__label">Search</span>
         <input class="field__control" id="search" type="search" placeholder="Act or stage" autocomplete="off">
       </label>
@@ -53,20 +56,22 @@
       </label>
     </div>
     <p class="site-header__hint">Walk between stages is treated as 15–20 minutes. Routes never mix days.</p>
-    <div class="cluster site-header__days" id="days" role="group" aria-label="Festival day"></div>
   </header>
+  <nav class="day-bar cluster" id="days" role="group" aria-label="Festival day"></nav>
 
   <div id="list-view" class="with-sidebar">
     <main class="lineup">
       <section class="taste">
         <label class="field">
           <span class="field__label">Artists you already like</span>
-          <textarea class="field__control" id="taste" rows="2" placeholder="Massive Attack, Underworld, Chemical Brothers…"></textarea>
+          <textarea class="field__control" id="taste" rows="2" placeholder="Example: Massive Attack, Underworld, Chemical Brothers"></textarea>
           <span class="field__help">Used to suggest nearby electronic-leaning sets. Stored only in this browser.</span>
         </label>
       </section>
-      <h2 class="lineup__heading">Suggested <span class="lineup__count" id="suggest-count"></span></h2>
-      <div id="suggest" class="stack lineup__list"></div>
+      <section id="suggest-block">
+        <h2 class="lineup__heading">Suggested <span class="lineup__count" id="suggest-count"></span></h2>
+        <div id="suggest" class="stack lineup__list"></div>
+      </section>
       <h2 class="lineup__heading">Line-up <span class="lineup__count" id="count"></span></h2>
       <div id="list" class="stack lineup__list"></div>
     </main>
@@ -79,7 +84,7 @@
         <button type="button" class="btn" id="notify-toggle" data-state="off">Notify 15 min before</button>
       </div>
       <p class="route__hint">Calendar: import once. Re-adding the file duplicates events on Apple. Each event already has a 15-minute reminder.</p>
-      <p class="route__hint" id="notify-hint">Or use Notify — 15 minutes before each starred set. On iPhone, add this app to the Home Screen first.</p>
+      <p class="route__hint" id="notify-hint">Alerts 15 minutes before starred sets, only while this page stays open.</p>
       <div id="plan"></div>
     </aside>
   </div>

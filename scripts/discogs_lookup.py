@@ -153,6 +153,51 @@ def usable_image(url: str | None) -> str:
     return url
 
 
+ITUNES_GENRE_MAP = {
+    "electronic": "electronic",
+    "dance": "electronic",
+    "electronica": "electronic",
+    "techno": "electronic",
+    "house": "electronic",
+    "trance": "electronic",
+    "edm": "electronic",
+    "dancehall": "electronic",
+    "rock": "rock",
+    "alternative": "rock",
+    "indie": "rock",
+    "punk": "rock",
+    "metal": "rock",
+    "pop": "pop",
+    "k-pop": "pop",
+    "singer/songwriter": "folk",
+    "folk": "folk",
+    "world": "folk",
+    "country": "folk",
+    "celtic": "folk",
+    "hip-hop/rap": "hiphop",
+    "hip hop/rap": "hiphop",
+    "hip-hop": "hiphop",
+    "rap": "hiphop",
+    "r&b/soul": "soul",
+    "soul": "soul",
+    "r&b": "soul",
+    "reggae": "soul",
+}
+
+
+def map_itunes_genre(name: str) -> list[str]:
+    g = (name or "").lower().strip()
+    if not g:
+        return []
+    if g in ITUNES_GENRE_MAP:
+        return [ITUNES_GENRE_MAP[g]]
+    mapped = []
+    for key, ours in ITUNES_GENRE_MAP.items():
+        if key in g and ours not in mapped:
+            mapped.append(ours)
+    return mapped[:2]
+
+
 def itunes_sizes(url: str) -> tuple[str, str]:
     """Return (image, thumb) from an iTunes artworkUrl100."""
     image, thumb = url, url
@@ -180,6 +225,8 @@ def lookup_itunes(name: str) -> dict:
             payload = json.load(resp)
     except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, json.JSONDecodeError):
         return {}
+    art = ""
+    genre_votes: Counter[str] = Counter()
     for row in payload.get("results") or []:
         artist = _norm(row.get("artistName") or "")
         compact_a, compact_w = artist.replace(" ", ""), wanted.replace(" ", "")
@@ -190,12 +237,18 @@ def lookup_itunes(name: str) -> dict:
             or (len(compact_w) >= 4 and compact_a == compact_w)
         ):
             continue
-        art = row.get("artworkUrl100") or ""
-        if not art:
-            continue
-        image, thumb = itunes_sizes(art)
-        return {"image": image, "thumb": thumb, "media_source": "itunes"}
-    return {}
+        art = art or (row.get("artworkUrl100") or "")
+        for ours in map_itunes_genre(row.get("primaryGenreName") or ""):
+            genre_votes[ours] += 1
+    if not art and not genre_votes:
+        return {}
+    image, thumb = itunes_sizes(art) if art else ("", "")
+    return {
+        "image": image,
+        "thumb": thumb,
+        "media_source": "itunes" if art else "",
+        "itunes_mapped": [g for g, _ in genre_votes.most_common(3)],
+    }
 
 
 def enrich_itunes(names: list[str]) -> dict:
@@ -205,7 +258,7 @@ def enrich_itunes(names: list[str]) -> dict:
     for name in names:
         key = query_name(name)
         row = cache.get(key) or {}
-        if row.get("media_source") == "itunes" and usable_image(row.get("thumb") or ""):
+        if row.get("media_source") == "itunes" and "itunes_mapped" in row:
             continue
         pending.append(key)
     pending = list(dict.fromkeys(pending))
@@ -215,9 +268,12 @@ def enrich_itunes(names: list[str]) -> dict:
         art = lookup_itunes(key)
         row = cache.get(key) or {"query": key, "genres": [], "styles": [], "mapped": [], "source": "miss"}
         if art:
-            row["image"] = art["image"]
-            row["thumb"] = art["thumb"]
-            row["media_source"] = "itunes"
+            if art.get("image"):
+                row["image"] = art["image"]
+                row["thumb"] = art["thumb"]
+                row["media_source"] = "itunes"
+            if "itunes_mapped" in art:
+                row["itunes_mapped"] = art["itunes_mapped"]
             hits += 1
         cache[key] = row
         if i % 25 == 0 or i == len(pending):
