@@ -1,6 +1,7 @@
 /*
  * CUBE composition — layout only.
- * Custom properties do not resolve inside @media. Use 54rem to match --breakpoint-md.
+ * Custom properties do not resolve inside @media. The only raw rem allowed
+ * outside variables.css is the --breakpoint-md literal (54rem) below.
  */
 
 .stack {

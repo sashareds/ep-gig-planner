@@ -28,7 +28,7 @@ python3 scripts/normalize.py
 
 ## CSS
 
-House CSS load order: `css/variables.css` → `document.css` → `composition.css` → `blocks.css` → `utilities.css`, imported from `styles.css`.
+House CSS load order: `variables.css` → `document.css` → `composition.css` → `blocks.css` → `app.css` → `utilities.css`.
 
 ## Open
 

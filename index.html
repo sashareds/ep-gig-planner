@@ -26,7 +26,7 @@
       <h1 class="hero__title">Electric Picnic 2026</h1>
       <p class="hero__meta" id="updated"></p>
     </div>
-    <div class="cluster" role="group" aria-label="Colour theme">
+    <div class="hero__themes cluster" role="group" aria-label="Colour theme">
       <button type="button" class="btn theme-switch__btn" data-theme="system">System</button>
       <button type="button" class="btn theme-switch__btn" data-theme="dark">Dark</button>
       <button type="button" class="btn theme-switch__btn" data-theme="light">Light</button>
@@ -34,7 +34,7 @@
   </div>
 
   <header class="site-header">
-    <div class="filter-bar cluster">
+    <div class="filter-bar cluster site-header__filters">
       <label class="field">
         <span class="field__label">Search</span>
         <input class="field__control" id="search" type="search" placeholder="Act or stage" autocomplete="off">
@@ -53,7 +53,7 @@
       </label>
     </div>
     <p class="site-header__hint">Walk between stages is treated as 15–20 minutes. Routes never mix days.</p>
-    <div class="cluster" id="days" role="group" aria-label="Festival day"></div>
+    <div class="cluster site-header__days" id="days" role="group" aria-label="Festival day"></div>
   </header>
 
   <div id="list-view" class="with-sidebar">
@@ -66,9 +66,9 @@
         </label>
       </section>
       <h2 class="lineup__heading">Suggested <span class="lineup__count" id="suggest-count"></span></h2>
-      <div id="suggest" class="stack"></div>
+      <div id="suggest" class="stack lineup__list"></div>
       <h2 class="lineup__heading">Line-up <span class="lineup__count" id="count"></span></h2>
-      <div id="list" class="stack"></div>
+      <div id="list" class="stack lineup__list"></div>
     </main>
     <aside class="route">
       <h2 class="route__heading">Your route</h2>

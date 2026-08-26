@@ -105,6 +105,7 @@
   --border-width-md: 2px;
   --opacity-muted: 0.6;
   --duration-busy: 300ms;
+  --letter-kicker: 0.08em;
 }
 
 @media (prefers-color-scheme: dark) {

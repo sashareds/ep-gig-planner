@@ -1,4 +1,4 @@
-const CACHE = "ep26-v5";
+const CACHE = "ep26-v6";
 const SHELL = [
   "./",
   "./index.html",
@@ -7,6 +7,7 @@ const SHELL = [
   "./css/document.css",
   "./css/composition.css",
   "./css/blocks.css",
+  "./css/app.css",
   "./css/utilities.css",
   "./app.js",
   "./manifest.webmanifest",
