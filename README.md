@@ -2,6 +2,8 @@
 
 Offline timetable from the Clashfinder EP26 dump. Plan a walking route by day, with 15–20 minutes between stages.
 
+Live: https://sashareds.github.io/ep-gig-planner/
+
 Open `index.html` in a browser. Taste suggestions stay in local storage on that device.
 
 ## Refresh data

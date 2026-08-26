@@ -21,6 +21,8 @@ python3 scripts/normalize.py
 
 ## Open
 
+Live: https://sashareds.github.io/ep-gig-planner/
+
 ```text
 file:///home/alex/HomeLab/Projects/ep-gig-planner/index.html
 ```

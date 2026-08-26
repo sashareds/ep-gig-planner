@@ -1,7 +1,7 @@
 workspace_type=homelab
 name=Electric Picnic gig planner
 slug=ep-gig-planner
-visibility=private
+visibility=public
 status=active
 created=2026-08-26
 updated=2026-08-26
