@@ -17,5 +17,5 @@ target_hosts=github-pages
 source_of_truth=docs
 local_runtime=github-pages
 risk_level=low
-automation_level=github-actions
+automation_level=local-publish
 depends_on=Clashfinder ep26 export

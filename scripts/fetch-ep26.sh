@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Refresh Clashfinder dump. Do not commit credentials.
 # Optional local file: .env-clashfinder with CLASHFINDER_USER and CLASHFINDER_PUBLIC_KEY.
+# GitHub-hosted runners hit Clashfinder's sgcaptcha; run this on a residential host.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 ENV_FILE="$ROOT/.env-clashfinder"

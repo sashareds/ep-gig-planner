@@ -4,15 +4,13 @@ Offline timetable from the Clashfinder EP26 dump.
 
 ## Refresh data
 
-Scheduled GitHub Action (every 3 hours, UTC 20 minutes past) plus **Actions → Refresh lineup → Run workflow**. Secrets: `CLASHFINDER_USER`, `CLASHFINDER_PUBLIC_KEY`.
-
-Locally:
+Clashfinder challenges GitHub-hosted IPs (`/.well-known/sgcaptcha/`), so lineup refresh is local:
 
 ```bash
-./scripts/fetch-ep26.sh
+./scripts/publish-lineup.sh
 ```
 
-A thin or unauthenticated Clashfinder dump is rejected so Pages keeps the last good line-up.
+A thin or unauthenticated dump is rejected so Pages keeps the last good line-up. GitHub secrets `CLASHFINDER_USER` / `CLASHFINDER_PUBLIC_KEY` are unused until there is a residential runner.
 
 `scripts/normalize.py` writes `data/ep26.js`. Do not hand-edit that file.
 

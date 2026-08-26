@@ -8,18 +8,15 @@ Open `index.html` in a browser. Taste suggestions stay in local storage on that 
 
 ## Refresh data
 
-GitHub Actions fetches Clashfinder every 3 hours (and on a manual run) and pushes `ep26.json` / `data/ep26.js` if the timetable changed. Pages then rebuilds. Discogs is **not** part of that job.
-
-Locally:
+Clashfinder puts a captcha in front of GitHub’s servers, so a scheduled Action cannot pull the dump. Refresh has to run on this machine, then push:
 
 ```bash
-# optional: .env-clashfinder with CLASHFINDER_USER and CLASHFINDER_PUBLIC_KEY
-./scripts/fetch-ep26.sh
+./scripts/publish-lineup.sh
 ```
 
-`scripts/normalize.py` writes `data/ep26.js`. Do not hand-edit that file.
+That fetches Clashfinder, rejects a thin dump, commits `ep26.json` / `data/ep26.js` only if the timetable changed, and pushes. Pages rebuilds. Discogs is not part of this.
 
-To stop the auto-refresh: disable the **Refresh lineup** workflow on GitHub. To roll back a bad dump: revert that bot commit.
+Credentials live in gitignored `.env-clashfinder`. Do not commit them.
 
 ## iPhone
 
