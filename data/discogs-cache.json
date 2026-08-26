@@ -1,0 +1,5700 @@
+{
+  "49th & Main": {
+    "genres": [
+      "Pop"
+    ],
+    "mapped": [
+      "pop"
+    ],
+    "query": "49th & Main",
+    "source": "discogs",
+    "styles": [
+      "Indie Pop"
+    ]
+  },
+  "7LZ": {
+    "genres": [
+      "Rock",
+      "Blues"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "7LZ",
+    "source": "discogs",
+    "styles": [
+      "Alternative Rock",
+      "Rock & Roll",
+      "Punk"
+    ]
+  },
+  "A/K": {
+    "genres": [],
+    "query": "A/K",
+    "source": "miss",
+    "styles": []
+  },
+  "AD\u00c9LA": {
+    "genres": [
+      "Pop",
+      "Electronic"
+    ],
+    "mapped": [
+      "pop",
+      "electronic"
+    ],
+    "query": "AD\u00c9LA",
+    "source": "discogs",
+    "styles": [
+      "Dance-pop",
+      "Electroclash",
+      "Electro House"
+    ]
+  },
+  "ASYLUM RESIDENTS": {
+    "genres": [],
+    "query": "ASYLUM RESIDENTS",
+    "source": "miss",
+    "styles": []
+  },
+  "Aaron Rowe": {
+    "genres": [
+      "Funk / Soul",
+      "Pop",
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "soul",
+      "pop",
+      "folk"
+    ],
+    "query": "Aaron Rowe",
+    "source": "discogs",
+    "styles": [
+      "Indie Pop"
+    ]
+  },
+  "Ab Stylez": {
+    "genres": [],
+    "mapped": [],
+    "query": "Ab Stylez",
+    "source": "miss",
+    "styles": []
+  },
+  "AdzyOB": {
+    "genres": [],
+    "query": "AdzyOB",
+    "source": "miss",
+    "styles": []
+  },
+  "Aifric": {
+    "genres": [],
+    "query": "Aifric",
+    "source": "miss",
+    "styles": []
+  },
+  "Aimee": {
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "mapped": [
+      "rock",
+      "pop"
+    ],
+    "query": "Aimee",
+    "source": "discogs",
+    "styles": [
+      "Alternative Rock",
+      "Pop Rock"
+    ]
+  },
+  "Aindrias de Staic & The Latchikos": {
+    "genres": [],
+    "query": "Aindrias de Staic & The Latchikos",
+    "source": "miss",
+    "styles": []
+  },
+  "Aisling Lyons, Becky N\u00ed \u00c9allaithe & Muireann N\u00ed Sh\u00e9": {
+    "genres": [],
+    "query": "Aisling Lyons, Becky N\u00ed \u00c9allaithe & Muireann N\u00ed Sh\u00e9",
+    "source": "miss",
+    "styles": []
+  },
+  "Al Baker": {
+    "genres": [],
+    "query": "Al Baker",
+    "source": "miss",
+    "styles": []
+  },
+  "Ali Kemal Ali": {
+    "genres": [],
+    "query": "Ali Kemal Ali",
+    "source": "miss",
+    "styles": []
+  },
+  "Alice Ugbah": {
+    "genres": [],
+    "mapped": [],
+    "query": "Alice Ugbah",
+    "source": "miss",
+    "styles": []
+  },
+  "Allie Sherlock": {
+    "genres": [
+      "Pop",
+      "Blues",
+      "Folk, World, & Country",
+      "Rock"
+    ],
+    "mapped": [
+      "pop",
+      "folk",
+      "rock"
+    ],
+    "query": "Allie Sherlock",
+    "source": "discogs",
+    "styles": [
+      "Vocal",
+      "Ballad",
+      "Pop Rock"
+    ]
+  },
+  "Altan": {
+    "genres": [
+      "Folk, World, & Country",
+      "Rock",
+      "Stage & Screen",
+      "Jazz"
+    ],
+    "mapped": [
+      "folk",
+      "rock"
+    ],
+    "query": "Altan",
+    "source": "discogs",
+    "styles": [
+      "Celtic",
+      "Folk Rock",
+      "Mouth Music",
+      "Overtone Singing",
+      "Folk",
+      "Score"
+    ]
+  },
+  "Amble": {
+    "genres": [
+      "Folk, World, & Country",
+      "Rock",
+      "Pop"
+    ],
+    "mapped": [
+      "folk",
+      "rock",
+      "pop"
+    ],
+    "query": "Amble",
+    "source": "discogs",
+    "styles": [
+      "Celtic",
+      "Folk"
+    ]
+  },
+  "An Che\u0301ad Ghlu\u0301in Eile": {
+    "genres": [],
+    "mapped": [],
+    "query": "An Che\u0301ad Ghlu\u0301in Eile",
+    "source": "miss",
+    "styles": []
+  },
+  "An Galar Dub v shelovescalpol": {
+    "genres": [],
+    "query": "An Galar Dub v shelovescalpol",
+    "source": "miss",
+    "styles": []
+  },
+  "Andy K": {
+    "genres": [],
+    "query": "Andy K",
+    "source": "miss",
+    "styles": []
+  },
+  "Aneta Moran Sax": {
+    "genres": [],
+    "query": "Aneta Moran Sax",
+    "source": "miss",
+    "styles": []
+  },
+  "Anna Leah": {
+    "genres": [
+      "Pop",
+      "Folk, World, & Country",
+      "Rock"
+    ],
+    "mapped": [
+      "pop",
+      "folk",
+      "rock"
+    ],
+    "query": "Anna Leah",
+    "source": "discogs",
+    "styles": [
+      "Vocal",
+      "Novelty",
+      "Holiday"
+    ]
+  },
+  "Anna's Number": {
+    "genres": [],
+    "mapped": [],
+    "query": "Anna's Number",
+    "source": "miss",
+    "styles": []
+  },
+  "Anne-Marie O\u2019Farrell & Cormac De Barra": {
+    "genres": [],
+    "mapped": [],
+    "query": "Anne-Marie O\u2019Farrell & Cormac De Barra",
+    "source": "miss",
+    "styles": []
+  },
+  "Armand Van Helden": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Armand Van Helden",
+    "source": "discogs",
+    "styles": [
+      "House",
+      "Deep House"
+    ]
+  },
+  "Audrey Hobert": {
+    "genres": [
+      "Pop"
+    ],
+    "mapped": [
+      "pop"
+    ],
+    "query": "Audrey Hobert",
+    "source": "discogs",
+    "styles": [
+      "Alt-Pop",
+      "Indie Pop"
+    ]
+  },
+  "Avenue 68": {
+    "genres": [],
+    "mapped": [],
+    "query": "Avenue 68",
+    "source": "miss",
+    "styles": []
+  },
+  "Azu Tiwaline": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Azu Tiwaline",
+    "source": "discogs",
+    "styles": [
+      "Ambient",
+      "Techno",
+      "Leftfield",
+      "Dub",
+      "Deep Techno",
+      "Minimal Techno"
+    ]
+  },
+  "BABYRAT": {
+    "genres": [],
+    "mapped": [],
+    "query": "BABYRAT",
+    "source": "miss",
+    "styles": []
+  },
+  "BACKA BEYOND": {
+    "genres": [],
+    "mapped": [],
+    "query": "BACKA BEYOND",
+    "source": "miss",
+    "styles": []
+  },
+  "BAKA BEYOND": {
+    "genres": [
+      "Folk, World, & Country",
+      "Electronic",
+      "Jazz"
+    ],
+    "mapped": [
+      "folk",
+      "electronic"
+    ],
+    "query": "BAKA BEYOND",
+    "source": "discogs",
+    "styles": [
+      "Celtic",
+      "African",
+      "Folk",
+      "Fusion"
+    ]
+  },
+  "BAREFOOT MAFIA": {
+    "genres": [],
+    "query": "BAREFOOT MAFIA",
+    "source": "miss",
+    "styles": []
+  },
+  "BETZY NINA\u2019s Dirty Breakfast/The Dirty Circus": {
+    "genres": [],
+    "query": "BETZY NINA\u2019s Dirty Breakfast/The Dirty Circus",
+    "source": "miss",
+    "styles": []
+  },
+  "BILLY SCURRY/Kelly-Anne Byrne": {
+    "genres": [],
+    "query": "BILLY SCURRY/Kelly-Anne Byrne",
+    "source": "miss",
+    "styles": []
+  },
+  "BLESSED": {
+    "genres": [],
+    "query": "BLESSED",
+    "source": "miss",
+    "styles": []
+  },
+  "BLKCNVS": {
+    "genres": [],
+    "mapped": [],
+    "query": "BLKCNVS",
+    "source": "miss",
+    "styles": []
+  },
+  "BL\u00c1THNAID": {
+    "genres": [
+      "Non-Music"
+    ],
+    "mapped": [],
+    "query": "BL\u00c1THNAID",
+    "source": "discogs",
+    "styles": [
+      "Spoken Word"
+    ]
+  },
+  "BOB MARLEY REGGAE TRIBUTE": {
+    "genres": [],
+    "query": "BOB MARLEY REGGAE TRIBUTE",
+    "source": "miss",
+    "styles": []
+  },
+  "BOOTLEG BEACH BOYS": {
+    "genres": [],
+    "query": "BOOTLEG BEACH BOYS",
+    "source": "miss",
+    "styles": []
+  },
+  "BRONWYN/DJ Scenic": {
+    "genres": [],
+    "query": "BRONWYN/DJ Scenic",
+    "source": "miss",
+    "styles": []
+  },
+  "BR\u00cdD\u00cdN": {
+    "genres": [
+      "Folk, World, & Country",
+      "Pop"
+    ],
+    "mapped": [
+      "folk",
+      "pop"
+    ],
+    "query": "BR\u00cdD\u00cdN",
+    "source": "discogs",
+    "styles": [
+      "Celtic"
+    ]
+  },
+  "BUDLY": {
+    "genres": [],
+    "query": "BUDLY",
+    "source": "miss",
+    "styles": []
+  },
+  "BVN": {
+    "genres": [
+      "Rock",
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "rock",
+      "folk"
+    ],
+    "query": "BVN",
+    "source": "discogs",
+    "styles": [
+      "Folk Rock",
+      "Alternative Rock",
+      "Grunge",
+      "Indie Rock",
+      "Punk"
+    ]
+  },
+  "BackaBeyond": {
+    "genres": [],
+    "query": "BackaBeyond",
+    "source": "miss",
+    "styles": []
+  },
+  "Banterpage meetup - Dave Caffrey & Co": {
+    "genres": [],
+    "query": "Banterpage meetup - Dave Caffrey & Co",
+    "source": "miss",
+    "styles": []
+  },
+  "Barrio OB + Basil Isaacs": {
+    "genres": [],
+    "query": "Barrio OB + Basil Isaacs",
+    "source": "miss",
+    "styles": []
+  },
+  "Barry Bolger": {
+    "genres": [],
+    "query": "Barry Bolger",
+    "source": "miss",
+    "styles": []
+  },
+  "Basht.": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Basht.",
+    "source": "discogs",
+    "styles": [
+      "Alternative Rock",
+      "Indie Rock"
+    ]
+  },
+  "Baw": {
+    "genres": [],
+    "query": "Baw",
+    "source": "miss",
+    "styles": []
+  },
+  "Baz Hickey": {
+    "genres": [
+      "Hip Hop",
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "hiphop",
+      "soul"
+    ],
+    "query": "Baz Hickey",
+    "source": "discogs",
+    "styles": []
+  },
+  "Beansidhe": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Beansidhe",
+    "source": "discogs",
+    "styles": [
+      "Black Metal",
+      "Death Metal"
+    ]
+  },
+  "Belters Only": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Belters Only",
+    "source": "discogs",
+    "styles": [
+      "House"
+    ]
+  },
+  "Ben Hemsley": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Ben Hemsley",
+    "source": "discogs",
+    "styles": [
+      "Trance",
+      "Tech House",
+      "Techno",
+      "Acid",
+      "Breaks",
+      "Downtempo"
+    ]
+  },
+  "Beomhar - Electric Youth": {
+    "genres": [],
+    "query": "Beomhar - Electric Youth",
+    "source": "miss",
+    "styles": []
+  },
+  "Bevel & Embody": {
+    "genres": [],
+    "mapped": [],
+    "query": "Bevel & Embody",
+    "source": "miss",
+    "styles": []
+  },
+  "Big Sleep": {
+    "genres": [
+      "Hip Hop",
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "hiphop",
+      "soul"
+    ],
+    "query": "Big Sleep",
+    "source": "discogs",
+    "styles": [
+      "Funk",
+      "Jazzy Hip-Hop"
+    ]
+  },
+  "Black Nylon": {
+    "genres": [],
+    "query": "Black Nylon",
+    "source": "miss",
+    "styles": []
+  },
+  "Black Nylon DJ": {
+    "genres": [],
+    "query": "Black Nylon DJ",
+    "source": "miss",
+    "styles": []
+  },
+  "Bleech 9:3": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Bleech 9:3",
+    "source": "discogs",
+    "styles": [
+      "Alternative Rock",
+      "Grunge",
+      "Indie Rock",
+      "Nu Metal"
+    ]
+  },
+  "Bl\u00e1ith\u00edn De Burca - BlaComedy": {
+    "genres": [],
+    "mapped": [],
+    "query": "Bl\u00e1ith\u00edn De Burca - BlaComedy",
+    "source": "miss",
+    "styles": []
+  },
+  "Bobby Mc with Luke Thomas & the Paul Dunlea Big Band": {
+    "genres": [],
+    "mapped": [],
+    "query": "Bobby Mc with Luke Thomas & the Paul Dunlea Big Band",
+    "source": "miss",
+    "styles": []
+  },
+  "Bog Bodies": {
+    "genres": [
+      "Rock",
+      "Electronic",
+      "Non-Music",
+      "Jazz"
+    ],
+    "mapped": [
+      "rock",
+      "electronic"
+    ],
+    "query": "Bog Bodies",
+    "source": "discogs",
+    "styles": [
+      "Punk",
+      "Ambient",
+      "Experimental",
+      "Abstract",
+      "Noise",
+      "Contemporary"
+    ]
+  },
+  "Boss Events & Friends (Abbey Blu, Angel Rose, Shiloh Grey, Mister K.Y.B": {
+    "genres": [],
+    "query": "Boss Events & Friends (Abbey Blu, Angel Rose, Shiloh Grey, Mister K.Y.B",
+    "source": "miss",
+    "styles": []
+  },
+  "Bren Curtis": {
+    "genres": [],
+    "query": "Bren Curtis",
+    "source": "miss",
+    "styles": []
+  },
+  "Bricknasty": {
+    "genres": [
+      "Hip Hop",
+      "Jazz",
+      "Folk, World, & Country",
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "hiphop",
+      "folk",
+      "soul"
+    ],
+    "query": "Bricknasty",
+    "source": "discogs",
+    "styles": [
+      "Spiritual Jazz",
+      "Funk",
+      "Jazz-Funk",
+      "Jazzy Hip-Hop",
+      "Soul-Jazz"
+    ]
+  },
+  "Brooki": {
+    "genres": [],
+    "query": "Brooki",
+    "source": "miss",
+    "styles": []
+  },
+  "Bryan Kearney": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Bryan Kearney",
+    "source": "discogs",
+    "styles": [
+      "Trance",
+      "Tech Trance",
+      "Psy-Trance"
+    ]
+  },
+  "Burglar": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Burglar",
+    "source": "discogs",
+    "styles": [
+      "Electro",
+      "Techno"
+    ]
+  },
+  "Burnchurch": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Burnchurch",
+    "source": "discogs",
+    "styles": [
+      "Punk",
+      "Crust"
+    ]
+  },
+  "CALUM AGNEW": {
+    "genres": [],
+    "query": "CALUM AGNEW",
+    "source": "miss",
+    "styles": []
+  },
+  "CHARLES HENDY'S SHOWBAND PARTY": {
+    "genres": [],
+    "query": "CHARLES HENDY'S SHOWBAND PARTY",
+    "source": "miss",
+    "styles": []
+  },
+  "CHILD OF PRAGUE": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "CHILD OF PRAGUE",
+    "source": "discogs",
+    "styles": [
+      "Indie Rock",
+      "Art Rock",
+      "Folk Rock"
+    ]
+  },
+  "CIRCUS PONIES": {
+    "genres": [],
+    "query": "CIRCUS PONIES",
+    "source": "miss",
+    "styles": []
+  },
+  "CMAT": {
+    "genres": [
+      "Pop",
+      "Folk, World, & Country",
+      "Rock"
+    ],
+    "mapped": [
+      "pop",
+      "folk",
+      "rock"
+    ],
+    "query": "CMAT",
+    "source": "discogs",
+    "styles": [
+      "Indie Pop",
+      "Country",
+      "Alt-Pop",
+      "Pop Rock"
+    ]
+  },
+  "CNC": {
+    "genres": [
+      "Electronic",
+      "Latin",
+      "Pop"
+    ],
+    "mapped": [
+      "electronic",
+      "pop"
+    ],
+    "query": "CNC",
+    "source": "discogs",
+    "styles": [
+      "Ambient",
+      "Vaporwave",
+      "Reggaeton"
+    ]
+  },
+  "COKE STUDIO SECRET SET - FRIDAY": {
+    "genres": [],
+    "query": "COKE STUDIO SECRET SET - FRIDAY",
+    "source": "miss",
+    "styles": []
+  },
+  "COKE STUDIO SECRET SET - SATURDAY": {
+    "genres": [],
+    "query": "COKE STUDIO SECRET SET - SATURDAY",
+    "source": "miss",
+    "styles": []
+  },
+  "COKE STUDIO SECRET SET - SUNDAY": {
+    "genres": [],
+    "query": "COKE STUDIO SECRET SET - SUNDAY",
+    "source": "miss",
+    "styles": []
+  },
+  "CRAYFISH": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "electronic",
+      "rock"
+    ],
+    "query": "CRAYFISH",
+    "source": "discogs",
+    "styles": [
+      "Hardcore"
+    ]
+  },
+  "CSD": {
+    "genres": [],
+    "query": "CSD",
+    "source": "miss",
+    "styles": []
+  },
+  "CamrinWatsin": {
+    "genres": [
+      "Electronic",
+      "Pop"
+    ],
+    "mapped": [
+      "electronic",
+      "pop"
+    ],
+    "query": "CamrinWatsin",
+    "source": "discogs",
+    "styles": [
+      "House"
+    ]
+  },
+  "Caoimh\u00edn": {
+    "genres": [
+      "Folk, World, & Country",
+      "Jazz",
+      "Classical",
+      "Rock"
+    ],
+    "mapped": [
+      "folk",
+      "rock"
+    ],
+    "query": "Caoimh\u00edn",
+    "source": "discogs",
+    "styles": [
+      "Celtic",
+      "Folk",
+      "Avantgarde",
+      "Black Metal",
+      "Experimental",
+      "Atmospheric Black Metal"
+    ]
+  },
+  "Captain Birdsong": {
+    "genres": [],
+    "mapped": [],
+    "query": "Captain Birdsong",
+    "source": "miss",
+    "styles": []
+  },
+  "Cardinals": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Cardinals",
+    "source": "discogs",
+    "styles": [
+      "Alternative Rock",
+      "Indie Rock",
+      "Rock & Roll"
+    ]
+  },
+  "Catacombs": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Catacombs",
+    "source": "discogs",
+    "styles": [
+      "Funeral Doom Metal"
+    ]
+  },
+  "Caz": {
+    "genres": [
+      "Reggae",
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "soul"
+    ],
+    "query": "Caz",
+    "source": "discogs",
+    "styles": [
+      "Ska",
+      "Reggae",
+      "Soul"
+    ]
+  },
+  "Ceola Haile": {
+    "genres": [],
+    "query": "Ceola Haile",
+    "source": "miss",
+    "styles": []
+  },
+  "Chartini": {
+    "genres": [],
+    "query": "Chartini",
+    "source": "miss",
+    "styles": []
+  },
+  "Checkpiont Charlie": {
+    "genres": [],
+    "mapped": [],
+    "query": "Checkpiont Charlie",
+    "source": "miss",
+    "styles": []
+  },
+  "Child of Prague": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Child of Prague",
+    "source": "discogs",
+    "styles": [
+      "Indie Rock",
+      "Art Rock",
+      "Folk Rock"
+    ]
+  },
+  "Chris Watson": {
+    "genres": [
+      "Non-Music",
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Chris Watson",
+    "source": "discogs",
+    "styles": [
+      "Field Recording",
+      "Experimental",
+      "Ambient"
+    ]
+  },
+  "Ciano": {
+    "genres": [
+      "Electronic",
+      "Pop",
+      "Classical"
+    ],
+    "mapped": [
+      "electronic",
+      "pop"
+    ],
+    "query": "Ciano",
+    "source": "discogs",
+    "styles": [
+      "Deep House",
+      "Tech House",
+      "Opera",
+      "House",
+      "Minimal",
+      "Chanson"
+    ]
+  },
+  "Ciara E": {
+    "genres": [],
+    "query": "Ciara E",
+    "source": "miss",
+    "styles": []
+  },
+  "Ciaran Moran": {
+    "genres": [],
+    "query": "Ciaran Moran",
+    "source": "miss",
+    "styles": []
+  },
+  "Cinthie": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Cinthie",
+    "source": "discogs",
+    "styles": [
+      "House",
+      "Deep House",
+      "Techno",
+      "Garage House",
+      "Acid House",
+      "UK Garage"
+    ]
+  },
+  "City Stages": {
+    "genres": [],
+    "query": "City Stages",
+    "source": "miss",
+    "styles": []
+  },
+  "Clada": {
+    "genres": [],
+    "query": "Clada",
+    "source": "miss",
+    "styles": []
+  },
+  "Claire Beck": {
+    "genres": [],
+    "query": "Claire Beck",
+    "source": "miss",
+    "styles": []
+  },
+  "Claire Beck's Sunday Revival": {
+    "genres": [],
+    "query": "Claire Beck's Sunday Revival",
+    "source": "miss",
+    "styles": []
+  },
+  "Claudia O": {
+    "genres": [
+      "Pop"
+    ],
+    "mapped": [
+      "pop"
+    ],
+    "query": "Claudia O",
+    "source": "discogs",
+    "styles": [
+      "Europop"
+    ]
+  },
+  "Cliffords": {
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "mapped": [
+      "rock",
+      "pop"
+    ],
+    "query": "Cliffords",
+    "source": "discogs",
+    "styles": [
+      "Indie Rock",
+      "Indie Pop"
+    ]
+  },
+  "Cliffords DJ": {
+    "genres": [],
+    "query": "Cliffords DJ",
+    "source": "miss",
+    "styles": []
+  },
+  "Clouds": {
+    "genres": [],
+    "query": "Clouds",
+    "source": "miss",
+    "styles": []
+  },
+  "Code of Behaviour": {
+    "genres": [],
+    "query": "Code of Behaviour",
+    "source": "miss",
+    "styles": []
+  },
+  "Cody Wong": {
+    "genres": [],
+    "query": "Cody Wong",
+    "source": "miss",
+    "styles": []
+  },
+  "Collie": {
+    "genres": [
+      "Hip Hop",
+      "Reggae"
+    ],
+    "mapped": [
+      "hiphop",
+      "soul"
+    ],
+    "query": "Collie",
+    "source": "discogs",
+    "styles": []
+  },
+  "Cosc\u00e1n": {
+    "genres": [
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "folk"
+    ],
+    "query": "Cosc\u00e1n",
+    "source": "discogs",
+    "styles": [
+      "Celtic"
+    ]
+  },
+  "Craig Stone": {
+    "genres": [
+      "Jazz",
+      "Funk / Soul",
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "soul",
+      "folk"
+    ],
+    "query": "Craig Stone",
+    "source": "discogs",
+    "styles": [
+      "Fusion"
+    ]
+  },
+  "Cro\u00edthe": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Cro\u00edthe",
+    "source": "discogs",
+    "styles": []
+  },
+  "Cruel Sister": {
+    "genres": [],
+    "query": "Cruel Sister",
+    "source": "miss",
+    "styles": []
+  },
+  "Cruitir\u00ed Loch Garman/Wexford Harp Ensemble": {
+    "genres": [],
+    "query": "Cruitir\u00ed Loch Garman/Wexford Harp Ensemble",
+    "source": "miss",
+    "styles": []
+  },
+  "Curfew": {
+    "genres": [],
+    "query": "Curfew",
+    "source": "miss",
+    "styles": []
+  },
+  "Cyriac": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Cyriac",
+    "source": "discogs",
+    "styles": [
+      "Trance",
+      "Euro House"
+    ]
+  },
+  "DART": {
+    "genres": [
+      "Rock",
+      "Jazz",
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "rock",
+      "soul"
+    ],
+    "query": "DART",
+    "source": "discogs",
+    "styles": [
+      "Emo",
+      "Punk",
+      "Doo Wop",
+      "Soul",
+      "Garage Rock"
+    ]
+  },
+  "DAVID GERAGHTY": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "DAVID GERAGHTY",
+    "source": "discogs",
+    "styles": []
+  },
+  "DEAR WILLOW": {
+    "genres": [],
+    "query": "DEAR WILLOW",
+    "source": "miss",
+    "styles": []
+  },
+  "DELUSH": {
+    "genres": [
+      "Rock",
+      "Hip Hop",
+      "Funk / Soul",
+      "Pop"
+    ],
+    "mapped": [
+      "rock",
+      "hiphop",
+      "soul"
+    ],
+    "query": "DELUSH",
+    "source": "discogs",
+    "styles": [
+      "Indie Rock",
+      "Contemporary R&B",
+      "Conscious",
+      "Soul",
+      "Downtempo"
+    ]
+  },
+  "DIEBYVEG": {
+    "genres": [],
+    "query": "DIEBYVEG",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ Aaron Lynam": {
+    "genres": [],
+    "query": "DJ Aaron Lynam",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ B.Augustus": {
+    "genres": [],
+    "query": "DJ B.Augustus",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ BEKS": {
+    "genres": [],
+    "query": "DJ BEKS",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ Battery Acid": {
+    "genres": [],
+    "mapped": [],
+    "query": "DJ Battery Acid",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ Bongani": {
+    "genres": [],
+    "query": "DJ Bongani",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ Chartini": {
+    "genres": [],
+    "query": "DJ Chartini",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ Deece": {
+    "genres": [],
+    "query": "DJ Deece",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ Denfensive": {
+    "genres": [],
+    "query": "DJ Denfensive",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ Dewalt": {
+    "genres": [],
+    "query": "DJ Dewalt",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ Edison Waters": {
+    "genres": [],
+    "query": "DJ Edison Waters",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ Harry & DJ O'Kaye": {
+    "genres": [],
+    "mapped": [],
+    "query": "DJ Harry & DJ O'Kaye",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ Jessica Maciel": {
+    "genres": [],
+    "query": "DJ Jessica Maciel",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ Karmawi": {
+    "genres": [],
+    "query": "DJ Karmawi",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ Nemo / Beo Picnic": {
+    "genres": [],
+    "query": "DJ Nemo / Beo Picnic",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ Ozz G": {
+    "genres": [],
+    "mapped": [],
+    "query": "DJ Ozz G",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ PCP's 21st Century Carnival": {
+    "genres": [],
+    "query": "DJ PCP's 21st Century Carnival",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ Sin\u00e9ad N\u00ed Mh\u00f3rdha": {
+    "genres": [],
+    "query": "DJ Sin\u00e9ad N\u00ed Mh\u00f3rdha",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ Sonic Boom": {
+    "genres": [],
+    "mapped": [],
+    "query": "DJ Sonic Boom",
+    "source": "miss",
+    "styles": []
+  },
+  "DJ Transit": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "DJ Transit",
+    "source": "discogs",
+    "styles": [
+      "Breakbeat",
+      "Happy Hardcore"
+    ]
+  },
+  "DJackulate": {
+    "genres": [
+      "Hip Hop",
+      "Electronic"
+    ],
+    "mapped": [
+      "hiphop",
+      "electronic"
+    ],
+    "query": "DJackulate",
+    "source": "discogs",
+    "styles": [
+      "Turntablism",
+      "Hip Hop",
+      "Experimental"
+    ]
+  },
+  "DJammin": {
+    "genres": [],
+    "query": "DJammin",
+    "source": "miss",
+    "styles": []
+  },
+  "DOGPOND": {
+    "genres": [],
+    "query": "DOGPOND",
+    "source": "miss",
+    "styles": []
+  },
+  "DOSE": {
+    "genres": [],
+    "query": "DOSE",
+    "source": "miss",
+    "styles": []
+  },
+  "DRAG SHOW - FRIDAY": {
+    "genres": [],
+    "query": "DRAG SHOW - FRIDAY",
+    "source": "miss",
+    "styles": []
+  },
+  "DRAG SHOW - SATURDAY": {
+    "genres": [],
+    "query": "DRAG SHOW - SATURDAY",
+    "source": "miss",
+    "styles": []
+  },
+  "DRAG SHOW - SUNDAY": {
+    "genres": [],
+    "query": "DRAG SHOW - SUNDAY",
+    "source": "miss",
+    "styles": []
+  },
+  "DUBLIN UKULELE COLLECTIVE": {
+    "genres": [],
+    "query": "DUBLIN UKULELE COLLECTIVE",
+    "source": "miss",
+    "styles": []
+  },
+  "Damien Dempsey": {
+    "genres": [
+      "Folk, World, & Country",
+      "Rock",
+      "Pop"
+    ],
+    "mapped": [
+      "folk",
+      "rock",
+      "pop"
+    ],
+    "query": "Damien Dempsey",
+    "source": "discogs",
+    "styles": [
+      "Folk",
+      "Celtic"
+    ]
+  },
+  "Dancenasty": {
+    "genres": [],
+    "query": "Dancenasty",
+    "source": "miss",
+    "styles": []
+  },
+  "Dandelion": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Dandelion",
+    "source": "discogs",
+    "styles": [
+      "Folk Rock",
+      "Psychedelic Rock"
+    ]
+  },
+  "Dara Quilty": {
+    "genres": [],
+    "query": "Dara Quilty",
+    "source": "miss",
+    "styles": []
+  },
+  "Daria": {
+    "genres": [],
+    "query": "Daria",
+    "source": "miss",
+    "styles": []
+  },
+  "Darkey Kelly's Session": {
+    "genres": [],
+    "query": "Darkey Kelly's Session",
+    "source": "miss",
+    "styles": []
+  },
+  "Darren Kiely": {
+    "genres": [],
+    "mapped": [],
+    "query": "Darren Kiely",
+    "source": "miss",
+    "styles": []
+  },
+  "Darren Regan": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Darren Regan",
+    "source": "discogs",
+    "styles": [
+      "House"
+    ]
+  },
+  "Dave & Fionnuala": {
+    "genres": [],
+    "query": "Dave & Fionnuala",
+    "source": "miss",
+    "styles": []
+  },
+  "Dave Lofts": {
+    "genres": [],
+    "query": "Dave Lofts",
+    "source": "miss",
+    "styles": []
+  },
+  "Dave Moore": {
+    "genres": [],
+    "query": "Dave Moore",
+    "source": "miss",
+    "styles": []
+  },
+  "Dave Treacy": {
+    "genres": [],
+    "query": "Dave Treacy",
+    "source": "miss",
+    "styles": []
+  },
+  "Deirdre & Aoife Granville": {
+    "genres": [],
+    "query": "Deirdre & Aoife Granville",
+    "source": "miss",
+    "styles": []
+  },
+  "Denise Chaila": {
+    "genres": [
+      "Hip Hop",
+      "Funk / Soul",
+      "Electronic"
+    ],
+    "mapped": [
+      "hiphop",
+      "soul",
+      "electronic"
+    ],
+    "query": "Denise Chaila",
+    "source": "discogs",
+    "styles": [
+      "Hip Hop",
+      "Grime",
+      "Afrobeat",
+      "Soul"
+    ]
+  },
+  "Derv": {
+    "genres": [],
+    "query": "Derv",
+    "source": "miss",
+    "styles": []
+  },
+  "Desires": {
+    "genres": [],
+    "mapped": [],
+    "query": "Desires",
+    "source": "miss",
+    "styles": []
+  },
+  "Djo": {
+    "genres": [
+      "Rock",
+      "Pop",
+      "Electronic"
+    ],
+    "mapped": [
+      "rock",
+      "pop",
+      "electronic"
+    ],
+    "query": "Djo",
+    "source": "discogs",
+    "styles": [
+      "Indie Rock",
+      "Pop Rock",
+      "Alternative Rock",
+      "Psychedelic Rock",
+      "Indie Pop",
+      "Synth-pop"
+    ]
+  },
+  "Donna Leake": {
+    "genres": [],
+    "mapped": [],
+    "query": "Donna Leake",
+    "source": "miss",
+    "styles": []
+  },
+  "Dord\u00e1n": {
+    "genres": [
+      "Folk, World, & Country",
+      "Classical",
+      "Electronic"
+    ],
+    "mapped": [
+      "folk",
+      "electronic"
+    ],
+    "query": "Dord\u00e1n",
+    "source": "discogs",
+    "styles": [
+      "Celtic",
+      "Folk",
+      "Holiday",
+      "New Age",
+      "Baroque"
+    ]
+  },
+  "DrowZeeDan": {
+    "genres": [],
+    "query": "DrowZeeDan",
+    "source": "miss",
+    "styles": []
+  },
+  "Dudley's Bar & Lounge Session on Tour": {
+    "genres": [],
+    "query": "Dudley's Bar & Lounge Session on Tour",
+    "source": "miss",
+    "styles": []
+  },
+  "Duke Dumont": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Duke Dumont",
+    "source": "discogs",
+    "styles": [
+      "House",
+      "Deep House",
+      "Progressive House",
+      "Tech House"
+    ]
+  },
+  "D\u00f3nal Lunny, M\u00e1irt\u00edn O'Connor & Zo\u00eb Conway": {
+    "genres": [],
+    "query": "D\u00f3nal Lunny, M\u00e1irt\u00edn O'Connor & Zo\u00eb Conway",
+    "source": "miss",
+    "styles": []
+  },
+  "E.T.C": {
+    "genres": [],
+    "query": "E.T.C",
+    "source": "miss",
+    "styles": []
+  },
+  "EFFY": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "EFFY",
+    "source": "discogs",
+    "styles": [
+      "Techno",
+      "House",
+      "Tech House"
+    ]
+  },
+  "EMORAH Collective": {
+    "genres": [],
+    "query": "EMORAH Collective",
+    "source": "miss",
+    "styles": []
+  },
+  "EMPTY INTERNET": {
+    "genres": [],
+    "query": "EMPTY INTERNET",
+    "source": "miss",
+    "styles": []
+  },
+  "EP Banter Throwback Party - Blessed Band Live": {
+    "genres": [],
+    "mapped": [],
+    "query": "EP Banter Throwback Party - Blessed Band Live",
+    "source": "miss",
+    "styles": []
+  },
+  "EPILOGUE": {
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "mapped": [
+      "rock",
+      "pop"
+    ],
+    "query": "EPILOGUE",
+    "source": "discogs",
+    "styles": [
+      "Folk Rock",
+      "Pop Rock"
+    ]
+  },
+  "EPPIE": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "EPPIE",
+    "source": "discogs",
+    "styles": [
+      "Berlin-School",
+      "Ambient",
+      "Experimental"
+    ]
+  },
+  "ESMERELDA ROAD": {
+    "genres": [],
+    "query": "ESMERELDA ROAD",
+    "source": "miss",
+    "styles": []
+  },
+  "Eddie B": {
+    "genres": [],
+    "query": "Eddie B",
+    "source": "miss",
+    "styles": []
+  },
+  "Eile": {
+    "genres": [],
+    "query": "Eile",
+    "source": "miss",
+    "styles": []
+  },
+  "Eimear Coughlan": {
+    "genres": [],
+    "query": "Eimear Coughlan",
+    "source": "miss",
+    "styles": []
+  },
+  "Eleanor McEvoy": {
+    "genres": [
+      "Pop",
+      "Folk, World, & Country",
+      "Rock"
+    ],
+    "mapped": [
+      "pop",
+      "folk",
+      "rock"
+    ],
+    "query": "Eleanor McEvoy",
+    "source": "discogs",
+    "styles": [
+      "Ballad",
+      "Vocal",
+      "Pop Rock"
+    ]
+  },
+  "Elise FRANK": {
+    "genres": [
+      "Blues",
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Elise FRANK",
+    "source": "discogs",
+    "styles": [
+      "Blues Rock",
+      "Electric Blues"
+    ]
+  },
+  "Ellie D Soundsystem": {
+    "genres": [],
+    "query": "Ellie D Soundsystem",
+    "source": "miss",
+    "styles": []
+  },
+  "Ember": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Ember",
+    "source": "discogs",
+    "styles": [
+      "Emo"
+    ]
+  },
+  "Emma B": {
+    "genres": [],
+    "query": "Emma B",
+    "source": "miss",
+    "styles": []
+  },
+  "Emma Lohan": {
+    "genres": [],
+    "query": "Emma Lohan",
+    "source": "miss",
+    "styles": []
+  },
+  "Emmie": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Emmie",
+    "source": "discogs",
+    "styles": [
+      "House",
+      "Trance",
+      "Progressive House",
+      "Hard House",
+      "Deep House",
+      "Progressive Trance"
+    ]
+  },
+  "Entr\u2019achte - Performance 1": {
+    "genres": [],
+    "mapped": [],
+    "query": "Entr\u2019achte - Performance 1",
+    "source": "miss",
+    "styles": []
+  },
+  "Eskay": {
+    "genres": [
+      "Hip Hop"
+    ],
+    "mapped": [
+      "hiphop"
+    ],
+    "query": "Eskay",
+    "source": "discogs",
+    "styles": []
+  },
+  "Esmeralda Road": {
+    "genres": [],
+    "query": "Esmeralda Road",
+    "source": "miss",
+    "styles": []
+  },
+  "Ev Wilde": {
+    "genres": [],
+    "query": "Ev Wilde",
+    "source": "miss",
+    "styles": []
+  },
+  "F3miii": {
+    "genres": [],
+    "query": "F3miii",
+    "source": "miss",
+    "styles": []
+  },
+  "FAXE ON FAXE": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "FAXE ON FAXE",
+    "source": "discogs",
+    "styles": [
+      "Italo-Disco"
+    ]
+  },
+  "FLOODY": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "FLOODY",
+    "source": "discogs",
+    "styles": [
+      "Hard House"
+    ]
+  },
+  "FUNKY TOWN": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "FUNKY TOWN",
+    "source": "discogs",
+    "styles": [
+      "House",
+      "Disco",
+      "Trance",
+      "Acid House"
+    ]
+  },
+  "Faster Horses": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Faster Horses",
+    "source": "discogs",
+    "styles": [
+      "Techno",
+      "Trance",
+      "Ambient"
+    ]
+  },
+  "FeliSpeaks": {
+    "genres": [],
+    "query": "FeliSpeaks",
+    "source": "miss",
+    "styles": []
+  },
+  "Fergal D'Arcy": {
+    "genres": [],
+    "query": "Fergal D'Arcy",
+    "source": "miss",
+    "styles": []
+  },
+  "Fessa": {
+    "genres": [
+      "Electronic",
+      "Rock"
+    ],
+    "mapped": [
+      "electronic",
+      "rock"
+    ],
+    "query": "Fessa",
+    "source": "discogs",
+    "styles": [
+      "Electroclash",
+      "Punk"
+    ]
+  },
+  "Fierin J - Electric Youth": {
+    "genres": [],
+    "query": "Fierin J - Electric Youth",
+    "source": "miss",
+    "styles": []
+  },
+  "Florence Road": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Florence Road",
+    "source": "discogs",
+    "styles": [
+      "Indie Rock"
+    ]
+  },
+  "Fontaines D.C.": {
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "mapped": [
+      "rock",
+      "pop"
+    ],
+    "query": "Fontaines D.C.",
+    "source": "discogs",
+    "styles": [
+      "Post-Punk",
+      "Indie Rock",
+      "Post Rock",
+      "Goth Rock",
+      "Alternative Rock"
+    ]
+  },
+  "Foreign Local": {
+    "genres": [],
+    "query": "Foreign Local",
+    "source": "miss",
+    "styles": []
+  },
+  "Forget Romance": {
+    "genres": [],
+    "query": "Forget Romance",
+    "source": "miss",
+    "styles": []
+  },
+  "Forro Dancers & TARA": {
+    "genres": [],
+    "query": "Forro Dancers & TARA",
+    "source": "miss",
+    "styles": []
+  },
+  "Fortune Igiebor": {
+    "genres": [],
+    "query": "Fortune Igiebor",
+    "source": "miss",
+    "styles": []
+  },
+  "FoxGluv": {
+    "genres": [
+      "Electronic",
+      "Pop",
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "electronic",
+      "pop",
+      "soul"
+    ],
+    "query": "FoxGluv",
+    "source": "discogs",
+    "styles": [
+      "Downtempo",
+      "Trip Hop",
+      "Minimal",
+      "Dub",
+      "Future Jazz",
+      "Electro"
+    ]
+  },
+  "Friends of the Relics": {
+    "genres": [],
+    "query": "Friends of the Relics",
+    "source": "miss",
+    "styles": []
+  },
+  "Full Funktion": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Full Funktion",
+    "source": "discogs",
+    "styles": [
+      "Techno"
+    ]
+  },
+  "Furlong": {
+    "genres": [],
+    "query": "Furlong",
+    "source": "miss",
+    "styles": []
+  },
+  "GEORGE HOUSTON": {
+    "genres": [],
+    "query": "GEORGE HOUSTON",
+    "source": "miss",
+    "styles": []
+  },
+  "GLAMO": {
+    "genres": [],
+    "query": "GLAMO",
+    "source": "miss",
+    "styles": []
+  },
+  "GRL": {
+    "genres": [],
+    "query": "GRL",
+    "source": "miss",
+    "styles": []
+  },
+  "GROEV": {
+    "genres": [
+      "Pop"
+    ],
+    "mapped": [
+      "pop"
+    ],
+    "query": "GROEV",
+    "source": "discogs",
+    "styles": [
+      "Pop Rock"
+    ]
+  },
+  "GROOVELINE": {
+    "genres": [],
+    "query": "GROOVELINE",
+    "source": "miss",
+    "styles": []
+  },
+  "Gaff-e": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Gaff-e",
+    "source": "discogs",
+    "styles": [
+      "House",
+      "Italo House"
+    ]
+  },
+  "Geese": {
+    "genres": [],
+    "query": "Geese",
+    "source": "miss",
+    "styles": []
+  },
+  "George Feely": {
+    "genres": [
+      "Electronic",
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "electronic",
+      "soul"
+    ],
+    "query": "George Feely",
+    "source": "discogs",
+    "styles": [
+      "House",
+      "Disco",
+      "Deep House"
+    ]
+  },
+  "Gorillaz": {
+    "genres": [
+      "Electronic",
+      "Hip Hop",
+      "Rock",
+      "Latin"
+    ],
+    "mapped": [
+      "electronic",
+      "hiphop",
+      "rock"
+    ],
+    "query": "Gorillaz",
+    "source": "discogs",
+    "styles": [
+      "Leftfield",
+      "Trip Hop",
+      "Lo-Fi",
+      "Experimental",
+      "Dub",
+      "UK Garage"
+    ]
+  },
+  "Governess": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Governess",
+    "source": "discogs",
+    "styles": [
+      "Punk",
+      "Glam",
+      "Indie Rock",
+      "Garage Rock"
+    ]
+  },
+  "Graham Smyth": {
+    "genres": [],
+    "query": "Graham Smyth",
+    "source": "miss",
+    "styles": []
+  },
+  "Granted": {
+    "genres": [
+      "Rock",
+      "Electronic"
+    ],
+    "mapped": [
+      "rock",
+      "electronic"
+    ],
+    "query": "Granted",
+    "source": "discogs",
+    "styles": [
+      "Post-Punk",
+      "House",
+      "UK Garage"
+    ]
+  },
+  "Groove & Palette": {
+    "genres": [],
+    "mapped": [],
+    "query": "Groove & Palette",
+    "source": "miss",
+    "styles": []
+  },
+  "Gr\u00e1": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Gr\u00e1",
+    "source": "discogs",
+    "styles": [
+      "Black Metal"
+    ]
+  },
+  "Gurriers": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Gurriers",
+    "source": "discogs",
+    "styles": [
+      "Post-Punk",
+      "Shoegaze",
+      "Indie Rock"
+    ]
+  },
+  "Gurriers DJ": {
+    "genres": [],
+    "query": "Gurriers DJ",
+    "source": "miss",
+    "styles": []
+  },
+  "HANK & THE LADS": {
+    "genres": [],
+    "query": "HANK & THE LADS",
+    "source": "miss",
+    "styles": []
+  },
+  "HAZELWOOD SECRET ACT 1": {
+    "genres": [],
+    "query": "HAZELWOOD SECRET ACT 1",
+    "source": "miss",
+    "styles": []
+  },
+  "HAZELWOOD SECRET ACT 2": {
+    "genres": [],
+    "query": "HAZELWOOD SECRET ACT 2",
+    "source": "miss",
+    "styles": []
+  },
+  "Havana Roots": {
+    "genres": [],
+    "query": "Havana Roots",
+    "source": "miss",
+    "styles": []
+  },
+  "Hermitage Green": {
+    "genres": [
+      "Rock",
+      "Folk, World, & Country",
+      "Pop"
+    ],
+    "mapped": [
+      "rock",
+      "folk",
+      "pop"
+    ],
+    "query": "Hermitage Green",
+    "source": "discogs",
+    "styles": [
+      "Folk Rock"
+    ]
+  },
+  "Hidden Orchestra": {
+    "genres": [
+      "Electronic",
+      "Jazz"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Hidden Orchestra",
+    "source": "discogs",
+    "styles": [
+      "Downtempo",
+      "Contemporary Jazz"
+    ]
+  },
+  "Hiphap Gaelach": {
+    "genres": [],
+    "mapped": [],
+    "query": "Hiphap Gaelach",
+    "source": "miss",
+    "styles": []
+  },
+  "Huartan": {
+    "genres": [
+      "Electronic",
+      "Rock",
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "electronic",
+      "rock",
+      "folk"
+    ],
+    "query": "Huartan",
+    "source": "discogs",
+    "styles": [
+      "Folk",
+      "Celtic"
+    ]
+  },
+  "Hykken": {
+    "genres": [],
+    "query": "Hykken",
+    "source": "miss",
+    "styles": []
+  },
+  "I DREAMED I DREAM": {
+    "genres": [],
+    "query": "I DREAMED I DREAM",
+    "source": "miss",
+    "styles": []
+  },
+  "INFLUX": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "INFLUX",
+    "source": "discogs",
+    "styles": [
+      "Techno",
+      "Abstract",
+      "IDM",
+      "Acid"
+    ]
+  },
+  "INNNER VISION, Visual Light Projection by Susan Walsh": {
+    "genres": [],
+    "mapped": [],
+    "query": "INNNER VISION, Visual Light Projection by Susan Walsh",
+    "source": "miss",
+    "styles": []
+  },
+  "Ian Dempsey": {
+    "genres": [],
+    "query": "Ian Dempsey",
+    "source": "miss",
+    "styles": []
+  },
+  "Ian Hart/One World Sound": {
+    "genres": [],
+    "mapped": [],
+    "query": "Ian Hart/One World Sound",
+    "source": "miss",
+    "styles": []
+  },
+  "Inni-K & the UCD Gamelan Orchestra": {
+    "genres": [],
+    "query": "Inni-K & the UCD Gamelan Orchestra",
+    "source": "miss",
+    "styles": []
+  },
+  "Interplanetary Criminal": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Interplanetary Criminal",
+    "source": "discogs",
+    "styles": [
+      "UK Garage",
+      "Speed Garage",
+      "Breakbeat",
+      "Leftfield"
+    ]
+  },
+  "Ispini na hEireann": {
+    "genres": [],
+    "query": "Ispini na hEireann",
+    "source": "miss",
+    "styles": []
+  },
+  "Isp\u00edn\u00ed agus C\u00e1is": {
+    "genres": [],
+    "mapped": [],
+    "query": "Isp\u00edn\u00ed agus C\u00e1is",
+    "source": "miss",
+    "styles": []
+  },
+  "Isp\u00edn\u00ed na h\u00c9ireann": {
+    "genres": [
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "folk"
+    ],
+    "query": "Isp\u00edn\u00ed na h\u00c9ireann",
+    "source": "discogs",
+    "styles": [
+      "Celtic"
+    ]
+  },
+  "JADE": {
+    "genres": [
+      "Rock",
+      "Pop",
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "rock",
+      "pop",
+      "folk"
+    ],
+    "query": "JADE",
+    "source": "discogs",
+    "styles": [
+      "Prog Rock",
+      "Psychedelic Rock"
+    ]
+  },
+  "JEAN PACK & THE SLAY BABIES": {
+    "genres": [],
+    "query": "JEAN PACK & THE SLAY BABIES",
+    "source": "miss",
+    "styles": []
+  },
+  "JEAN PACK AND THE SLAY BABIES": {
+    "genres": [],
+    "query": "JEAN PACK AND THE SLAY BABIES",
+    "source": "miss",
+    "styles": []
+  },
+  "JERRY FISH": {
+    "genres": [],
+    "query": "JERRY FISH",
+    "source": "miss",
+    "styles": []
+  },
+  "JINX LENNON": {
+    "genres": [
+      "Rock",
+      "Electronic",
+      "Hip Hop",
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "rock",
+      "electronic",
+      "hiphop"
+    ],
+    "query": "JINX LENNON",
+    "source": "discogs",
+    "styles": [
+      "Experimental",
+      "Punk",
+      "Poetry",
+      "Spoken Word"
+    ]
+  },
+  "JPEGMAFIA": {
+    "genres": [
+      "Electronic",
+      "Hip Hop",
+      "Rock",
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "electronic",
+      "hiphop",
+      "rock"
+    ],
+    "query": "JPEGMAFIA",
+    "source": "discogs",
+    "styles": [
+      "Experimental",
+      "Hardcore Hip-Hop",
+      "Industrial",
+      "Cloud Rap",
+      "Contemporary R&B",
+      "Trap"
+    ]
+  },
+  "Jack Madden": {
+    "genres": [],
+    "query": "Jack Madden",
+    "source": "miss",
+    "styles": []
+  },
+  "Jacqui": {
+    "genres": [
+      "Electronic",
+      "Folk, World, & Country",
+      "Jazz",
+      "Rock"
+    ],
+    "mapped": [
+      "electronic",
+      "folk",
+      "rock"
+    ],
+    "query": "Jacqui",
+    "source": "discogs",
+    "styles": [
+      "Synth-pop",
+      "New Wave",
+      "Cool Jazz",
+      "Pop Rock"
+    ]
+  },
+  "Jade Carney": {
+    "genres": [],
+    "mapped": [],
+    "query": "Jade Carney",
+    "source": "miss",
+    "styles": []
+  },
+  "James Marriott": {
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "mapped": [
+      "rock",
+      "pop"
+    ],
+    "query": "James Marriott",
+    "source": "discogs",
+    "styles": [
+      "Indie Rock",
+      "Indie Pop",
+      "Alt-Pop",
+      "Pop Rock",
+      "Britpop",
+      "Alternative Rock"
+    ]
+  },
+  "Jamie Ennis": {
+    "genres": [],
+    "query": "Jamie Ennis",
+    "source": "miss",
+    "styles": []
+  },
+  "Jamie McIntyre": {
+    "genres": [],
+    "query": "Jamie McIntyre",
+    "source": "miss",
+    "styles": []
+  },
+  "JenTen": {
+    "genres": [],
+    "query": "JenTen",
+    "source": "miss",
+    "styles": []
+  },
+  "Jennifer Leahy": {
+    "genres": [],
+    "mapped": [],
+    "query": "Jennifer Leahy",
+    "source": "miss",
+    "styles": []
+  },
+  "Jeorge II": {
+    "genres": [],
+    "mapped": [],
+    "query": "Jeorge II",
+    "source": "miss",
+    "styles": []
+  },
+  "Jess Maciel": {
+    "genres": [],
+    "query": "Jess Maciel",
+    "source": "miss",
+    "styles": []
+  },
+  "Jessie Murph": {
+    "genres": [
+      "Pop",
+      "Hip Hop",
+      "Rock",
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "pop",
+      "hiphop",
+      "rock"
+    ],
+    "query": "Jessie Murph",
+    "source": "discogs",
+    "styles": [
+      "Alt-Pop",
+      "Indie Pop",
+      "Trap",
+      "Country Rock",
+      "Pop Rap"
+    ]
+  },
+  "John Francis Flynn": {
+    "genres": [
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "folk"
+    ],
+    "query": "John Francis Flynn",
+    "source": "discogs",
+    "styles": [
+      "Folk",
+      "Celtic"
+    ]
+  },
+  "Johnny Blazed": {
+    "genres": [],
+    "mapped": [],
+    "query": "Johnny Blazed",
+    "source": "miss",
+    "styles": []
+  },
+  "Jonezy": {
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "mapped": [
+      "rock",
+      "pop"
+    ],
+    "query": "Jonezy",
+    "source": "discogs",
+    "styles": [
+      "Indie Pop"
+    ]
+  },
+  "Jordo Byrne": {
+    "genres": [],
+    "mapped": [],
+    "query": "Jordo Byrne",
+    "source": "miss",
+    "styles": []
+  },
+  "JusMe": {
+    "genres": [],
+    "query": "JusMe",
+    "source": "miss",
+    "styles": []
+  },
+  "Juslinis": {
+    "genres": [],
+    "query": "Juslinis",
+    "source": "miss",
+    "styles": []
+  },
+  "Just Alice": {
+    "genres": [],
+    "mapped": [],
+    "query": "Just Alice",
+    "source": "miss",
+    "styles": []
+  },
+  "K I L O": {
+    "genres": [],
+    "query": "K I L O",
+    "source": "miss",
+    "styles": []
+  },
+  "KAY": {
+    "genres": [
+      "Rock",
+      "Pop",
+      "Jazz",
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "rock",
+      "pop",
+      "soul"
+    ],
+    "query": "KAY",
+    "source": "discogs",
+    "styles": [
+      "Vocal",
+      "Indie Rock",
+      "Lounge",
+      "Soul"
+    ]
+  },
+  "KELLY ANNE BYRNE": {
+    "genres": [],
+    "query": "KELLY ANNE BYRNE",
+    "source": "miss",
+    "styles": []
+  },
+  "KK Lewis": {
+    "genres": [
+      "Rock",
+      "Pop",
+      "Folk, World, & Country",
+      "Stage & Screen"
+    ],
+    "mapped": [
+      "rock",
+      "pop",
+      "folk"
+    ],
+    "query": "KK Lewis",
+    "source": "discogs",
+    "styles": [
+      "Bollywood",
+      "Soundtrack"
+    ]
+  },
+  "Kapayja": {
+    "genres": [],
+    "mapped": [],
+    "query": "Kapayja",
+    "source": "miss",
+    "styles": []
+  },
+  "Karl Seery": {
+    "genres": [
+      "Electronic",
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "electronic",
+      "soul"
+    ],
+    "query": "Karl Seery",
+    "source": "discogs",
+    "styles": [
+      "House",
+      "Deep House"
+    ]
+  },
+  "Karmawi": {
+    "genres": [],
+    "mapped": [],
+    "query": "Karmawi",
+    "source": "miss",
+    "styles": []
+  },
+  "Kathleen Loughnane & Catriona Cannon": {
+    "genres": [
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "folk"
+    ],
+    "query": "Kathleen Loughnane & Catriona Cannon",
+    "source": "discogs",
+    "styles": []
+  },
+  "Katies Abba Singalong": {
+    "genres": [],
+    "query": "Katies Abba Singalong",
+    "source": "miss",
+    "styles": []
+  },
+  "Kayleigh Glynn": {
+    "genres": [],
+    "query": "Kayleigh Glynn",
+    "source": "miss",
+    "styles": []
+  },
+  "Kayleigh Noble": {
+    "genres": [
+      "Funk / Soul",
+      "Pop"
+    ],
+    "mapped": [
+      "soul",
+      "pop"
+    ],
+    "query": "Kayleigh Noble",
+    "source": "discogs",
+    "styles": [
+      "Soul",
+      "Rhythm & Blues"
+    ]
+  },
+  "Kean Kavanagh": {
+    "genres": [
+      "Rock",
+      "Pop",
+      "Folk, World, & Country",
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "rock",
+      "pop",
+      "folk"
+    ],
+    "query": "Kean Kavanagh",
+    "source": "discogs",
+    "styles": [
+      "Indie Rock",
+      "Alternative Rock",
+      "Country Rock"
+    ]
+  },
+  "Keg DJ": {
+    "genres": [],
+    "mapped": [],
+    "query": "Keg DJ",
+    "source": "miss",
+    "styles": []
+  },
+  "Kelly Bongo": {
+    "genres": [],
+    "query": "Kelly Bongo",
+    "source": "miss",
+    "styles": []
+  },
+  "Kelsey": {
+    "genres": [],
+    "query": "Kelsey",
+    "source": "miss",
+    "styles": []
+  },
+  "Keo": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Keo",
+    "source": "discogs",
+    "styles": [
+      "Alternative Rock",
+      "Indie Rock"
+    ]
+  },
+  "Kettleboilers": {
+    "genres": [],
+    "query": "Kettleboilers",
+    "source": "miss",
+    "styles": []
+  },
+  "Kev Mac": {
+    "genres": [],
+    "query": "Kev Mac",
+    "source": "miss",
+    "styles": []
+  },
+  "Kiki D": {
+    "genres": [
+      "Pop",
+      "Rock",
+      "Electronic"
+    ],
+    "mapped": [
+      "pop",
+      "rock",
+      "electronic"
+    ],
+    "query": "Kiki D",
+    "source": "discogs",
+    "styles": [
+      "Pop Rock",
+      "Synth-pop"
+    ]
+  },
+  "Kilimanjaro": {
+    "genres": [
+      "Jazz"
+    ],
+    "mapped": [],
+    "query": "Kilimanjaro",
+    "source": "discogs",
+    "styles": [
+      "Fusion"
+    ]
+  },
+  "King Kong Company DJ Set": {
+    "genres": [],
+    "mapped": [],
+    "query": "King Kong Company DJ Set",
+    "source": "miss",
+    "styles": []
+  },
+  "Kyla Cobbler": {
+    "genres": [],
+    "query": "Kyla Cobbler",
+    "source": "miss",
+    "styles": []
+  },
+  "LAWRENCE": {
+    "genres": [
+      "Electronic",
+      "Funk / Soul",
+      "Pop"
+    ],
+    "mapped": [
+      "electronic",
+      "soul",
+      "pop"
+    ],
+    "query": "LAWRENCE",
+    "source": "discogs",
+    "styles": [
+      "Minimal",
+      "House",
+      "Deep House",
+      "Ambient",
+      "Soul",
+      "Disco"
+    ]
+  },
+  "LEEVY": {
+    "genres": [
+      "Rock",
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "rock",
+      "folk"
+    ],
+    "query": "LEEVY",
+    "source": "discogs",
+    "styles": [
+      "Folk",
+      "Folk Rock"
+    ]
+  },
+  "LIA": {
+    "genres": [
+      "Electronic",
+      "Pop",
+      "Hip Hop",
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "electronic",
+      "pop",
+      "hiphop"
+    ],
+    "query": "LIA",
+    "source": "discogs",
+    "styles": [
+      "Happy Hardcore",
+      "Trance",
+      "J-pop",
+      "Hardcore",
+      "Gabber",
+      "Breakbeat"
+    ]
+  },
+  "LIAM O CONNOR": {
+    "genres": [],
+    "query": "LIAM O CONNOR",
+    "source": "miss",
+    "styles": []
+  },
+  "LUCY MC WILLIAMS": {
+    "genres": [],
+    "query": "LUCY MC WILLIAMS",
+    "source": "miss",
+    "styles": []
+  },
+  "Laoise Kelly": {
+    "genres": [
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "folk"
+    ],
+    "query": "Laoise Kelly",
+    "source": "discogs",
+    "styles": [
+      "Celtic"
+    ]
+  },
+  "Largo Da Cumbia": {
+    "genres": [],
+    "mapped": [],
+    "query": "Largo Da Cumbia",
+    "source": "miss",
+    "styles": []
+  },
+  "Laura Jo": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Laura Jo",
+    "source": "discogs",
+    "styles": [
+      "House",
+      "Deep House",
+      "Tech House"
+    ]
+  },
+  "Le Boom": {
+    "genres": [],
+    "query": "Le Boom",
+    "source": "miss",
+    "styles": []
+  },
+  "Leatsa": {
+    "genres": [],
+    "query": "Leatsa",
+    "source": "miss",
+    "styles": []
+  },
+  "Lemonade Shoelace": {
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "mapped": [
+      "rock",
+      "pop"
+    ],
+    "query": "Lemonade Shoelace",
+    "source": "discogs",
+    "styles": []
+  },
+  "Leon Carter": {
+    "genres": [],
+    "query": "Leon Carter",
+    "source": "miss",
+    "styles": []
+  },
+  "Lewis Capaldi": {
+    "genres": [
+      "Pop"
+    ],
+    "mapped": [
+      "pop"
+    ],
+    "query": "Lewis Capaldi",
+    "source": "discogs",
+    "styles": [
+      "Indie Pop",
+      "Alt-Pop",
+      "Vocal",
+      "Ballad"
+    ]
+  },
+  "Lil Skag": {
+    "genres": [],
+    "query": "Lil Skag",
+    "source": "miss",
+    "styles": []
+  },
+  "Little O": {
+    "genres": [],
+    "query": "Little O",
+    "source": "miss",
+    "styles": []
+  },
+  "Live Forever": {
+    "genres": [],
+    "query": "Live Forever",
+    "source": "miss",
+    "styles": []
+  },
+  "Local Groove Records": {
+    "genres": [],
+    "query": "Local Groove Records",
+    "source": "miss",
+    "styles": []
+  },
+  "Lorcan Kelly": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Lorcan Kelly",
+    "source": "discogs",
+    "styles": [
+      "Dub Techno",
+      "Techno",
+      "Tribal",
+      "Disco"
+    ]
+  },
+  "Los Wachos": {
+    "genres": [],
+    "query": "Los Wachos",
+    "source": "miss",
+    "styles": []
+  },
+  "Lou Bru": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Lou Bru",
+    "source": "discogs",
+    "styles": [
+      "Heavy Metal"
+    ]
+  },
+  "Louise Cantillon": {
+    "genres": [],
+    "mapped": [],
+    "query": "Louise Cantillon",
+    "source": "miss",
+    "styles": []
+  },
+  "Loyle Carner": {
+    "genres": [
+      "Hip Hop",
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "hiphop",
+      "soul"
+    ],
+    "query": "Loyle Carner",
+    "source": "discogs",
+    "styles": []
+  },
+  "Luca": {
+    "genres": [
+      "Pop"
+    ],
+    "mapped": [
+      "pop"
+    ],
+    "query": "Luca",
+    "source": "discogs",
+    "styles": [
+      "Chanson",
+      "Vocal"
+    ]
+  },
+  "Lucas Ogma": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Lucas Ogma",
+    "source": "discogs",
+    "styles": [
+      "Techno"
+    ]
+  },
+  "Luke Grogan": {
+    "genres": [],
+    "query": "Luke Grogan",
+    "source": "miss",
+    "styles": []
+  },
+  "Luke Thomas and Paul Dunlem Big Band": {
+    "genres": [],
+    "query": "Luke Thomas and Paul Dunlem Big Band",
+    "source": "miss",
+    "styles": []
+  },
+  "Luke Webb, Robert Harvey & Ois\u00edn McCann": {
+    "genres": [],
+    "mapped": [],
+    "query": "Luke Webb, Robert Harvey & Ois\u00edn McCann",
+    "source": "miss",
+    "styles": []
+  },
+  "L\u00e9ar\u00f3": {
+    "genres": [],
+    "mapped": [],
+    "query": "L\u00e9ar\u00f3",
+    "source": "miss",
+    "styles": []
+  },
+  "L\u00falia Gillian Egleston & Mike Hennigar": {
+    "genres": [],
+    "query": "L\u00falia Gillian Egleston & Mike Hennigar",
+    "source": "miss",
+    "styles": []
+  },
+  "MADAMS LAST DISCOVERY": {
+    "genres": [],
+    "mapped": [],
+    "query": "MADAMS LAST DISCOVERY",
+    "source": "miss",
+    "styles": []
+  },
+  "MAICIN": {
+    "genres": [],
+    "mapped": [],
+    "query": "MAICIN",
+    "source": "miss",
+    "styles": []
+  },
+  "MALAKI": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "electronic",
+      "rock"
+    ],
+    "query": "MALAKI",
+    "source": "discogs",
+    "styles": [
+      "Punk",
+      "Hardcore",
+      "Hard Rock"
+    ]
+  },
+  "MALUGI": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "MALUGI",
+    "source": "discogs",
+    "styles": [
+      "House",
+      "Trance",
+      "Speed Garage",
+      "Techno"
+    ]
+  },
+  "MANWELLI": {
+    "genres": [],
+    "query": "MANWELLI",
+    "source": "miss",
+    "styles": []
+  },
+  "MARYANN - Electric Youth": {
+    "genres": [],
+    "mapped": [],
+    "query": "MARYANN - Electric Youth",
+    "source": "miss",
+    "styles": []
+  },
+  "MAV666": {
+    "genres": [],
+    "query": "MAV666",
+    "source": "miss",
+    "styles": []
+  },
+  "MAYKAY": {
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "mapped": [
+      "rock",
+      "pop"
+    ],
+    "query": "MAYKAY",
+    "source": "discogs",
+    "styles": [
+      "Indie Rock",
+      "Pop Rock"
+    ]
+  },
+  "MCCARTNEY ALL THE BEST": {
+    "genres": [],
+    "query": "MCCARTNEY ALL THE BEST",
+    "source": "miss",
+    "styles": []
+  },
+  "MIK PYRO": {
+    "genres": [],
+    "query": "MIK PYRO",
+    "source": "miss",
+    "styles": []
+  },
+  "MONSIEUR POMPIER": {
+    "genres": [],
+    "query": "MONSIEUR POMPIER",
+    "source": "miss",
+    "styles": []
+  },
+  "MOTHER DJS": {
+    "genres": [],
+    "query": "MOTHER DJS",
+    "source": "miss",
+    "styles": []
+  },
+  "MXRK": {
+    "genres": [],
+    "query": "MXRK",
+    "source": "miss",
+    "styles": []
+  },
+  "MY BAD SISTER": {
+    "genres": [],
+    "query": "MY BAD SISTER",
+    "source": "miss",
+    "styles": []
+  },
+  "Mac Steady": {
+    "genres": [],
+    "query": "Mac Steady",
+    "source": "miss",
+    "styles": []
+  },
+  "Mackayla Chloe - Electric Youth": {
+    "genres": [],
+    "query": "Mackayla Chloe - Electric Youth",
+    "source": "miss",
+    "styles": []
+  },
+  "Mad Gab": {
+    "genres": [],
+    "query": "Mad Gab",
+    "source": "miss",
+    "styles": []
+  },
+  "Madonna Kebab": {
+    "genres": [],
+    "mapped": [],
+    "query": "Madonna Kebab",
+    "source": "miss",
+    "styles": []
+  },
+  "Madra Salach": {
+    "genres": [
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "folk"
+    ],
+    "query": "Madra Salach",
+    "source": "discogs",
+    "styles": []
+  },
+  "Madra Salach DJ": {
+    "genres": [],
+    "query": "Madra Salach DJ",
+    "source": "miss",
+    "styles": []
+  },
+  "Magz": {
+    "genres": [
+      "Hip Hop"
+    ],
+    "mapped": [
+      "hiphop"
+    ],
+    "query": "Magz",
+    "source": "discogs",
+    "styles": [
+      "Conscious"
+    ]
+  },
+  "Mahogany Gaspipes": {
+    "genres": [],
+    "mapped": [],
+    "query": "Mahogany Gaspipes",
+    "source": "miss",
+    "styles": []
+  },
+  "Maic\u00edn": {
+    "genres": [],
+    "query": "Maic\u00edn",
+    "source": "miss",
+    "styles": []
+  },
+  "Maighread & Tr\u00edona N\u00ed Dhomhnaill": {
+    "genres": [
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "folk"
+    ],
+    "query": "Maighread & Tr\u00edona N\u00ed Dhomhnaill",
+    "source": "discogs",
+    "styles": [
+      "Folk"
+    ]
+  },
+  "Mair\u00e9ad": {
+    "genres": [
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "folk"
+    ],
+    "query": "Mair\u00e9ad",
+    "source": "discogs",
+    "styles": [
+      "Celtic",
+      "Folk"
+    ]
+  },
+  "Major Feen": {
+    "genres": [],
+    "mapped": [],
+    "query": "Major Feen",
+    "source": "miss",
+    "styles": []
+  },
+  "Malo": {
+    "genres": [
+      "Latin",
+      "Funk / Soul",
+      "Rock",
+      "Jazz"
+    ],
+    "mapped": [
+      "soul",
+      "rock"
+    ],
+    "query": "Malo",
+    "source": "discogs",
+    "styles": [
+      "Afro-Cuban",
+      "Latin Jazz",
+      "Salsa",
+      "Guaguanc\u00f3",
+      "Boogaloo",
+      "Pop Rock"
+    ]
+  },
+  "Marcus O\u2019Laoire": {
+    "genres": [],
+    "query": "Marcus O\u2019Laoire",
+    "source": "miss",
+    "styles": []
+  },
+  "Maria Lawlor": {
+    "genres": [],
+    "query": "Maria Lawlor",
+    "source": "miss",
+    "styles": []
+  },
+  "Mark Fitz": {
+    "genres": [],
+    "query": "Mark Fitz",
+    "source": "miss",
+    "styles": []
+  },
+  "Mark Fitz & Baw": {
+    "genres": [],
+    "mapped": [],
+    "query": "Mark Fitz & Baw",
+    "source": "miss",
+    "styles": []
+  },
+  "Mark Murphy": {
+    "genres": [
+      "Jazz"
+    ],
+    "mapped": [],
+    "query": "Mark Murphy",
+    "source": "discogs",
+    "styles": []
+  },
+  "Mattie B": {
+    "genres": [],
+    "query": "Mattie B",
+    "source": "miss",
+    "styles": []
+  },
+  "Megatrad": {
+    "genres": [],
+    "query": "Megatrad",
+    "source": "miss",
+    "styles": []
+  },
+  "Melina Malone": {
+    "genres": [],
+    "query": "Melina Malone",
+    "source": "miss",
+    "styles": []
+  },
+  "Men I Trust": {
+    "genres": [
+      "Pop",
+      "Rock",
+      "Electronic"
+    ],
+    "mapped": [
+      "pop",
+      "rock",
+      "electronic"
+    ],
+    "query": "Men I Trust",
+    "source": "discogs",
+    "styles": [
+      "Indie Pop",
+      "Downtempo",
+      "Deep House"
+    ]
+  },
+  "Michael Downing": {
+    "genres": [],
+    "query": "Michael Downing",
+    "source": "miss",
+    "styles": []
+  },
+  "Michelle McCormack": {
+    "genres": [],
+    "query": "Michelle McCormack",
+    "source": "miss",
+    "styles": []
+  },
+  "Mick Flannery": {
+    "genres": [
+      "Folk, World, & Country",
+      "Rock",
+      "Pop"
+    ],
+    "mapped": [
+      "folk",
+      "rock",
+      "pop"
+    ],
+    "query": "Mick Flannery",
+    "source": "discogs",
+    "styles": [
+      "Folk",
+      "Alternative Rock",
+      "Indie Rock",
+      "Folk Rock"
+    ]
+  },
+  "Mick G": {
+    "genres": [],
+    "query": "Mick G",
+    "source": "miss",
+    "styles": []
+  },
+  "Mills": {
+    "genres": [
+      "Jazz"
+    ],
+    "mapped": [],
+    "query": "Mills",
+    "source": "discogs",
+    "styles": []
+  },
+  "Minikimono": {
+    "genres": [],
+    "query": "Minikimono",
+    "source": "miss",
+    "styles": []
+  },
+  "Mitch Presents": {
+    "genres": [],
+    "mapped": [],
+    "query": "Mitch Presents",
+    "source": "miss",
+    "styles": []
+  },
+  "Mn\u00e1Some Lives": {
+    "genres": [],
+    "mapped": [],
+    "query": "Mn\u00e1Some Lives",
+    "source": "miss",
+    "styles": []
+  },
+  "Mo Cultivation": {
+    "genres": [],
+    "mapped": [],
+    "query": "Mo Cultivation",
+    "source": "miss",
+    "styles": []
+  },
+  "Mode\u0101": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Mode\u0101",
+    "source": "discogs",
+    "styles": [
+      "Techno",
+      "Trance"
+    ]
+  },
+  "Mojo": {
+    "genres": [
+      "Blues"
+    ],
+    "mapped": [],
+    "query": "Mojo",
+    "source": "discogs",
+    "styles": []
+  },
+  "Mookie": {
+    "genres": [
+      "Hip Hop"
+    ],
+    "mapped": [
+      "hiphop"
+    ],
+    "query": "Mookie",
+    "source": "discogs",
+    "styles": [
+      "Gangsta",
+      "Thug Rap",
+      "Hardcore Hip-Hop"
+    ]
+  },
+  "Morgana": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Morgana",
+    "source": "discogs",
+    "styles": [
+      "Heavy Metal",
+      "Power Metal"
+    ]
+  },
+  "Morrigna Fire Show": {
+    "genres": [],
+    "mapped": [],
+    "query": "Morrigna Fire Show",
+    "source": "miss",
+    "styles": []
+  },
+  "Mount Pyrus": {
+    "genres": [],
+    "query": "Mount Pyrus",
+    "source": "miss",
+    "styles": []
+  },
+  "Mungo's Hi Fi feat Cian Finn & Special Guests": {
+    "genres": [],
+    "query": "Mungo's Hi Fi feat Cian Finn & Special Guests",
+    "source": "miss",
+    "styles": []
+  },
+  "Music Generation Harp Collective": {
+    "genres": [],
+    "query": "Music Generation Harp Collective",
+    "source": "miss",
+    "styles": []
+  },
+  "Music Generation Laois Harp Ensemble": {
+    "genres": [],
+    "query": "Music Generation Laois Harp Ensemble",
+    "source": "miss",
+    "styles": []
+  },
+  "Music Generation Louth Harp Ensemble": {
+    "genres": [],
+    "query": "Music Generation Louth Harp Ensemble",
+    "source": "miss",
+    "styles": []
+  },
+  "Music Generation Mayo Harp Ensemble": {
+    "genres": [],
+    "query": "Music Generation Mayo Harp Ensemble",
+    "source": "miss",
+    "styles": []
+  },
+  "My Bad Sister": {
+    "genres": [],
+    "query": "My Bad Sister",
+    "source": "miss",
+    "styles": []
+  },
+  "Mykology": {
+    "genres": [],
+    "query": "Mykology",
+    "source": "miss",
+    "styles": []
+  },
+  "M\u00e9abh & Eva": {
+    "genres": [],
+    "mapped": [],
+    "query": "M\u00e9abh & Eva",
+    "source": "miss",
+    "styles": []
+  },
+  "M\u00e9abh Mulligan & Eva Carroll": {
+    "genres": [],
+    "query": "M\u00e9abh Mulligan & Eva Carroll",
+    "source": "miss",
+    "styles": []
+  },
+  "M\u2060isle\u00f3r Festival of Nomadic Cultures": {
+    "genres": [],
+    "mapped": [],
+    "query": "M\u2060isle\u00f3r Festival of Nomadic Cultures",
+    "source": "miss",
+    "styles": []
+  },
+  "Na Cairde": {
+    "genres": [],
+    "query": "Na Cairde",
+    "source": "miss",
+    "styles": []
+  },
+  "Na Dord & na Rialt\u00e1in": {
+    "genres": [],
+    "query": "Na Dord & na Rialt\u00e1in",
+    "source": "miss",
+    "styles": []
+  },
+  "Nancy Wilde": {
+    "genres": [],
+    "query": "Nancy Wilde",
+    "source": "miss",
+    "styles": []
+  },
+  "New Brass Kings": {
+    "genres": [],
+    "mapped": [],
+    "query": "New Brass Kings",
+    "source": "miss",
+    "styles": []
+  },
+  "NewDad": {
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "mapped": [
+      "rock",
+      "pop"
+    ],
+    "query": "NewDad",
+    "source": "discogs",
+    "styles": [
+      "Alternative Rock",
+      "Dream Pop",
+      "Shoegaze",
+      "Indie Rock",
+      "Indie Pop"
+    ]
+  },
+  "NewEra": {
+    "genres": [],
+    "query": "NewEra",
+    "source": "miss",
+    "styles": []
+  },
+  "Nia Byrd": {
+    "genres": [],
+    "mapped": [],
+    "query": "Nia Byrd",
+    "source": "miss",
+    "styles": []
+  },
+  "Nieve Ella": {
+    "genres": [
+      "Pop"
+    ],
+    "mapped": [
+      "pop"
+    ],
+    "query": "Nieve Ella",
+    "source": "discogs",
+    "styles": [
+      "Indie Pop"
+    ]
+  },
+  "Nigel Quaid": {
+    "genres": [],
+    "query": "Nigel Quaid",
+    "source": "miss",
+    "styles": []
+  },
+  "Noel Lowry": {
+    "genres": [],
+    "query": "Noel Lowry",
+    "source": "miss",
+    "styles": []
+  },
+  "Nuclearmaso": {
+    "genres": [],
+    "query": "Nuclearmaso",
+    "source": "miss",
+    "styles": []
+  },
+  "N\u00f3in\u00edn\u00ed": {
+    "genres": [],
+    "query": "N\u00f3in\u00edn\u00ed",
+    "source": "miss",
+    "styles": []
+  },
+  "OISINOK": {
+    "genres": [],
+    "query": "OISINOK",
+    "source": "miss",
+    "styles": []
+  },
+  "OLIVIA IS A GHOST": {
+    "genres": [],
+    "query": "OLIVIA IS A GHOST",
+    "source": "miss",
+    "styles": []
+  },
+  "OUT ON BALE": {
+    "genres": [],
+    "query": "OUT ON BALE",
+    "source": "miss",
+    "styles": []
+  },
+  "Obsk\u00fcr": {
+    "genres": [],
+    "query": "Obsk\u00fcr",
+    "source": "miss",
+    "styles": []
+  },
+  "Oklou": {
+    "genres": [
+      "Electronic",
+      "Pop"
+    ],
+    "mapped": [
+      "electronic",
+      "pop"
+    ],
+    "query": "Oklou",
+    "source": "discogs",
+    "styles": [
+      "Ambient",
+      "Indie Pop",
+      "Experimental",
+      "Alt-Pop",
+      "Electro",
+      "Synth-pop"
+    ]
+  },
+  "Omen": {
+    "genres": [],
+    "query": "Omen",
+    "source": "miss",
+    "styles": []
+  },
+  "Onai": {
+    "genres": [],
+    "query": "Onai",
+    "source": "miss",
+    "styles": []
+  },
+  "One More Tune": {
+    "genres": [],
+    "query": "One More Tune",
+    "source": "miss",
+    "styles": []
+  },
+  "Oracle Villa": {
+    "genres": [],
+    "query": "Oracle Villa",
+    "source": "miss",
+    "styles": []
+  },
+  "Outstraight Records": {
+    "genres": [],
+    "query": "Outstraight Records",
+    "source": "miss",
+    "styles": []
+  },
+  "PEARLY WHITES": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "PEARLY WHITES",
+    "source": "discogs",
+    "styles": [
+      "Breakbeat",
+      "Hip Hop"
+    ]
+  },
+  "PERSONA": {
+    "genres": [],
+    "query": "PERSONA",
+    "source": "miss",
+    "styles": []
+  },
+  "POP GODS": {
+    "genres": [],
+    "query": "POP GODS",
+    "source": "miss",
+    "styles": []
+  },
+  "Pablo Santo": {
+    "genres": [],
+    "query": "Pablo Santo",
+    "source": "miss",
+    "styles": []
+  },
+  "Paige Tomlinson": {
+    "genres": [],
+    "query": "Paige Tomlinson",
+    "source": "miss",
+    "styles": []
+  },
+  "Paradise Conspiracy - Electric Youth": {
+    "genres": [],
+    "query": "Paradise Conspiracy - Electric Youth",
+    "source": "miss",
+    "styles": []
+  },
+  "Paula MacSweeney": {
+    "genres": [],
+    "query": "Paula MacSweeney",
+    "source": "miss",
+    "styles": []
+  },
+  "Paulo": {
+    "genres": [
+      "Latin",
+      "Funk / Soul",
+      "Folk, World, & Country",
+      "Rock"
+    ],
+    "mapped": [
+      "soul",
+      "folk",
+      "rock"
+    ],
+    "query": "Paulo",
+    "source": "discogs",
+    "styles": [
+      "MPB",
+      "Funk",
+      "Samba",
+      "Folk",
+      "Psychedelic",
+      "Pop Rock"
+    ]
+  },
+  "People I've Met": {
+    "genres": [],
+    "query": "People I've Met",
+    "source": "miss",
+    "styles": []
+  },
+  "People_Like_Us": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "People_Like_Us",
+    "source": "discogs",
+    "styles": [
+      "Industrial",
+      "Experimental",
+      "Hi NRG",
+      "Cut-up/DJ",
+      "Sound Collage",
+      "Dialogue"
+    ]
+  },
+  "Phallout": {
+    "genres": [],
+    "mapped": [],
+    "query": "Phallout",
+    "source": "miss",
+    "styles": []
+  },
+  "Phil Kenny": {
+    "genres": [],
+    "query": "Phil Kenny",
+    "source": "miss",
+    "styles": []
+  },
+  "Pillow Queens": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Pillow Queens",
+    "source": "discogs",
+    "styles": [
+      "Indie Rock",
+      "Alternative Rock"
+    ]
+  },
+  "Popgods 90s Karaoke": {
+    "genres": [],
+    "query": "Popgods 90s Karaoke",
+    "source": "miss",
+    "styles": []
+  },
+  "Prymary Colours": {
+    "genres": [],
+    "query": "Prymary Colours",
+    "source": "miss",
+    "styles": []
+  },
+  "Puffin Man/Ray McShake": {
+    "genres": [],
+    "query": "Puffin Man/Ray McShake",
+    "source": "miss",
+    "styles": []
+  },
+  "R.S.A.G. & Kilo presents Decks N Drums": {
+    "genres": [],
+    "query": "R.S.A.G. & Kilo presents Decks N Drums",
+    "source": "miss",
+    "styles": []
+  },
+  "RACK & RUINS": {
+    "genres": [],
+    "mapped": [],
+    "query": "RACK & RUINS",
+    "source": "miss",
+    "styles": []
+  },
+  "RATHAUS": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "RATHAUS",
+    "source": "discogs",
+    "styles": [
+      "Punk"
+    ]
+  },
+  "RAZ AND AFLA": {
+    "genres": [],
+    "query": "RAZ AND AFLA",
+    "source": "miss",
+    "styles": []
+  },
+  "REGINA & THE QUEENS": {
+    "genres": [],
+    "query": "REGINA & THE QUEENS",
+    "source": "miss",
+    "styles": []
+  },
+  "RELUCTANT BOB AND THE LONELY LOVERS": {
+    "genres": [],
+    "mapped": [],
+    "query": "RELUCTANT BOB AND THE LONELY LOVERS",
+    "source": "miss",
+    "styles": []
+  },
+  "RIA RUA": {
+    "genres": [],
+    "query": "RIA RUA",
+    "source": "miss",
+    "styles": []
+  },
+  "RNL": {
+    "genres": [],
+    "query": "RNL",
+    "source": "miss",
+    "styles": []
+  },
+  "ROCKY T. DELGADO": {
+    "genres": [],
+    "query": "ROCKY T. DELGADO",
+    "source": "miss",
+    "styles": []
+  },
+  "ROWETTA": {
+    "genres": [
+      "Electronic",
+      "Funk / Soul",
+      "Pop"
+    ],
+    "mapped": [
+      "electronic",
+      "soul",
+      "pop"
+    ],
+    "query": "ROWETTA",
+    "source": "discogs",
+    "styles": [
+      "Soul",
+      "Ballad",
+      "Vocal",
+      "House",
+      "Progressive House"
+    ]
+  },
+  "RT\u00c9 C\u00e9ili M\u00f3r": {
+    "genres": [],
+    "query": "RT\u00c9 C\u00e9ili M\u00f3r",
+    "source": "miss",
+    "styles": []
+  },
+  "RUAILE BUAILE": {
+    "genres": [
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "folk"
+    ],
+    "query": "RUAILE BUAILE",
+    "source": "discogs",
+    "styles": []
+  },
+  "Rageire": {
+    "genres": [],
+    "query": "Rageire",
+    "source": "miss",
+    "styles": []
+  },
+  "Ravyn Lenae": {
+    "genres": [
+      "Funk / Soul",
+      "Pop",
+      "Blues",
+      "Hip Hop"
+    ],
+    "mapped": [
+      "soul",
+      "pop",
+      "hiphop"
+    ],
+    "query": "Ravyn Lenae",
+    "source": "discogs",
+    "styles": [
+      "Contemporary R&B",
+      "Neo Soul",
+      "Soul"
+    ]
+  },
+  "Ray Foley": {
+    "genres": [],
+    "mapped": [],
+    "query": "Ray Foley",
+    "source": "miss",
+    "styles": []
+  },
+  "Ray McShake": {
+    "genres": [],
+    "mapped": [],
+    "query": "Ray McShake",
+    "source": "miss",
+    "styles": []
+  },
+  "Raz and Afla": {
+    "genres": [],
+    "query": "Raz and Afla",
+    "source": "miss",
+    "styles": []
+  },
+  "Rebel Brass": {
+    "genres": [],
+    "query": "Rebel Brass",
+    "source": "miss",
+    "styles": []
+  },
+  "Remor": {
+    "genres": [],
+    "query": "Remor",
+    "source": "miss",
+    "styles": []
+  },
+  "Rhythm People Recordings": {
+    "genres": [],
+    "query": "Rhythm People Recordings",
+    "source": "miss",
+    "styles": []
+  },
+  "Ricky Chong": {
+    "genres": [],
+    "query": "Ricky Chong",
+    "source": "miss",
+    "styles": []
+  },
+  "Riff Shop": {
+    "genres": [],
+    "query": "Riff Shop",
+    "source": "miss",
+    "styles": []
+  },
+  "Risky Business": {
+    "genres": [],
+    "query": "Risky Business",
+    "source": "miss",
+    "styles": []
+  },
+  "Rocksteady Social Club": {
+    "genres": [],
+    "query": "Rocksteady Social Club",
+    "source": "miss",
+    "styles": []
+  },
+  "Role Model": {
+    "genres": [],
+    "query": "Role Model",
+    "source": "miss",
+    "styles": []
+  },
+  "Rookie": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Rookie",
+    "source": "discogs",
+    "styles": [
+      "Classic Rock"
+    ]
+  },
+  "Rory Sweeney": {
+    "genres": [
+      "Electronic",
+      "Hip Hop"
+    ],
+    "mapped": [
+      "electronic",
+      "hiphop"
+    ],
+    "query": "Rory Sweeney",
+    "source": "discogs",
+    "styles": [
+      "Ambient",
+      "Jungle",
+      "Bass Music",
+      "Techno",
+      "Experimental",
+      "Footwork"
+    ]
+  },
+  "Rose Gray": {
+    "genres": [
+      "Electronic",
+      "Pop"
+    ],
+    "mapped": [
+      "electronic",
+      "pop"
+    ],
+    "query": "Rose Gray",
+    "source": "discogs",
+    "styles": [
+      "Dance-pop",
+      "House",
+      "Synth-pop"
+    ]
+  },
+  "Rua R\u00ed": {
+    "genres": [],
+    "query": "Rua R\u00ed",
+    "source": "miss",
+    "styles": []
+  },
+  "Rugged Little Pill": {
+    "genres": [],
+    "mapped": [],
+    "query": "Rugged Little Pill",
+    "source": "miss",
+    "styles": []
+  },
+  "SAVAGE HEARTS": {
+    "genres": [],
+    "query": "SAVAGE HEARTS",
+    "source": "miss",
+    "styles": []
+  },
+  "SEANEM": {
+    "genres": [],
+    "query": "SEANEM",
+    "source": "miss",
+    "styles": []
+  },
+  "SECRET ACT": {
+    "genres": [],
+    "query": "SECRET ACT",
+    "source": "miss",
+    "styles": []
+  },
+  "SELL EVERYTHING": {
+    "genres": [],
+    "query": "SELL EVERYTHING",
+    "source": "miss",
+    "styles": []
+  },
+  "SHAKALAK": {
+    "genres": [
+      "Electronic",
+      "Hip Hop"
+    ],
+    "mapped": [
+      "electronic",
+      "hiphop"
+    ],
+    "query": "SHAKALAK",
+    "source": "discogs",
+    "styles": [
+      "Psychedelic Rock",
+      "Alternative Rock"
+    ]
+  },
+  "SHAMROCK SHOWBAND": {
+    "genres": [],
+    "query": "SHAMROCK SHOWBAND",
+    "source": "miss",
+    "styles": []
+  },
+  "SHEE": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "SHEE",
+    "source": "discogs",
+    "styles": [
+      "Punk"
+    ]
+  },
+  "SHOBSY": {
+    "genres": [],
+    "query": "SHOBSY",
+    "source": "miss",
+    "styles": []
+  },
+  "SHREM": {
+    "genres": [],
+    "query": "SHREM",
+    "source": "miss",
+    "styles": []
+  },
+  "SIDESHOW DISCO": {
+    "genres": [],
+    "query": "SIDESHOW DISCO",
+    "source": "miss",
+    "styles": []
+  },
+  "SILVERBACKS": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "SILVERBACKS",
+    "source": "discogs",
+    "styles": [
+      "Indie Rock",
+      "Post-Punk"
+    ]
+  },
+  "SMO": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "SMO",
+    "source": "discogs",
+    "styles": [
+      "Drum n Bass",
+      "Jungle"
+    ]
+  },
+  "SOMBR": {
+    "genres": [
+      "Pop",
+      "Rock"
+    ],
+    "mapped": [
+      "pop",
+      "rock"
+    ],
+    "query": "SOMBR",
+    "source": "discogs",
+    "styles": [
+      "Indie Pop",
+      "Alternative Rock",
+      "Indie Rock",
+      "Alt-Pop",
+      "Ballad",
+      "Pop Rock"
+    ]
+  },
+  "SQUAREHEAD": {
+    "genres": [
+      "Electronic",
+      "Rock"
+    ],
+    "mapped": [
+      "electronic",
+      "rock"
+    ],
+    "query": "SQUAREHEAD",
+    "source": "discogs",
+    "styles": [
+      "House",
+      "Indie Rock",
+      "Deep House",
+      "Alternative Rock",
+      "Hardstyle"
+    ]
+  },
+  "SX2": {
+    "genres": [],
+    "query": "SX2",
+    "source": "miss",
+    "styles": []
+  },
+  "Sacred Sites of Ireland | Sean Sc\u00e9alta": {
+    "genres": [],
+    "mapped": [],
+    "query": "Sacred Sites of Ireland | Sean Sc\u00e9alta",
+    "source": "miss",
+    "styles": []
+  },
+  "Safe from Harm + Live Orchestra": {
+    "genres": [],
+    "query": "Safe from Harm + Live Orchestra",
+    "source": "miss",
+    "styles": []
+  },
+  "Saibhin": {
+    "genres": [],
+    "query": "Saibhin",
+    "source": "miss",
+    "styles": []
+  },
+  "Salamay": {
+    "genres": [],
+    "query": "Salamay",
+    "source": "miss",
+    "styles": []
+  },
+  "Sally C": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Sally C",
+    "source": "discogs",
+    "styles": [
+      "House",
+      "Tech House"
+    ]
+  },
+  "Sally Cinnamon": {
+    "genres": [],
+    "query": "Sally Cinnamon",
+    "source": "miss",
+    "styles": []
+  },
+  "Saltaire": {
+    "genres": [],
+    "query": "Saltaire",
+    "source": "miss",
+    "styles": []
+  },
+  "Sam Divine": {
+    "genres": [],
+    "query": "Sam Divine",
+    "source": "miss",
+    "styles": []
+  },
+  "Sam E Morrissey": {
+    "genres": [],
+    "query": "Sam E Morrissey",
+    "source": "miss",
+    "styles": []
+  },
+  "Sarah Crean": {
+    "genres": [],
+    "mapped": [],
+    "query": "Sarah Crean",
+    "source": "miss",
+    "styles": []
+  },
+  "Sarah Murphy": {
+    "genres": [
+      "Folk, World, & Country",
+      "Rock",
+      "Pop",
+      "Classical"
+    ],
+    "mapped": [
+      "folk",
+      "rock",
+      "pop"
+    ],
+    "query": "Sarah Murphy",
+    "source": "discogs",
+    "styles": [
+      "Folk",
+      "Contemporary"
+    ]
+  },
+  "Sea of Hope Choir": {
+    "genres": [],
+    "query": "Sea of Hope Choir",
+    "source": "miss",
+    "styles": []
+  },
+  "Shampain": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "electronic",
+      "rock"
+    ],
+    "query": "Shampain",
+    "source": "discogs",
+    "styles": [
+      "Hardcore"
+    ]
+  },
+  "Sharpson": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Sharpson",
+    "source": "discogs",
+    "styles": [
+      "Techno"
+    ]
+  },
+  "Shauna Dee": {
+    "genres": [],
+    "query": "Shauna Dee",
+    "source": "miss",
+    "styles": []
+  },
+  "SheLovesCalpol": {
+    "genres": [],
+    "query": "SheLovesCalpol",
+    "source": "miss",
+    "styles": []
+  },
+  "Shimmy Irie": {
+    "genres": [],
+    "query": "Shimmy Irie",
+    "source": "miss",
+    "styles": []
+  },
+  "Shrunk Jumper": {
+    "genres": [],
+    "mapped": [],
+    "query": "Shrunk Jumper",
+    "source": "miss",
+    "styles": []
+  },
+  "Sibh C": {
+    "genres": [],
+    "query": "Sibh C",
+    "source": "miss",
+    "styles": []
+  },
+  "Simple Things": {
+    "genres": [],
+    "query": "Simple Things",
+    "source": "miss",
+    "styles": []
+  },
+  "Skagaboo + Friends": {
+    "genres": [],
+    "query": "Skagaboo + Friends",
+    "source": "miss",
+    "styles": []
+  },
+  "Skepta": {
+    "genres": [
+      "Hip Hop",
+      "Electronic"
+    ],
+    "mapped": [
+      "hiphop",
+      "electronic"
+    ],
+    "query": "Skepta",
+    "source": "discogs",
+    "styles": [
+      "Grime",
+      "House"
+    ]
+  },
+  "Skye Newman": {
+    "genres": [
+      "Pop",
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "pop",
+      "soul"
+    ],
+    "query": "Skye Newman",
+    "source": "discogs",
+    "styles": [
+      "Contemporary R&B",
+      "Soul"
+    ]
+  },
+  "Sloucho [DJ Set]": {
+    "genres": [],
+    "query": "Sloucho [DJ Set]",
+    "source": "miss",
+    "styles": []
+  },
+  "Sly's Hip Hop Dance": {
+    "genres": [],
+    "query": "Sly's Hip Hop Dance",
+    "source": "miss",
+    "styles": []
+  },
+  "Smithereens": {
+    "genres": [
+      "Electronic",
+      "Rock",
+      "Pop"
+    ],
+    "mapped": [
+      "electronic",
+      "rock",
+      "pop"
+    ],
+    "query": "Smithereens",
+    "source": "discogs",
+    "styles": [
+      "Pop Rock",
+      "Synth-pop",
+      "Disco",
+      "Electro"
+    ]
+  },
+  "Smokey": {
+    "genres": [
+      "Funk / Soul",
+      "Rock",
+      "Pop"
+    ],
+    "mapped": [
+      "soul",
+      "rock",
+      "pop"
+    ],
+    "query": "Smokey",
+    "source": "discogs",
+    "styles": [
+      "Soul",
+      "Classic Rock",
+      "Funk",
+      "Pop Rock"
+    ]
+  },
+  "Snell": {
+    "genres": [],
+    "query": "Snell",
+    "source": "miss",
+    "styles": []
+  },
+  "Soft Boy DJ": {
+    "genres": [],
+    "query": "Soft Boy DJ",
+    "source": "miss",
+    "styles": []
+  },
+  "Some One's Sons": {
+    "genres": [],
+    "query": "Some One's Sons",
+    "source": "miss",
+    "styles": []
+  },
+  "Sorcha Richardson": {
+    "genres": [
+      "Rock",
+      "Pop",
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "rock",
+      "pop",
+      "folk"
+    ],
+    "query": "Sorcha Richardson",
+    "source": "discogs",
+    "styles": [
+      "Indie Rock",
+      "Indie Pop",
+      "Folk Rock"
+    ]
+  },
+  "Special Guest": {
+    "genres": [],
+    "query": "Special Guest",
+    "source": "miss",
+    "styles": []
+  },
+  "Standback": {
+    "genres": [
+      "Jazz"
+    ],
+    "mapped": [],
+    "query": "Standback",
+    "source": "discogs",
+    "styles": []
+  },
+  "Ste 45": {
+    "genres": [],
+    "mapped": [],
+    "query": "Ste 45",
+    "source": "miss",
+    "styles": []
+  },
+  "Stellar Jo": {
+    "genres": [],
+    "query": "Stellar Jo",
+    "source": "miss",
+    "styles": []
+  },
+  "Stevie G": {
+    "genres": [],
+    "query": "Stevie G",
+    "source": "miss",
+    "styles": []
+  },
+  "Stevie McD": {
+    "genres": [],
+    "query": "Stevie McD",
+    "source": "miss",
+    "styles": []
+  },
+  "StrangeLove": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "StrangeLove",
+    "source": "discogs",
+    "styles": [
+      "Britpop",
+      "Indie Rock"
+    ]
+  },
+  "Strength in Numbers": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "electronic",
+      "rock"
+    ],
+    "query": "Strength in Numbers",
+    "source": "discogs",
+    "styles": [
+      "Hardcore"
+    ]
+  },
+  "Sugaboo": {
+    "genres": [],
+    "mapped": [],
+    "query": "Sugaboo",
+    "source": "miss",
+    "styles": []
+  },
+  "Super Average DJs": {
+    "genres": [],
+    "query": "Super Average DJs",
+    "source": "miss",
+    "styles": []
+  },
+  "Surka": {
+    "genres": [
+      "Latin",
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "folk"
+    ],
+    "query": "Surka",
+    "source": "discogs",
+    "styles": []
+  },
+  "Susan Walsh": {
+    "genres": [],
+    "query": "Susan Walsh",
+    "source": "miss",
+    "styles": []
+  },
+  "Swiss": {
+    "genres": [],
+    "query": "Swiss",
+    "source": "miss",
+    "styles": []
+  },
+  "TBC Salty Dog 1": {
+    "genres": [],
+    "query": "TBC Salty Dog 1",
+    "source": "miss",
+    "styles": []
+  },
+  "TBC Salty Dog 2": {
+    "genres": [],
+    "query": "TBC Salty Dog 2",
+    "source": "miss",
+    "styles": []
+  },
+  "TBC Salty Dog 3": {
+    "genres": [],
+    "query": "TBC Salty Dog 3",
+    "source": "miss",
+    "styles": []
+  },
+  "TBC Salty Dog 4": {
+    "genres": [],
+    "query": "TBC Salty Dog 4",
+    "source": "miss",
+    "styles": []
+  },
+  "THE DONNYS": {
+    "genres": [],
+    "query": "THE DONNYS",
+    "source": "miss",
+    "styles": []
+  },
+  "THE EVERGREEN BROTHERS": {
+    "genres": [],
+    "mapped": [],
+    "query": "THE EVERGREEN BROTHERS",
+    "source": "miss",
+    "styles": []
+  },
+  "THE FOREIGN LOCALS": {
+    "genres": [],
+    "mapped": [],
+    "query": "THE FOREIGN LOCALS",
+    "source": "miss",
+    "styles": []
+  },
+  "THE FRANK AND WALTERS": {
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "mapped": [
+      "rock",
+      "pop"
+    ],
+    "query": "THE FRANK AND WALTERS",
+    "source": "discogs",
+    "styles": [
+      "Indie Rock",
+      "Indie Pop"
+    ]
+  },
+  "THE JADES": {
+    "genres": [
+      "Rock",
+      "Funk / Soul",
+      "Pop"
+    ],
+    "mapped": [
+      "rock",
+      "soul",
+      "pop"
+    ],
+    "query": "THE JADES",
+    "source": "discogs",
+    "styles": [
+      "Soul",
+      "Garage Rock",
+      "Doo Wop",
+      "Rhythm & Blues"
+    ]
+  },
+  "THE LUNA BOYS": {
+    "genres": [],
+    "query": "THE LUNA BOYS",
+    "source": "miss",
+    "styles": []
+  },
+  "THE MOLGOGGERS": {
+    "genres": [],
+    "query": "THE MOLGOGGERS",
+    "source": "miss",
+    "styles": []
+  },
+  "THE PEARLY WHITES": {
+    "genres": [],
+    "query": "THE PEARLY WHITES",
+    "source": "miss",
+    "styles": []
+  },
+  "THE TIMAHOE MALE CHOIR": {
+    "genres": [],
+    "query": "THE TIMAHOE MALE CHOIR",
+    "source": "miss",
+    "styles": []
+  },
+  "THE VAGABOND QUEEN": {
+    "genres": [],
+    "query": "THE VAGABOND QUEEN",
+    "source": "miss",
+    "styles": []
+  },
+  "THE WEDNESDAY GANG": {
+    "genres": [],
+    "mapped": [],
+    "query": "THE WEDNESDAY GANG",
+    "source": "miss",
+    "styles": []
+  },
+  "THE WRAN": {
+    "genres": [],
+    "query": "THE WRAN",
+    "source": "miss",
+    "styles": []
+  },
+  "THE YEAR GRUNGE BROKE": {
+    "genres": [],
+    "query": "THE YEAR GRUNGE BROKE",
+    "source": "miss",
+    "styles": []
+  },
+  "THESE CHARMING MEN": {
+    "genres": [],
+    "mapped": [],
+    "query": "THESE CHARMING MEN",
+    "source": "miss",
+    "styles": []
+  },
+  "THUMPER": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "THUMPER",
+    "source": "discogs",
+    "styles": [
+      "Ska",
+      "Punk"
+    ]
+  },
+  "THXXTI": {
+    "genres": [],
+    "mapped": [],
+    "query": "THXXTI",
+    "source": "miss",
+    "styles": []
+  },
+  "TONY ST LEDGER": {
+    "genres": [
+      "Rock",
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "rock",
+      "folk"
+    ],
+    "query": "TONY ST LEDGER",
+    "source": "discogs",
+    "styles": [
+      "Post-Punk",
+      "Folk Rock",
+      "New Wave"
+    ]
+  },
+  "TRAD RAVE": {
+    "genres": [],
+    "query": "TRAD RAVE",
+    "source": "miss",
+    "styles": []
+  },
+  "TREASURE BEACH MASHDOWN": {
+    "genres": [],
+    "query": "TREASURE BEACH MASHDOWN",
+    "source": "miss",
+    "styles": []
+  },
+  "TRIAD": {
+    "genres": [
+      "Electronic",
+      "Hip Hop"
+    ],
+    "mapped": [
+      "electronic",
+      "hiphop"
+    ],
+    "query": "TRIAD",
+    "source": "discogs",
+    "styles": [
+      "Ambient",
+      "Leftfield",
+      "Downtempo"
+    ]
+  },
+  "TWOFACED": {
+    "genres": [],
+    "query": "TWOFACED",
+    "source": "miss",
+    "styles": []
+  },
+  "Tailor Birds": {
+    "genres": [
+      "Pop"
+    ],
+    "mapped": [
+      "pop"
+    ],
+    "query": "Tailor Birds",
+    "source": "discogs",
+    "styles": []
+  },
+  "Taurean": {
+    "genres": [],
+    "query": "Taurean",
+    "source": "miss",
+    "styles": []
+  },
+  "Teggy": {
+    "genres": [],
+    "mapped": [],
+    "query": "Teggy",
+    "source": "miss",
+    "styles": []
+  },
+  "Tembey": {
+    "genres": [],
+    "query": "Tembey",
+    "source": "miss",
+    "styles": []
+  },
+  "The Academic": {
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "mapped": [
+      "rock",
+      "pop"
+    ],
+    "query": "The Academic",
+    "source": "discogs",
+    "styles": [
+      "Indie Rock",
+      "Indie Pop"
+    ]
+  },
+  "The Blow In's": {
+    "genres": [],
+    "query": "The Blow In's",
+    "source": "miss",
+    "styles": []
+  },
+  "The Byrne Brothers": {
+    "genres": [],
+    "query": "The Byrne Brothers",
+    "source": "miss",
+    "styles": []
+  },
+  "The Caochaleles": {
+    "genres": [],
+    "query": "The Caochaleles",
+    "source": "miss",
+    "styles": []
+  },
+  "The Circus Ponies": {
+    "genres": [],
+    "query": "The Circus Ponies",
+    "source": "miss",
+    "styles": []
+  },
+  "The Cobblestone Pub's Opening Night Session": {
+    "genres": [],
+    "mapped": [],
+    "query": "The Cobblestone Pub's Opening Night Session",
+    "source": "miss",
+    "styles": []
+  },
+  "The Dirty Circus": {
+    "genres": [],
+    "query": "The Dirty Circus",
+    "source": "miss",
+    "styles": []
+  },
+  "The Dirty Disco": {
+    "genres": [],
+    "query": "The Dirty Disco",
+    "source": "miss",
+    "styles": []
+  },
+  "The Discobox Collective": {
+    "genres": [],
+    "query": "The Discobox Collective",
+    "source": "miss",
+    "styles": []
+  },
+  "The Fada Live Session": {
+    "genres": [],
+    "query": "The Fada Live Session",
+    "source": "miss",
+    "styles": []
+  },
+  "The Gladstone Band": {
+    "genres": [],
+    "query": "The Gladstone Band",
+    "source": "miss",
+    "styles": []
+  },
+  "The Inishbofin C\u00e9il\u00ed Band": {
+    "genres": [],
+    "query": "The Inishbofin C\u00e9il\u00ed Band",
+    "source": "miss",
+    "styles": []
+  },
+  "The Labourers": {
+    "genres": [],
+    "query": "The Labourers",
+    "source": "miss",
+    "styles": []
+  },
+  "The Len Collective": {
+    "genres": [],
+    "mapped": [],
+    "query": "The Len Collective",
+    "source": "miss",
+    "styles": []
+  },
+  "The Leon Stax Equation": {
+    "genres": [
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "soul"
+    ],
+    "query": "The Leon Stax Equation",
+    "source": "discogs",
+    "styles": [
+      "Soul",
+      "Funk"
+    ]
+  },
+  "The Liam O Connor Show": {
+    "genres": [],
+    "mapped": [],
+    "query": "The Liam O Connor Show",
+    "source": "miss",
+    "styles": []
+  },
+  "The Lines": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "The Lines",
+    "source": "discogs",
+    "styles": [
+      "New Wave",
+      "Indie Rock",
+      "Alternative Rock",
+      "Experimental",
+      "Ethereal"
+    ]
+  },
+  "The Mary Wallopers": {
+    "genres": [
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "folk"
+    ],
+    "query": "The Mary Wallopers",
+    "source": "discogs",
+    "styles": [
+      "Celtic"
+    ]
+  },
+  "The Mo Cultivation": {
+    "genres": [],
+    "query": "The Mo Cultivation",
+    "source": "miss",
+    "styles": []
+  },
+  "The Night Mayor & ED IS ON": {
+    "genres": [],
+    "query": "The Night Mayor & ED IS ON",
+    "source": "miss",
+    "styles": []
+  },
+  "The Saw Doctors": {
+    "genres": [
+      "Rock",
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "rock",
+      "folk"
+    ],
+    "query": "The Saw Doctors",
+    "source": "discogs",
+    "styles": [
+      "Folk Rock"
+    ]
+  },
+  "The Scratch": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "The Scratch",
+    "source": "discogs",
+    "styles": [
+      "New Wave",
+      "Power Pop",
+      "Classic Rock"
+    ]
+  },
+  "The Spudguns": {
+    "genres": [],
+    "query": "The Spudguns",
+    "source": "miss",
+    "styles": []
+  },
+  "The Stunning": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "The Stunning",
+    "source": "discogs",
+    "styles": [
+      "Soft Rock"
+    ]
+  },
+  "The Undertones": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "The Undertones",
+    "source": "discogs",
+    "styles": [
+      "Punk",
+      "Power Pop",
+      "New Wave"
+    ]
+  },
+  "The Voodoo Kitchen": {
+    "genres": [],
+    "mapped": [],
+    "query": "The Voodoo Kitchen",
+    "source": "miss",
+    "styles": []
+  },
+  "The WU": {
+    "genres": [],
+    "query": "The WU",
+    "source": "miss",
+    "styles": []
+  },
+  "The Weaving": {
+    "genres": [],
+    "mapped": [],
+    "query": "The Weaving",
+    "source": "miss",
+    "styles": []
+  },
+  "The Wires": {
+    "genres": [],
+    "mapped": [],
+    "query": "The Wires",
+    "source": "miss",
+    "styles": []
+  },
+  "The Woohah Hip Hop & Chess": {
+    "genres": [],
+    "query": "The Woohah Hip Hop & Chess",
+    "source": "miss",
+    "styles": []
+  },
+  "The Wran": {
+    "genres": [],
+    "mapped": [],
+    "query": "The Wran",
+    "source": "miss",
+    "styles": []
+  },
+  "Theatre": {
+    "genres": [
+      "Jazz",
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "soul"
+    ],
+    "query": "Theatre",
+    "source": "discogs",
+    "styles": [
+      "Jazz-Funk"
+    ]
+  },
+  "Three Little Birds": {
+    "genres": [],
+    "mapped": [],
+    "query": "Three Little Birds",
+    "source": "miss",
+    "styles": []
+  },
+  "Thxtti": {
+    "genres": [],
+    "mapped": [],
+    "query": "Thxtti",
+    "source": "miss",
+    "styles": []
+  },
+  "ToTC DJ's": {
+    "genres": [],
+    "query": "ToTC DJ's",
+    "source": "miss",
+    "styles": []
+  },
+  "Together As One": {
+    "genres": [
+      "Electronic",
+      "Pop",
+      "Hip Hop"
+    ],
+    "mapped": [
+      "electronic",
+      "pop",
+      "hiphop"
+    ],
+    "query": "Together As One",
+    "source": "discogs",
+    "styles": [
+      "UK Garage",
+      "Ragga HipHop"
+    ]
+  },
+  "Tooth": {
+    "genres": [],
+    "query": "Tooth",
+    "source": "miss",
+    "styles": []
+  },
+  "Trad Folkin Raps": {
+    "genres": [],
+    "query": "Trad Folkin Raps",
+    "source": "miss",
+    "styles": []
+  },
+  "Travis & Elzzz": {
+    "genres": [
+      "Hip Hop"
+    ],
+    "mapped": [
+      "hiphop"
+    ],
+    "query": "Travis & Elzzz",
+    "source": "discogs",
+    "styles": [
+      "Drill"
+    ]
+  },
+  "Tr\u00edona Marshall": {
+    "genres": [
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "folk"
+    ],
+    "query": "Tr\u00edona Marshall",
+    "source": "discogs",
+    "styles": []
+  },
+  "Tumbao Dublin": {
+    "genres": [],
+    "query": "Tumbao Dublin",
+    "source": "miss",
+    "styles": []
+  },
+  "Tu\u00e1thla": {
+    "genres": [],
+    "mapped": [],
+    "query": "Tu\u00e1thla",
+    "source": "miss",
+    "styles": []
+  },
+  "Tyler Ballgame": {
+    "genres": [
+      "Pop",
+      "Folk, World, & Country",
+      "Rock"
+    ],
+    "mapped": [
+      "pop",
+      "folk",
+      "rock"
+    ],
+    "query": "Tyler Ballgame",
+    "source": "discogs",
+    "styles": [
+      "Indie Pop",
+      "Classic Rock"
+    ]
+  },
+  "Uaithne": {
+    "genres": [
+      "Rock",
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "rock",
+      "folk"
+    ],
+    "query": "Uaithne",
+    "source": "discogs",
+    "styles": [
+      "Acoustic"
+    ]
+  },
+  "Ursula Burns \u2013 The Dangerous Harpist": {
+    "genres": [],
+    "query": "Ursula Burns \u2013 The Dangerous Harpist",
+    "source": "miss",
+    "styles": []
+  },
+  "Valentina's Thursday Providencia Parade": {
+    "genres": [],
+    "mapped": [],
+    "query": "Valentina's Thursday Providencia Parade",
+    "source": "miss",
+    "styles": []
+  },
+  "Van Morrison": {
+    "genres": [
+      "Rock",
+      "Blues",
+      "Funk / Soul",
+      "Pop"
+    ],
+    "mapped": [
+      "rock",
+      "soul",
+      "pop"
+    ],
+    "query": "Van Morrison",
+    "source": "discogs",
+    "styles": [
+      "Folk Rock",
+      "Blues Rock",
+      "Acoustic",
+      "Pop Rock"
+    ]
+  },
+  "Vibez": {
+    "genres": [],
+    "query": "Vibez",
+    "source": "miss",
+    "styles": []
+  },
+  "Victor Beesley": {
+    "genres": [],
+    "query": "Victor Beesley",
+    "source": "miss",
+    "styles": []
+  },
+  "Violet Grohl": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Violet Grohl",
+    "source": "discogs",
+    "styles": [
+      "Alternative Rock"
+    ]
+  },
+  "WEDDING BAND OF THE DAMNED": {
+    "genres": [],
+    "mapped": [],
+    "query": "WEDDING BAND OF THE DAMNED",
+    "source": "miss",
+    "styles": []
+  },
+  "WEDNESDAY GANG": {
+    "genres": [],
+    "mapped": [],
+    "query": "WEDNESDAY GANG",
+    "source": "miss",
+    "styles": []
+  },
+  "Will Softly": {
+    "genres": [],
+    "mapped": [],
+    "query": "Will Softly",
+    "source": "miss",
+    "styles": []
+  },
+  "Winnie Ama": {
+    "genres": [
+      "Electronic"
+    ],
+    "mapped": [
+      "electronic"
+    ],
+    "query": "Winnie Ama",
+    "source": "discogs",
+    "styles": [
+      "Dance-pop"
+    ]
+  },
+  "Wolf Alice": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Wolf Alice",
+    "source": "discogs",
+    "styles": [
+      "Indie Rock",
+      "Pop Rock",
+      "Alternative Rock"
+    ]
+  },
+  "Wunderhorse": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "Wunderhorse",
+    "source": "discogs",
+    "styles": [
+      "Alternative Rock",
+      "Indie Rock",
+      "Post-Punk"
+    ]
+  },
+  "X Club.": {
+    "genres": [],
+    "query": "X Club.",
+    "source": "miss",
+    "styles": []
+  },
+  "Yankari Afrobeat Collective": {
+    "genres": [
+      "Funk / Soul"
+    ],
+    "mapped": [
+      "soul"
+    ],
+    "query": "Yankari Afrobeat Collective",
+    "source": "discogs",
+    "styles": [
+      "Afrobeat"
+    ]
+  },
+  "Yours Truly": {
+    "genres": [],
+    "query": "Yours Truly",
+    "source": "miss",
+    "styles": []
+  },
+  "Zara Larsson": {
+    "genres": [
+      "Pop",
+      "Electronic"
+    ],
+    "mapped": [
+      "pop",
+      "electronic"
+    ],
+    "query": "Zara Larsson",
+    "source": "discogs",
+    "styles": [
+      "Europop",
+      "Dance-pop",
+      "Synth-pop",
+      "Euro House"
+    ]
+  },
+  "Zazaman": {
+    "genres": [],
+    "query": "Zazaman",
+    "source": "miss",
+    "styles": []
+  },
+  "_lawrence909": {
+    "genres": [],
+    "query": "_lawrence909",
+    "source": "miss",
+    "styles": []
+  },
+  "and he, the fool": {
+    "genres": [],
+    "query": "and he, the fool",
+    "source": "miss",
+    "styles": []
+  },
+  "danzi": {
+    "genres": [
+      "Rock"
+    ],
+    "mapped": [
+      "rock"
+    ],
+    "query": "danzi",
+    "source": "discogs",
+    "styles": [
+      "Blues Rock",
+      "Heavy Metal"
+    ]
+  },
+  "deathtoricky": {
+    "genres": [],
+    "query": "deathtoricky",
+    "source": "miss",
+    "styles": []
+  },
+  "the se7en inch collective": {
+    "genres": [],
+    "query": "the se7en inch collective",
+    "source": "miss",
+    "styles": []
+  },
+  "vasuki red": {
+    "genres": [],
+    "query": "vasuki red",
+    "source": "miss",
+    "styles": []
+  },
+  "\u00c9abha": {
+    "genres": [
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "folk"
+    ],
+    "query": "\u00c9abha",
+    "source": "discogs",
+    "styles": [
+      "Celtic"
+    ]
+  },
+  "\u00dana N\u00ed Fhlannag\u00e1in": {
+    "genres": [
+      "Folk, World, & Country"
+    ],
+    "mapped": [
+      "folk"
+    ],
+    "query": "\u00dana N\u00ed Fhlannag\u00e1in",
+    "source": "discogs",
+    "styles": []
+  },
+  "\u041b\u0443\u043a\u0430\u0441 \u041e\u0433\u043c\u0430": {
+    "genres": [],
+    "query": "\u041b\u0443\u043a\u0430\u0441 \u041e\u0433\u043c\u0430",
+    "source": "miss",
+    "styles": []
+  }
+}

@@ -1,0 +1,12 @@
+.env-discogs
+.env
+.env.*
+__pycache__/
+.pytest_cache/
+assets/
+local/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

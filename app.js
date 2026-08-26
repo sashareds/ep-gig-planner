@@ -1,0 +1,502 @@
+const PLAN_KEY = "ep26-plan-v1";
+const TASTE_KEY = "ep26-taste-v1";
+const data = window.EP26;
+const $ = (sel) => document.querySelector(sel);
+const WALK_MIN = data.walkMins?.min ?? 15;
+const WALK_MAX = data.walkMins?.max ?? 20;
+
+const TASTE_ALIASES = {
+  "lsd systems": "lcd soundsystem",
+  "lsdsystems": "lcd soundsystem",
+  "dave clark": "dave clarke",
+  "adam bayer": "adam beyer",
+  "londong grammar": "london grammar",
+};
+
+const TASTE_TAGS = {
+  "massive attack": ["electronic", "trip-hop", "dark", "downtempo"],
+  "underworld": ["electronic", "techno", "rave", "house"],
+  "chemical brothers": ["electronic", "big-beat", "rave", "house"],
+  "lcd soundsystem": ["electronic", "dance-punk", "house"],
+  "dave clarke": ["electronic", "techno"],
+  "adam beyer": ["electronic", "techno", "house"],
+  "london grammar": ["electronic", "pop", "alt"],
+  "fever ray": ["electronic", "art-pop", "dark"],
+};
+
+function loadTaste() {
+  const stored = localStorage.getItem(TASTE_KEY);
+  if (stored === null) {
+    return "Massive Attack, Underworld, Chemical Brothers, LCD Soundsystem, Dave Clarke, Adam Beyer, London Grammar, Fever Ray";
+  }
+  return stored;
+}
+
+const state = {
+  day: data.days[1]?.id || data.days[0]?.id,
+  query: "",
+  kind: "music",
+  genre: "electronic",
+  stage: "",
+  plan: loadPlan(),
+  taste: loadTaste(),
+  view: "list",
+  actId: "",
+};
+
+function loadPlan() {
+  try {
+    const ids = JSON.parse(localStorage.getItem(PLAN_KEY) || "[]");
+    return ids.filter((id) => data.acts.some((a) => a.id === id));
+  } catch {
+    return [];
+  }
+}
+
+function savePlan() {
+  localStorage.setItem(PLAN_KEY, JSON.stringify(state.plan));
+}
+
+function esc(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+function toDate(ts) {
+  return new Date(ts.replace(" ", "T"));
+}
+
+function fmtTime(ts) {
+  return ts.slice(11, 16);
+}
+
+function actById(id) {
+  return data.acts.find((a) => a.id === id);
+}
+
+function plannedActs() {
+  return state.plan.map(actById).filter(Boolean)
+    .sort((a, b) => a.start.localeCompare(b.start) || a.stage.localeCompare(b.stage));
+}
+
+function plannedOnDay(day) {
+  return plannedActs().filter((a) => a.day === day);
+}
+
+function overlaps(a, b) {
+  return toDate(a.start) < toDate(b.end) && toDate(b.start) < toDate(a.end);
+}
+
+function gapMins(fromAct, toAct) {
+  return (toDate(toAct.start) - toDate(fromAct.end)) / 60000;
+}
+
+function clashFor(act) {
+  const others = plannedOnDay(act.day).filter((p) => p.id !== act.id);
+  let overlap = null;
+  let miss = null;
+  let tight = null;
+  let missGap = Infinity;
+  let tightGap = Infinity;
+  for (const other of others) {
+    if (overlaps(act, other)) {
+      overlap = { kind: "clash", note: `Overlaps ${other.name}` };
+      continue;
+    }
+    if (act.stage === other.stage) continue;
+    const gaps = [gapMins(other, act), gapMins(act, other)].filter((g) => g >= 0);
+    if (!gaps.length) continue;
+    const g = Math.min(...gaps);
+    if (g < WALK_MIN && g < missGap) {
+      missGap = g;
+      miss = {
+        kind: "clash",
+        note: `Only ${Math.round(g)} min to ${other.name} (need ${WALK_MIN}–${WALK_MAX})`,
+      };
+    } else if (g >= WALK_MIN && g < WALK_MAX && g < tightGap) {
+      tightGap = g;
+      tight = { kind: "tight", note: `${Math.round(g)} min to ${other.name} — tight walk` };
+    }
+  }
+  return overlap || miss || tight;
+}
+
+function matchesFilters(act) {
+  if (state.day && act.day !== state.day) return false;
+  if (state.kind && act.kind !== state.kind) return false;
+  if (state.kind === "music" && state.genre && !(act.genres || []).includes(state.genre)) return false;
+  if (state.stage && act.stage !== state.stage) return false;
+  const q = state.query.trim().toLowerCase();
+  if (!q) return true;
+  return act.name.toLowerCase().includes(q) || act.stage.toLowerCase().includes(q);
+}
+
+function filteredActs() {
+  return data.acts.filter(matchesFilters);
+}
+
+function stagesForFilters() {
+  const seen = new Set();
+  const kindActs = data.acts.filter((a) => {
+    if (state.day && a.day !== state.day) return false;
+    if (state.kind && a.kind !== state.kind) return false;
+    if (state.kind === "music" && state.genre && !(a.genres || []).includes(state.genre)) return false;
+    return true;
+  });
+  for (const a of kindActs) seen.add(a.stage);
+  return data.stages.filter((s) => seen.has(s));
+}
+
+function toggle(id) {
+  if (state.plan.includes(id)) state.plan = state.plan.filter((x) => x !== id);
+  else state.plan = [...state.plan, id];
+  savePlan();
+  render();
+}
+
+function openAct(id) {
+  location.hash = `#/act/${encodeURIComponent(id)}`;
+}
+
+function closeAct() {
+  location.hash = "#/";
+}
+
+function parseHash() {
+  const m = location.hash.match(/^#\/act\/(.+)$/);
+  if (m) {
+    state.view = "act";
+    state.actId = decodeURIComponent(m[1]);
+  } else {
+    state.view = "list";
+    state.actId = "";
+  }
+}
+
+function normName(name) {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function parseTaste() {
+  return state.taste.split(/[,;\n]+/).map((s) => s.trim()).filter(Boolean);
+}
+
+function canonicalTaste(name) {
+  const n = normName(name);
+  return TASTE_ALIASES[n] || n;
+}
+
+function tasteProfile() {
+  const tags = new Set(["electronic"]);
+  for (const raw of parseTaste()) {
+    const key = canonicalTaste(raw);
+    for (const t of TASTE_TAGS[key] || ["electronic"]) tags.add(t);
+  }
+  return tags;
+}
+
+function scoreAct(act, profile) {
+  if (act.kind !== "music") return 0;
+  if (state.plan.includes(act.id)) return 0;
+  let score = 0;
+  const reasons = [];
+  const names = parseTaste().map(canonicalTaste);
+  const actName = normName(act.name);
+  if (names.some((n) => actName === n || actName.includes(n) || n.includes(actName))) {
+    score += 20;
+    reasons.push("name match with your list");
+  }
+  if ((act.genres || []).includes("electronic")) {
+    score += 4;
+    reasons.push("electronic");
+  }
+  const tagHits = (act.tags || []).filter((t) => profile.has(t));
+  if (tagHits.length) {
+    score += Math.min(4, tagHits.length);
+    reasons.push(tagHits.slice(0, 2).join(", "));
+  }
+  const blurb = (act.blurb || "").toLowerCase();
+  if (/(techno|underworld|rave|warehouse|chemical|trip-hop)/.test(blurb)) {
+    score += 2;
+    reasons.push("sounds like your lot");
+  }
+  return { score, reasons };
+}
+
+function suggestions() {
+  const profile = tasteProfile();
+  return data.acts
+    .filter((a) => {
+      if (a.day !== state.day || a.kind !== "music") return false;
+      if (state.genre && !(a.genres || []).includes(state.genre)) return false;
+      return true;
+    })
+    .map((a) => ({ act: a, ...scoreAct(a, profile) }))
+    .filter((x) => x.score >= 4)
+    .sort((a, b) => b.score - a.score || a.act.start.localeCompare(b.act.start))
+    .slice(0, 8);
+}
+
+function wantButton(act) {
+  const on = state.plan.includes(act.id);
+  return `<button type="button" class="want-btn" data-state="${on ? "on" : "off"}" data-id="${esc(act.id)}">${on ? "Seeing this" : "I’d like to see"}</button>`;
+}
+
+function actCard(act, extra = "") {
+  const clash = state.plan.includes(act.id) ? clashFor(act) : null;
+  const genres = (act.genres || []).map((g) => `<span class="chip">${esc(g)}</span>`).join("");
+  return `
+    <article class="act-card">
+      <div>
+        <div class="act-card__when">${fmtTime(act.start)}–${fmtTime(act.end)}</div>
+        <button type="button" class="act-card__name" data-open="${esc(act.id)}">${esc(act.name)}</button>
+        <div class="act-card__stage">${esc(act.stage)}</div>
+        <div class="chips">${genres}</div>
+        ${clash ? `<div class="${clash.kind === "clash" ? "clash" : "tight"}">${esc(clash.note)}</div>` : ""}
+        ${extra}
+      </div>
+      <button type="button" class="icon" title="I’d like to see" data-id="${esc(act.id)}">${state.plan.includes(act.id) ? "★" : "☆"}</button>
+    </article>`;
+}
+
+function renderHeader() {
+  const music = data.acts.filter((a) => a.kind === "music").length;
+  const elec = data.acts.filter((a) => (a.genres || []).includes("electronic")).length;
+  $("#updated").textContent =
+    `Updated ${data.modified} · ${data.acts.length} events · ${music} music · ${elec} tagged electronic`;
+}
+
+function renderDays() {
+  const box = $("#days");
+  box.innerHTML = "";
+  for (const day of data.days) {
+    const btn = document.createElement("button");
+    btn.textContent = day.label;
+    btn.className = "day-nav__btn";
+    btn.setAttribute("aria-pressed", day.id === state.day ? "true" : "false");
+    btn.onclick = () => {
+      state.day = day.id;
+      render();
+    };
+    box.appendChild(btn);
+  }
+}
+
+function fillSelect(sel, items, current, blank) {
+  sel.innerHTML = "";
+  if (blank != null) {
+    const opt = document.createElement("option");
+    opt.value = "";
+    opt.textContent = blank;
+    sel.appendChild(opt);
+  }
+  for (const item of items) {
+    const opt = document.createElement("option");
+    opt.value = item.id ?? item;
+    opt.textContent = item.label ?? item;
+    if ((item.id ?? item) === current) opt.selected = true;
+    sel.appendChild(opt);
+  }
+}
+
+function renderFilters() {
+  fillSelect($("#kind"), [{ id: "", label: "All event types" }, ...data.kinds], state.kind);
+  const genreHidden = state.kind !== "music";
+  $("#genre-field").classList.toggle("u-hidden", genreHidden);
+  if (!genreHidden) {
+    fillSelect($("#genre"), [{ id: "", label: "All music" }, ...data.genreOptions], state.genre);
+  }
+  const stages = stagesForFilters();
+  fillSelect($("#stage"), stages, state.stage, "All stages");
+  if (state.stage && !stages.includes(state.stage)) state.stage = "";
+}
+
+function bindCardClicks(root) {
+  root.querySelectorAll("[data-id]").forEach((btn) => {
+    btn.onclick = (e) => {
+      e.stopPropagation();
+      toggle(btn.dataset.id);
+    };
+  });
+  root.querySelectorAll("[data-open]").forEach((btn) => {
+    btn.onclick = () => openAct(btn.dataset.open);
+  });
+}
+
+function renderSuggest() {
+  const items = suggestions();
+  $("#suggest-count").textContent = items.length ? `${items.length}` : "";
+  const box = $("#suggest");
+  if (!parseTaste().length) {
+    box.innerHTML = '<p class="empty">Add favourite artists above to get a shortlist for this day.</p>';
+    return;
+  }
+  if (!items.length) {
+    box.innerHTML = '<p class="empty">No strong matches on this day with the current filters.</p>';
+    return;
+  }
+  box.innerHTML = items.map((x) =>
+    actCard(x.act, `<div class="why">Why: ${esc(x.reasons.join(" · "))}</div>`)
+  ).join("");
+  bindCardClicks(box);
+}
+
+function renderList() {
+  const acts = filteredActs();
+  $("#count").textContent = `${acts.length}`;
+  const list = $("#list");
+  if (!acts.length) {
+    list.innerHTML = '<p class="empty">Nothing matches. Try All music, or another day.</p>';
+    return;
+  }
+  list.innerHTML = acts.map((a) => actCard(a)).join("");
+  bindCardClicks(list);
+}
+
+function renderPlan() {
+  const all = plannedActs();
+  $("#plan-stats").textContent = all.length
+    ? `${all.length} picked · split by day · ${WALK_MIN}–${WALK_MAX} min walks`
+    : "Nothing picked yet.";
+  const box = $("#plan");
+  if (!all.length) {
+    box.innerHTML = '<p class="empty">Star a set, or open the artist and tap I’d like to see.</p>';
+    return;
+  }
+  const days = data.days.filter((d) => all.some((a) => a.day === d.id));
+  let html = "";
+  for (const day of days) {
+    const acts = plannedOnDay(day.id);
+    html += `<div class="day-head"><h3>${esc(day.label)} route</h3><span class="stats">${acts.length} stops</span></div>`;
+    let prev = null;
+    for (const act of acts) {
+      const clash = clashFor(act);
+      if (prev && prev.stage !== act.stage) {
+        const g = Math.round(gapMins(prev, act));
+        const walkNote = Number.isFinite(g)
+          ? (g < WALK_MIN
+            ? `Only ${g} min to walk — likely miss`
+            : g < WALK_MAX
+              ? `${g} min walk — tight`
+              : `${g} min gap, ~${WALK_MIN}–${WALK_MAX} min walk`)
+          : "";
+        html += `<div class="walk">↓ ${esc(walkNote)}</div>`;
+      }
+      html += `
+        <article class="plan-act">
+          <div class="row">
+            <div>
+              <div class="act-card__when">${fmtTime(act.start)}–${fmtTime(act.end)}</div>
+              <strong>${esc(act.name)}</strong>
+              <div class="act-card__stage">${esc(act.stage)}</div>
+              ${clash ? `<div class="${clash.kind === "clash" ? "clash" : "tight"}">${esc(clash.note)}</div>` : ""}
+            </div>
+            <button type="button" data-id="${esc(act.id)}">Remove</button>
+          </div>
+        </article>`;
+      prev = act;
+    }
+  }
+  box.innerHTML = html;
+  bindCardClicks(box);
+}
+
+function renderAct() {
+  const act = actById(state.actId);
+  const page = $("#act-detail");
+  if (!act) {
+    page.innerHTML = '<p class="empty">Set not found.</p>';
+    return;
+  }
+  const others = data.acts.filter((a) => a.name === act.name && a.id !== act.id);
+  const clash = state.plan.includes(act.id) ? clashFor(act) : null;
+  page.innerHTML = `
+    <p class="act-card__when">${esc(act.dayLabel)} ${fmtTime(act.start)}–${fmtTime(act.end)}</p>
+    <h2>${esc(act.name)}</h2>
+    <p class="act-card__stage">${esc(act.stage)}</p>
+    <div class="chips">${(act.genres || []).map((g) => `<span class="chip">${esc(g)}</span>`).join("")}
+      <span class="chip">${esc(act.kind)}</span></div>
+    <p>${wantButton(act)}</p>
+    ${clash ? `<p class="${clash.kind === "clash" ? "clash" : "tight"}">${esc(clash.note)}</p>` : ""}
+    ${act.blurb ? `<div class="blurb">${esc(act.blurb)}</div>` : "<p class='empty'>No notes for this set.</p>"}
+    ${others.length ? `<h2>Also playing</h2>${others.map((a) => actCard(a)).join("")}` : ""}
+  `;
+  bindCardClicks(page);
+}
+
+function exportPlan() {
+  const lines = [];
+  for (const day of data.days) {
+    const acts = plannedOnDay(day.id);
+    if (!acts.length) continue;
+    lines.push(day.label.toUpperCase());
+    let prev = null;
+    for (const a of acts) {
+      if (prev && prev.stage !== a.stage) {
+        const g = Math.round(gapMins(prev, a));
+        lines.push(`  walk ~${WALK_MIN}–${WALK_MAX} min (${g} min gap)`);
+      }
+      lines.push(`  ${fmtTime(a.start)}–${fmtTime(a.end)}  ${a.name}  (${a.stage})`);
+      prev = a;
+    }
+    lines.push("");
+  }
+  const text = lines.join("\n") || "No sets picked.";
+  navigator.clipboard.writeText(text).then(
+    () => {
+      $("#export").textContent = "Copied";
+      setTimeout(() => ($("#export").textContent = "Copy timetable"), 1200);
+    },
+    () => alert(text)
+  );
+}
+
+function render() {
+  parseHash();
+  $("#list-view").classList.toggle("u-hidden", state.view !== "list");
+  $("#act-view").classList.toggle("u-hidden", state.view !== "act");
+  renderHeader();
+  renderDays();
+  renderFilters();
+  if (state.view === "act") renderAct();
+  else {
+    $("#taste").value = state.taste;
+    renderSuggest();
+    renderList();
+    renderPlan();
+  }
+}
+
+$("#search").addEventListener("input", (e) => {
+  state.query = e.target.value;
+  renderList();
+});
+$("#kind").addEventListener("change", (e) => {
+  state.kind = e.target.value;
+  if (state.kind !== "music") state.genre = "";
+  if (state.kind === "music" && !state.genre) state.genre = "electronic";
+  state.stage = "";
+  render();
+});
+$("#genre").addEventListener("change", (e) => {
+  state.genre = e.target.value;
+  state.stage = "";
+  render();
+});
+$("#stage").addEventListener("change", (e) => {
+  state.stage = e.target.value;
+  renderList();
+});
+$("#taste").addEventListener("input", (e) => {
+  state.taste = e.target.value;
+  localStorage.setItem(TASTE_KEY, state.taste);
+  renderSuggest();
+});
+$("#export").addEventListener("click", exportPlan);
+$("#back").addEventListener("click", closeAct);
+window.addEventListener("hashchange", render);
+
+render();

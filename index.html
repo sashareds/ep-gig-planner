@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en-IE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Electric Picnic 2026 planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="site-header__title">Electric Picnic 2026</h1>
+    <p class="site-header__meta" id="updated"></p>
+    <div class="filter-bar">
+      <label class="filter-bar__field">Search
+        <input id="search" type="search" placeholder="Act or stage" autocomplete="off">
+      </label>
+      <label class="filter-bar__field">Event type
+        <select id="kind"></select>
+      </label>
+      <label class="filter-bar__field" id="genre-field">Genre
+        <select id="genre"></select>
+      </label>
+      <label class="filter-bar__field">Stage
+        <select id="stage"></select>
+      </label>
+    </div>
+    <p class="site-header__hint">Walk between stages is treated as 15–20 minutes. Routes never mix days.</p>
+    <div class="day-nav" id="days" role="group" aria-label="Festival day"></div>
+  </header>
+
+  <div id="list-view" class="layout">
+    <main class="lineup">
+      <section class="taste">
+        <label for="taste">Artists you already like</label>
+        <textarea id="taste" rows="2" placeholder="Massive Attack, Underworld, Chemical Brothers…"></textarea>
+        <p class="taste__hint">Used to suggest nearby electronic-leaning sets. Stored only in this browser.</p>
+      </section>
+      <h2 class="lineup__heading">Suggested <span class="lineup__count" id="suggest-count"></span></h2>
+      <div id="suggest"></div>
+      <h2 class="lineup__heading">Line-up <span class="lineup__count" id="count"></span></h2>
+      <div id="list"></div>
+    </main>
+    <aside class="route">
+      <h2 class="route__heading">Your route</h2>
+      <p class="route__stats" id="plan-stats"></p>
+      <button type="button" class="route__export" id="export">Copy timetable</button>
+      <div id="plan"></div>
+    </aside>
+  </div>
+
+  <div id="act-view" class="act-page u-hidden">
+    <button type="button" class="text-btn" id="back">← Back to line-up</button>
+    <article id="act-detail"></article>
+  </div>
+
+  <script src="data/ep26.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
